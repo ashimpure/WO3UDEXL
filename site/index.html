@@ -327,8 +327,8 @@
     .progress-value { color: #f2f6fc; font-size: 11px; font-weight: 800; }
     .progress-track { height: 6px; overflow: hidden; border-radius: 99px; background: #29364a; }
     .progress-fill { width: var(--progress); height: 100%; border-radius: inherit; background: var(--progress-color); }
-    .task-next { margin: 9px 0 0; padding-top: 8px; border-top: 1px solid rgb(161 183 211 / 18%); color: #b8c5d7; font-size: 9px; line-height: 1.4; }
-    .task-next strong { color: #e7eef8; }
+    .task-activity { margin: 9px 0 0; padding-top: 8px; border-top: 1px solid rgb(161 183 211 / 18%); color: #b8c5d7; font-size: 9px; line-height: 1.4; }
+    .task-activity strong { color: #e7eef8; }
 
     .empty-lane { padding: 16px 9px; color: #91a0b4; font-size: 10px; text-align: center; }
     .notice {
@@ -412,7 +412,7 @@
       .lane { min-height: 80px; }
       .task-card { padding: 13px; }
       .task-summary { font-size: 11px; }
-      .task-next { font-size: 10px; }
+      .task-activity { font-size: 10px; }
       .timeline { grid-template-columns: minmax(0, 1fr); }
       .footer { flex-direction: column; }
     }
@@ -505,6 +505,13 @@
       "on-hold": "On hold",
       paused: "Paused"
     };
+    const activityLabels = {
+      planning: "Planned:",
+      "in-progress": "Ongoing:",
+      "ready-to-test": "Ready to test:",
+      "on-hold": "On hold:",
+      paused: "On hold:"
+    };
     const lanes = [
       { id: "planning", title: "Planning" },
       { id: "in-progress", title: "In progress" },
@@ -552,9 +559,9 @@
       track.append(fill);
       article.append(progressHead, track);
 
-      const next = makeElement("p", "task-next");
-      next.append(makeElement("strong", "", "Next: "), document.createTextNode(stream.next));
-      article.append(next);
+      const activity = makeElement("p", "task-activity");
+      activity.append(makeElement("strong", "", activityLabels[stream.state]), document.createTextNode(` ${stream.activity}`));
+      article.append(activity);
       const link = makeElement("a", "task-link");
       link.href = `project.html?id=${encodeURIComponent(stream.id)}`;
       link.setAttribute("aria-label", `Open ${stream.title} project details`);
@@ -570,7 +577,7 @@
           const matchesLane = lane.id === "on-hold"
             ? stream.state === "on-hold" || stream.state === "paused"
             : stream.state === lane.id;
-          const searchable = `${stream.title} ${stream.area} ${stream.summary} ${stream.next}`.toLowerCase();
+          const searchable = `${stream.title} ${stream.area} ${stream.summary} ${stream.activity}`.toLowerCase();
           return matchesLane && searchable.includes(query);
         });
         const section = makeElement("section", "lane");

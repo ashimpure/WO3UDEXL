@@ -9,7 +9,7 @@
       "state": "in-progress",
       "progress": 45,
       "summary": "Nobuyuki Sanada is the current character focus. Other names in the plan are possible future additions.",
-      "next": "Continue work on Nobuyuki and confirm which character to focus on next.",
+      "activity": "Finalizing the work on Nobuyuki.",
       "description": "The current character focus is Nobuyuki Sanada from Samurai Warriors 4. Other possible characters are listed separately as plans, not confirmed additions.",
       "substreams": [
         {
@@ -19,7 +19,7 @@
           "state": "in-progress",
           "progress": 45,
           "summary": "Nobuyuki is the first character being worked on, using his Samurai Warriors 4 appearance and animations.",
-          "next": "Complete the outfit and animation checks.",
+          "activity": "Finalizing Nobuyuki's outfit and animations.",
           "description": "Nobuyuki is the main character focus so far. His appearance and animations are based on Samurai Warriors 4.",
           "screenshots": []
         }
@@ -101,7 +101,7 @@
       "state": "in-progress",
       "progress": 20,
       "summary": "The plan includes outfits from other games. Work is currently focused on Sophitia's outfit.",
-      "next": "Complete the Sophitia outfit, then choose the next outfit to work on.",
+      "activity": "Working on Sophitia's outfit and braid movement.",
       "description": "This area tracks outfit additions. Planned outfits are not confirmed until work begins.",
       "substreams": [
         {
@@ -111,7 +111,7 @@
           "state": "in-progress",
           "progress": 35,
           "summary": "Sophitia's Broken Destiny outfit has been added; the braid movement still needs work.",
-          "next": "Complete the braid movement, then review the other planned Soulcalibur outfits.",
+          "activity": "Finishing the braid movement on Sophitia's Broken Destiny outfit.",
           "description": "The Broken Destiny outfit has been added, and work continues on the braid movement. Three Soulcalibur 2 outfits are also listed as lower-priority plans.",
           "screenshots": []
         },
@@ -122,7 +122,7 @@
           "state": "planning",
           "progress": 15,
           "summary": "Samurai Warriors 4 outfits are planned for Samurai Warriors characters.",
-          "next": "Choose the first characters and outfits.",
+          "activity": "Samurai Warriors 4 outfits are planned for Samurai characters.",
           "description": "The plan includes outfits for Samurai 1, 2 and 3 characters. The first set has not been chosen.",
           "screenshots": []
         },
@@ -133,7 +133,7 @@
           "state": "planning",
           "progress": 5,
           "summary": "Outfits from Dynasty Warriors 8 XL and 9 are planned.",
-          "next": "Choose the first character group and outfits.",
+          "activity": "Dynasty Warriors 8 XL and 9 outfits are planned for several character groups.",
           "description": "The plan includes outfits for characters from the Wei, Wu, Shu, Jin and Other groups. Work has not started.",
           "screenshots": []
         },
@@ -144,7 +144,7 @@
           "state": "planning",
           "progress": 5,
           "summary": "Dynasty Warriors: Origins outfits are listed in the plan.",
-          "next": "Decide whether to include these outfits.",
+          "activity": "Dynasty Warriors: Origins outfits remain under consideration.",
           "description": "This is a possible future addition and is not active work.",
           "screenshots": []
         }
@@ -158,7 +158,7 @@
       "state": "on-hold",
       "progress": 25,
       "summary": "Plans include additional character and costume slots, and new character-select categories.",
-      "next": "Confirm which slot and category changes to include.",
+      "activity": "Character and costume slot changes, and new selection categories, are being planned.",
       "description": "This area tracks plans for additional character and costume slots, and new character-select categories. It is separate from creating characters and outfits.",
       "substreams": [
         {
@@ -168,7 +168,7 @@
           "state": "paused",
           "progress": 25,
           "summary": "Work on additional character slots is paused while the approach is reviewed.",
-          "next": "Confirm whether the proposed character slots can be used.",
+          "activity": "Character-slot work is paused while the approach is reviewed.",
           "description": "The character-slot work is paused pending further checks.",
           "screenshots": []
         },
@@ -179,7 +179,7 @@
           "state": "planning",
           "progress": 20,
           "summary": "A new Samurai Warriors 4 category is proposed for Nobuyuki and other possible characters.",
-          "next": "Confirm which new categories to add.",
+          "activity": "New character-select categories are being planned.",
           "description": "The plan proposes a new Samurai Warriors 4 category and other possible groups. Their final names and contents have not been confirmed.",
           "screenshots": []
         },
@@ -190,7 +190,7 @@
           "state": "planning",
           "progress": 15,
           "summary": "Additional costume slots are planned for future outfits.",
-          "next": "Confirm how many additional slots are needed.",
+          "activity": "Additional costume slots are being planned.",
           "description": "This area tracks plans for additional costume slots. Costume additions are tracked separately.",
           "screenshots": []
         }
@@ -204,7 +204,7 @@
       "state": "ready-to-test",
       "progress": 45,
       "summary": "A graphics update is prepared but has not yet been tested in-game.",
-      "next": "Test the update in-game.",
+      "activity": "A graphics update is prepared for in-game testing.",
       "description": "The update aims to improve image quality. Its results have not yet been confirmed in-game.",
       "substreams": [],
       "screenshots": []
@@ -216,7 +216,7 @@
       "state": "on-hold",
       "progress": 65,
       "summary": "Several menu layout and scaling fixes have been tested; a broader review is pending.",
-      "next": "Review the menus and identify remaining issues.",
+      "activity": "Menu layout and scaling changes are awaiting review.",
       "description": "A recent update fixed a Gallery layout issue. Other menu changes are awaiting review.",
       "substreams": [],
       "screenshots": []
@@ -228,7 +228,7 @@
       "state": "in-progress",
       "progress": 35,
       "summary": "The project is exploring how to show more characters in each battle while maintaining performance.",
-      "next": "Test the proposed changes and check performance.",
+      "activity": "Reviewing options for larger battles and their performance impact.",
       "description": "Possible changes have been identified, but larger battles have not yet been confirmed in-game.",
       "substreams": [],
       "screenshots": []
@@ -240,7 +240,7 @@
       "state": "planning",
       "progress": 5,
       "summary": "New and adapted stages are planned; the first selection has not been made.",
-      "next": "Choose the first stages to add or adapt.",
+      "activity": "New and adapted stages are in the project plan.",
       "description": "This area covers new stages and stages adapted from other games. The first selection has not been confirmed.",
       "substreams": [],
       "screenshots": []
@@ -252,7 +252,7 @@
       "state": "planning",
       "progress": 5,
       "summary": "New enemy types are planned; the first choices have not been made.",
-      "next": "Choose which enemy types to add.",
+      "activity": "New enemy types are in the project plan.",
       "description": "The enemy types to add have not yet been selected.",
       "substreams": [],
       "screenshots": []

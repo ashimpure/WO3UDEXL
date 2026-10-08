@@ -63,7 +63,7 @@
     .work-card { padding: 14px; border: 1px solid #2a394d; border-radius: 10px; background: #101927; }
     .work-card header { display: flex; align-items: start; justify-content: space-between; gap: 10px; }
     .work-card p { margin: 9px 0 12px; color: #c5d0df; font-size: 12px; }
-    .work-card .next { padding-top: 9px; border-top: 1px solid #29374c; color: var(--muted); font-size: 11px; }
+    .work-card .activity { padding-top: 9px; border-top: 1px solid #29374c; color: var(--muted); font-size: 11px; }
     .mini-progress { height: 5px; margin-top: 12px; overflow: hidden; border-radius: 99px; background: #29364a; }
     .mini-progress span { display: block; width: var(--progress); height: 100%; background: #62acff; }
     .gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
@@ -122,6 +122,13 @@
       "on-hold": "On hold",
       paused: "Paused"
     };
+    const activityLabels = {
+      planning: "Planned:",
+      "in-progress": "Ongoing:",
+      "ready-to-test": "Ready to test:",
+      "on-hold": "On hold:",
+      paused: "On hold:"
+    };
     const content = document.querySelector("#content");
 
     function node(tag, className, text) {
@@ -150,9 +157,9 @@
       header.append(node("h3", "", item.title), node("span", "badge", labels[item.state]));
       card.append(header, node("p", "", item.summary));
       addProgress(card, item, true);
-      const next = node("p", "next");
-      next.append(node("strong", "", "Next: "), document.createTextNode(item.next));
-      card.append(next);
+      const activity = node("p", "activity");
+      activity.append(node("strong", "", activityLabels[item.state]), document.createTextNode(` ${item.activity}`));
+      card.append(activity);
       const link = node("a", "work-link");
       link.href = `project.html?id=${encodeURIComponent(item.id)}`;
       link.setAttribute("aria-label", `Open ${item.title} details`);
@@ -217,7 +224,7 @@
     function validateItem(item) {
       return item && typeof item.id === "string" && item.id
         && typeof item.title === "string" && typeof item.area === "string"
-        && typeof item.summary === "string" && typeof item.next === "string"
+        && typeof item.summary === "string" && typeof item.activity === "string"
         && Number.isInteger(item.progress) && item.progress >= 0 && item.progress <= 100
         && Object.hasOwn(labels, item.state);
     }
