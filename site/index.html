@@ -82,8 +82,6 @@
 
     .side-link:hover, .side-link.active { background: #1b2e4b; color: #f4f7fc; }
     .side-icon { width: 16px; color: #92cfe1; text-align: center; }
-    .sidebar-bottom { margin-top: auto; padding: 10px 8px 5px; color: #98a9c4; font-size: 11px; }
-
     .main { min-height: 100vh; margin-left: 208px; }
     .topbar {
       position: sticky;
@@ -381,7 +379,7 @@
 
       .brand { flex: 0 0 auto; padding: 0 5px; }
       .brand-logo { width: 112px; height: 48px; }
-      .sidebar-label, .side-link:not(.active), .sidebar-bottom { display: none; }
+      .sidebar-label, .side-link:not(.active) { display: none; }
       .side-link.active { min-height: 30px; padding: 5px 9px; font-size: 10px; }
       .main { margin-left: 0; }
       .topbar { padding-inline: 15px; }
@@ -414,7 +412,6 @@
       .task-summary { font-size: 11px; }
       .task-activity { font-size: 10px; }
       .timeline { grid-template-columns: minmax(0, 1fr); }
-      .footer { flex-direction: column; }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -432,7 +429,6 @@
       <span class="sidebar-label">Community</span>
       <a class="side-link" href="https://github.com/ashimpure/WO3UDEXL"><span class="side-icon" aria-hidden="true">⌘</span>GitHub repository</a>
       <a class="side-link" href="https://discord.com/channels/606031682708963328/1555967493070393426"><span class="side-icon" aria-hidden="true">↗</span>Project discussion</a>
-      <div class="sidebar-bottom">Project status</div>
     </aside>
 
     <main id="top" class="main">
@@ -447,8 +443,7 @@
       <div class="content">
         <section class="intro" aria-labelledby="page-title">
           <div>
-            <p class="eyebrow">Project overview</p>
-            <h1 id="page-title">Warriors Orochi 3: Xtreme Legends</h1>
+            <h1 id="page-title">Project overview</h1>
             <p>Project plans and progress for Warriors Orochi 3 Ultimate Definitive Edition.</p>
           </div>
           <a class="intro-link" href="https://github.com/ashimpure/WO3UDEXL">Open the GitHub repository ↗</a>
@@ -489,10 +484,6 @@
           <ol id="timeline" class="timeline"></ol>
         </section>
 
-        <footer class="footer">
-          <p>Warriors Orochi 3 Ultimate Definitive Edition project tracker</p>
-          <p id="compiled-note"></p>
-        </footer>
       </div>
     </main>
   </div>
@@ -648,7 +639,6 @@
         document.querySelector("#snapshot-date").textContent = new Intl.DateTimeFormat("en", {
           day: "numeric", month: "short", year: "numeric", timeZone: "UTC"
         }).format(new Date(`${data.asOf}T00:00:00Z`));
-        document.querySelector("#compiled-note").textContent = `Snapshot compiled ${data.compiledOn}.`;
         renderBoard();
         renderTimeline();
         search.addEventListener("input", renderBoard);
