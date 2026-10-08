@@ -2,6 +2,8 @@
 
 [**View the public project progress tracker**](https://ashimpure.github.io/WO3UDEXL/)
 
+Progress bars are rough, manually maintained estimates, not measured completion. [Suggest a correction or status change](https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml); suggestions are reviewed before the public tracker is changed. Maintainers update [`site/progress.json`](site/progress.json), then changes pushed to `main` deploy automatically.
+
 https://discord.com/invite/SpCw3vC - Invite link to the Musou Warriors discord
 https://discord.com/channels/606031682708963328/1555967493070393426 - Mod Project thread in the Musou Warriors Discord
 

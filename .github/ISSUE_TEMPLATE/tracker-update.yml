@@ -1,0 +1,86 @@
+name: Suggest a tracker update
+description: Propose a correction or progress update for the public project board.
+title: "[Tracker update]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the public project board accurate. This creates a public GitHub issue; it will not change the site automatically. Please do not include private details, local file paths, or game files.
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: What should be updated?
+      options:
+        - Progress estimate
+        - Workstream status
+        - Description or next milestone
+        - Add a project workstream
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: workstream
+    attributes:
+      label: Workstream
+      description: Which item on the board does this relate to?
+      placeholder: For example, HD renderer
+    validations:
+      required: true
+  - type: dropdown
+    id: current_status
+    attributes:
+      label: Current status on the board
+      options:
+        - Planning
+        - In progress
+        - Ready to test
+        - On hold
+        - Paused
+        - Not applicable
+    validations:
+      required: true
+  - type: dropdown
+    id: proposed_status
+    attributes:
+      label: Proposed status
+      options:
+        - No status change
+        - Planning
+        - In progress
+        - Ready to test
+        - On hold
+        - Paused
+        - Not applicable
+    validations:
+      required: true
+  - type: input
+    id: proposed_progress
+    attributes:
+      label: Suggested rough progress estimate
+      description: Optional whole number from 0 to 100. Estimates are directional, not measured completion.
+      placeholder: "For example, 40"
+    validations:
+      required: false
+  - type: textarea
+    id: rationale
+    attributes:
+      label: What changed, and why?
+      description: Describe the evidence or milestone behind the suggestion.
+      placeholder: Include enough context for the maintainers to verify the change.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Public reference links
+      description: Link relevant public repository files, discussions, or project updates. Do not link local paths.
+      placeholder: https://github.com/ashimpure/WO3UDEXL/...
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy_check
+    attributes:
+      label: Public information check
+      options:
+        - label: I have not included private details, local file paths, credentials, or game files.
+          required: true
