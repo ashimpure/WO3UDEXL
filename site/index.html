@@ -599,7 +599,7 @@
       board.replaceChildren(makeElement("p", "load-error", `The project board could not be loaded. ${error.message}`));
     }
 
-    fetch("./progress.json")
+    fetch(`./progress.json?v=${Date.now()}`)
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json();
