@@ -3,24 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#102247">
+  <meta name="theme-color" content="#090f19">
   <meta name="description" content="Follow progress on the Warriors Orochi 3 Ultimate Definitive Edition expansion project.">
   <title>WO3U Xtreme Legends — Project Board</title>
   <style>
     :root {
-      color-scheme: light;
-      --navy: #102247;
-      --navy-soft: #1a315c;
-      --ink: #17263b;
-      --muted: #738096;
-      --line: #e5ebef;
-      --canvas: #f4f7f8;
-      --white: #fff;
-      --cyan: #c4f0f5;
-      --blue: #b9e1fc;
-      --coral: #ffd0c2;
-      --lavender: #e4d8fb;
-      --teal: #198d9c;
+      color-scheme: dark;
+      --navy: #080d16;
+      --navy-soft: #14223a;
+      --ink: #eef3fb;
+      --muted: #a3b0c3;
+      --line: #29374c;
+      --canvas: #0b111c;
+      --white: #131c2a;
+      --cyan: #142e3a;
+      --blue: #172d45;
+      --coral: #392820;
+      --lavender: #2d2540;
+      --teal: #66d6e2;
       --radius: 13px;
     }
 
@@ -29,7 +29,9 @@
     body {
       min-width: 320px;
       margin: 0;
-      background: var(--canvas);
+      background:
+        radial-gradient(ellipse at 78% -20%, rgb(35 76 126 / 15%), transparent 42rem),
+        var(--canvas);
       color: var(--ink);
       font: 14px/1.5 "Segoe UI", system-ui, -apple-system, sans-serif;
     }
@@ -37,7 +39,7 @@
     a { color: inherit; }
     button, input { font: inherit; }
     a:focus-visible, button:focus-visible, input:focus-visible {
-      outline: 3px solid #f4a24d;
+      outline: 3px solid #ffc46b;
       outline-offset: 3px;
     }
 
@@ -54,28 +56,8 @@
       color: #e8eef9;
     }
 
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 0 8px 22px;
-      color: var(--white);
-      font-size: 13px;
-      font-weight: 750;
-      text-decoration: none;
-    }
-
-    .brand-mark {
-      display: grid;
-      width: 29px;
-      height: 29px;
-      place-items: center;
-      border-radius: 9px;
-      background: linear-gradient(145deg, #48bdd0, #7290ed);
-      color: var(--white);
-      font-size: 13px;
-      font-weight: 900;
-    }
+    .brand { display: block; padding: 0 5px 20px; text-decoration: none; }
+    .brand-logo { display: block; width: 100%; height: 88px; object-fit: contain; }
 
     .sidebar-label {
       padding: 15px 9px 6px;
@@ -98,7 +80,7 @@
       text-decoration: none;
     }
 
-    .side-link:hover, .side-link.active { background: #263d69; color: var(--white); }
+    .side-link:hover, .side-link.active { background: #1b2e4b; color: #f4f7fc; }
     .side-icon { width: 16px; color: #92cfe1; text-align: center; }
     .sidebar-bottom { margin-top: auto; padding: 10px 8px 5px; color: #98a9c4; font-size: 11px; }
 
@@ -114,7 +96,7 @@
       gap: 16px;
       padding: 9px 26px;
       border-bottom: 1px solid var(--line);
-      background: rgb(255 255 255 / 94%);
+      background: rgb(19 28 42 / 95%);
       backdrop-filter: blur(12px);
     }
 
@@ -140,8 +122,8 @@
     }
 
     .button:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgb(16 34 71 / 10%); }
-    .button.primary { border-color: #2187e2; background: #168ee6; color: var(--white); }
-    .button.primary:hover { background: #0877c8; }
+    .button.primary { border-color: #2689cc; background: #1677b8; color: #f8fbff; }
+    .button.primary:hover { background: #208bcf; }
 
     .content { padding: 27px 25px 34px; }
     .intro {
@@ -163,7 +145,7 @@
 
     h1 { margin: 0; font-size: clamp(22px, 3vw, 29px); letter-spacing: -.035em; line-height: 1.2; }
     .intro p:last-child { max-width: 660px; margin: 8px 0 0; color: var(--muted); font-size: 12px; }
-    .intro-link { flex: 0 0 auto; padding-bottom: 2px; color: #126fb2; font-size: 11px; text-decoration: none; }
+    .intro-link { flex: 0 0 auto; padding-bottom: 2px;     color: #81ceff; font-size: 11px; text-decoration: none; }
     .intro-link:hover { text-decoration: underline; }
 
     .summary {
@@ -191,8 +173,8 @@
       flex: 0 0 auto;
       place-items: center;
       border-radius: 10px;
-      background: #e5f6f7;
-      color: #168591;
+      background: #193443;
+      color: #76d9e2;
       font-size: 15px;
       font-weight: 800;
     }
@@ -230,12 +212,12 @@
       padding: 5px 10px;
       border: 1px solid var(--line);
       border-radius: 8px;
-      background: var(--white);
-      color: #526174;
+      background: #151f2e;
+      color: #c0ccdc;
       font-size: 10px;
     }
 
-    .view-chip.selected { border-color: #c6dce7; color: #176d93; font-weight: 700; }
+    .view-chip.selected { border-color: #31546a; color: #80d6e3; font-weight: 700; }
 
     .search {
       width: 190px;
@@ -243,7 +225,7 @@
       padding: 6px 10px;
       border: 1px solid var(--line);
       border-radius: 8px;
-      background: var(--white);
+      background: #151f2e;
       color: var(--ink);
       font-size: 11px;
     }
@@ -258,9 +240,9 @@
     .lane {
       min-height: 200px;
       padding: 10px;
-      border: 1px solid #e8edf0;
+      border: 1px solid #28374a;
       border-radius: 12px;
-      background: #eef3f5;
+      background: #111a27;
     }
 
     .lane-heading {
@@ -273,10 +255,10 @@
     }
 
     .lane-title { display: flex; align-items: center; gap: 7px; font-size: 11px; font-weight: 750; }
-    .lane-dot { width: 8px; height: 8px; border-radius: 50%; background: #a4adba; }
-    .lane[data-lane="in-progress"] .lane-dot { background: #248ee3; }
-    .lane[data-lane="ready-to-test"] .lane-dot { background: #18a38e; }
-    .lane[data-lane="on-hold"] .lane-dot { background: #e2a345; }
+    .lane-dot { width: 8px; height: 8px; border-radius: 50%; background: #94a3b8; }
+    .lane[data-lane="in-progress"] .lane-dot { background: #4aa9ff; }
+    .lane[data-lane="ready-to-test"] .lane-dot { background: #4fd2af; }
+    .lane[data-lane="on-hold"] .lane-dot { background: #edbc6b; }
 
     .count {
       display: grid;
@@ -284,69 +266,70 @@
       height: 19px;
       place-items: center;
       border-radius: 99px;
-      background: #e0e7eb;
-      color: #667589;
+      background: #202c3d;
+      color: #bac6d7;
       font-size: 10px;
       font-weight: 750;
     }
 
     .lane-cards { display: grid; gap: 9px; }
+    .task-link { display: block; color: inherit; text-decoration: none; }
     .task-card {
       --card-bg: var(--cyan);
-      --progress-color: #12a0ad;
+      --progress-color: #51cfda;
       padding: 12px;
-      border: 1px solid rgb(45 75 94 / 7%);
+      border: 1px solid rgb(130 158 190 / 15%);
       border-radius: 10px;
       background: var(--card-bg);
-      box-shadow: 0 2px 5px rgb(20 50 70 / 4%);
+      box-shadow: 0 3px 10px rgb(0 0 0 / 16%);
       transition: transform .15s ease, box-shadow .15s ease;
     }
 
-    .task-card:hover { transform: translateY(-2px); box-shadow: 0 6px 14px rgb(20 50 70 / 10%); }
-    .task-card.color-blue { --card-bg: var(--blue); --progress-color: #297bc2; }
-    .task-card.color-coral { --card-bg: var(--coral); --progress-color: #cf795e; }
-    .task-card.color-lavender { --card-bg: var(--lavender); --progress-color: #815dbb; }
-    .task-card.color-neutral { --card-bg: #e7edf0; --progress-color: #6d8791; }
-    .task-card.color-teal { --card-bg: #c4eee1; --progress-color: #188b70; }
+    .task-card:hover { transform: translateY(-2px); box-shadow: 0 8px 18px rgb(0 0 0 / 27%); }
+    .task-card.color-blue { --card-bg: var(--blue); --progress-color: #62acff; }
+    .task-card.color-coral { --card-bg: var(--coral); --progress-color: #ff9d73; }
+    .task-card.color-lavender { --card-bg: var(--lavender); --progress-color: #bd98ff; }
+    .task-card.color-neutral { --card-bg: #1b2635; --progress-color: #9aaec8; }
+    .task-card.color-teal { --card-bg: #15352e; --progress-color: #5bd5ae; }
 
-    .task-area { margin: 0 0 5px; color: #526174; font-size: 9px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
+    .task-area { margin: 0 0 5px; color: #a9b8cb; font-size: 9px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
     .task-title-row { display: flex; align-items: start; justify-content: space-between; gap: 8px; }
     .task-title { margin: 0; font-size: 12px; font-weight: 750; line-height: 1.3; }
     .task-badge {
       flex: 0 0 auto;
       padding: 3px 6px;
       border-radius: 5px;
-      background: rgb(255 255 255 / 56%);
-      color: #526174;
+      background: rgb(7 13 22 / 42%);
+      color: #d8e2ef;
       font-size: 8px;
       font-weight: 750;
       line-height: 1.35;
     }
 
-    .task-summary { margin: 8px 0 10px; color: #44566a; font-size: 10px; line-height: 1.45; }
+    .task-summary { margin: 8px 0 10px; color: #d1dbea; font-size: 10px; line-height: 1.45; }
     .progress-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 5px; }
-    .progress-label { color: #536477; font-size: 9px; }
-    .progress-value { color: #23364a; font-size: 11px; font-weight: 800; }
-    .progress-track { height: 6px; overflow: hidden; border-radius: 99px; background: rgb(255 255 255 / 72%); }
+    .progress-label { color: #aab9cc; font-size: 9px; }
+    .progress-value { color: #f2f6fc; font-size: 11px; font-weight: 800; }
+    .progress-track { height: 6px; overflow: hidden; border-radius: 99px; background: #29364a; }
     .progress-fill { width: var(--progress); height: 100%; border-radius: inherit; background: var(--progress-color); }
-    .task-next { margin: 9px 0 0; padding-top: 8px; border-top: 1px solid rgb(67 88 107 / 13%); color: #536477; font-size: 9px; line-height: 1.4; }
-    .task-next strong { color: #32475c; }
+    .task-next { margin: 9px 0 0; padding-top: 8px; border-top: 1px solid rgb(161 183 211 / 18%); color: #b8c5d7; font-size: 9px; line-height: 1.4; }
+    .task-next strong { color: #e7eef8; }
 
-    .empty-lane { padding: 16px 9px; color: #8491a1; font-size: 10px; text-align: center; }
+    .empty-lane { padding: 16px 9px; color: #91a0b4; font-size: 10px; text-align: center; }
     .notice {
       display: flex;
       align-items: start;
       gap: 9px;
       margin: 13px 0 0;
       padding: 10px 12px;
-      border: 1px solid #dfe8ec;
+      border: 1px solid #2a394d;
       border-radius: 9px;
-      background: #f9fbfc;
-      color: #69798d;
+      background: #111a28;
+      color: #b4c1d1;
       font-size: 10px;
     }
 
-    .notice strong { color: #3b5067; }
+    .notice strong { color: #edf3fa; }
     .updates {
       margin-top: 28px;
       padding: 18px;
@@ -358,13 +341,13 @@
     .updates h2 { margin: 0 0 13px; font-size: 15px; }
     .timeline { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px 22px; padding: 0; margin: 0; list-style: none; }
     .timeline li { display: grid; grid-template-columns: 82px 1fr; gap: 10px; }
-    .timeline time { color: #168591; font-size: 9px; font-weight: 750; }
+    .timeline time { color: #6ed4df; font-size: 9px; font-weight: 750; }
     .timeline strong { display: block; font-size: 10px; }
     .timeline p { margin: 3px 0 0; color: var(--muted); font-size: 9px; }
 
-    .footer { display: flex; justify-content: space-between; gap: 12px; padding: 17px 2px 0; color: #7a8797; font-size: 9px; }
+    .footer { display: flex; justify-content: space-between; gap: 12px; padding: 17px 2px 0; color: #98a7bb; font-size: 9px; }
     .footer p { margin: 0; }
-    .load-error { padding: 20px; border-radius: 9px; background: #ffeaec; color: #8b2638; }
+    .load-error { padding: 20px; border-radius: 9px; background: #3a2029; color: #ffd2da; }
 
     @media (max-width: 1170px) {
       .board { grid-template-columns: repeat(2, minmax(220px, 1fr)); }
@@ -382,6 +365,7 @@
       }
 
       .brand { flex: 0 0 auto; padding: 0 5px; }
+      .brand-logo { width: 112px; height: 48px; }
       .sidebar-label, .side-link:not(.active), .sidebar-bottom { display: none; }
       .side-link.active { min-height: 30px; padding: 5px 9px; font-size: 10px; }
       .main { margin-left: 0; }
@@ -426,10 +410,10 @@
 <body>
   <div class="app">
     <aside class="sidebar" aria-label="Project navigation">
-      <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">W</span><span>WO3U Xtreme</span></a>
+      <a class="brand" href="#top" aria-label="Warriors Orochi 3 Ultimate Definitive Edition Xtreme Legends"><img class="brand-logo" src="assets/wo3u-xl-logo.png" alt="Warriors Orochi 3 Ultimate Definitive Edition Xtreme Legends"></a>
       <span class="sidebar-label">Project</span>
       <a class="side-link active" href="#board"><span class="side-icon" aria-hidden="true">▦</span>Progress board</a>
-      <a class="side-link" href="#updates"><span class="side-icon" aria-hidden="true">◷</span>Latest updates</a>
+      <a class="side-link" href="#updates"><span class="side-icon" aria-hidden="true">◷</span>Latest news</a>
       <span class="sidebar-label">Community</span>
       <a class="side-link" href="https://github.com/ashimpure/WO3UDEXL"><span class="side-icon" aria-hidden="true">⌘</span>GitHub repository</a>
       <a class="side-link" href="https://discord.com/channels/606031682708963328/1555967493070393426"><span class="side-icon" aria-hidden="true">↗</span>Project discussion</a>
@@ -441,42 +425,42 @@
         <div class="crumb">Projects <span aria-hidden="true">/</span> <strong>WO3U Xtreme Legends</strong></div>
         <div class="top-actions">
           <a class="button" href="#updates">◷ Updates</a>
-          <a class="button primary" href="https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml">＋ Suggest an update</a>
+          <a class="button primary" href="https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml">＋ Share an update</a>
         </div>
       </header>
 
       <div class="content">
         <section class="intro" aria-labelledby="page-title">
           <div>
-            <p class="eyebrow">Community expansion · Project overview</p>
+            <p class="eyebrow">Made by fans · Growing together</p>
             <h1 id="page-title">Warriors Orochi 3: Xtreme Legends</h1>
-            <p>A shared board for the characters, costumes, renderer, interface, battles, and new content being explored for WO3U Definitive Edition.</p>
+            <p>See what’s planned, what’s being worked on, and what could be coming next to Warriors Orochi 3 Ultimate Definitive Edition.</p>
           </div>
           <a class="intro-link" href="https://github.com/ashimpure/WO3UDEXL">Open the GitHub repository ↗</a>
         </section>
 
         <section class="summary" aria-label="Project snapshot">
-          <div class="summary-card"><span class="summary-icon" aria-hidden="true">▦</span><span><strong id="stream-count" class="summary-value">—</strong><span class="summary-label">project workstreams</span></span></div>
-          <div class="summary-card"><span class="summary-icon" aria-hidden="true">◉</span><span><strong id="active-count" class="summary-value">—</strong><span class="summary-label">active or ready for testing</span></span></div>
-          <div class="summary-card"><span class="summary-icon" aria-hidden="true">◷</span><span><strong id="snapshot-date" class="summary-value">—</strong><span class="summary-label">tracker snapshot date</span></span></div>
+          <div class="summary-card"><span class="summary-icon" aria-hidden="true">▦</span><span><strong id="stream-count" class="summary-value">—</strong><span class="summary-label">areas of the project</span></span></div>
+          <div class="summary-card"><span class="summary-icon" aria-hidden="true">◉</span><span><strong id="active-count" class="summary-value">—</strong><span class="summary-label">being worked on or ready to try</span></span></div>
+          <div class="summary-card"><span class="summary-icon" aria-hidden="true">◷</span><span><strong id="snapshot-date" class="summary-value">—</strong><span class="summary-label">last project update</span></span></div>
         </section>
 
         <section id="board" aria-labelledby="board-title">
           <div class="board-toolbar">
-            <h2 id="board-title">Project workstreams</h2>
+            <h2 id="board-title">Explore the project</h2>
             <div class="board-controls">
-              <span class="view-chip selected" aria-current="true">▦ Board view</span>
-              <label class="sr-only" for="search">Search workstreams</label>
-              <input id="search" class="search" type="search" placeholder="⌕  Search workstreams" autocomplete="off">
+              <span class="view-chip selected" aria-current="true">▦ Project board</span>
+              <label class="sr-only" for="search">Search project areas</label>
+              <input id="search" class="search" type="search" placeholder="⌕  Search project areas" autocomplete="off">
             </div>
           </div>
           <div id="board-columns" class="board" aria-live="polite"></div>
-          <p class="notice"><span aria-hidden="true">ⓘ</span><span><strong>About the progress bars:</strong> these are rough, manually maintained estimates of current workstream progress—not measured completion, test results, or an overall project score. Read each card's notes for the actual state.</span></p>
+          <p class="notice"><span aria-hidden="true">ⓘ</span><span><strong>About the progress bars:</strong> these are friendly, rough estimates of how far along each area feels. They aren’t exact measurements or release promises. Open a card for the latest details and screenshots.</span></p>
         </section>
 
         <section id="updates" class="updates" aria-labelledby="updates-title">
-          <p class="eyebrow">Project notes</p>
-          <h2 id="updates-title">Latest updates</h2>
+          <p class="eyebrow">From the project</p>
+          <h2 id="updates-title">Latest news</h2>
           <ol id="timeline" class="timeline"></ol>
         </section>
 
@@ -490,17 +474,17 @@
 
   <script>
     const stateLabels = {
-      planning: "Planning",
+      planning: "Coming up",
       "in-progress": "In progress",
-      "ready-to-test": "Ready to test",
-      "on-hold": "On hold",
+      "ready-to-test": "Ready to try",
+      "on-hold": "Taking a break",
       paused: "Paused"
     };
     const lanes = [
-      { id: "planning", title: "Planning" },
+      { id: "planning", title: "Coming up" },
       { id: "in-progress", title: "In progress" },
-      { id: "ready-to-test", title: "Ready to test" },
-      { id: "on-hold", title: "On hold" }
+      { id: "ready-to-test", title: "Ready to try" },
+      { id: "on-hold", title: "Taking a break" }
     ];
     const colorClasses = ["color-cyan", "color-blue", "color-coral", "color-lavender", "color-neutral", "color-teal"];
     const board = document.querySelector("#board-columns");
@@ -529,12 +513,12 @@
 
       const progressHead = makeElement("div", "progress-head");
       progressHead.append(
-        makeElement("span", "progress-label", "Rough progress estimate"),
+        makeElement("span", "progress-label", "Estimated progress"),
         makeElement("span", "progress-value", `${percent}%`)
       );
       const track = makeElement("div", "progress-track");
       track.setAttribute("role", "progressbar");
-      track.setAttribute("aria-label", `${stream.title}: rough progress estimate`);
+      track.setAttribute("aria-label", `${stream.title}: estimated progress`);
       track.setAttribute("aria-valuemin", "0");
       track.setAttribute("aria-valuemax", "100");
       track.setAttribute("aria-valuenow", String(percent));
@@ -544,9 +528,13 @@
       article.append(progressHead, track);
 
       const next = makeElement("p", "task-next");
-      next.append(makeElement("strong", "", "Next: "), document.createTextNode(stream.next));
+      next.append(makeElement("strong", "", "What’s next: "), document.createTextNode(stream.next));
       article.append(next);
-      return article;
+      const link = makeElement("a", "task-link");
+      link.href = `project.html?id=${encodeURIComponent(stream.id)}`;
+      link.setAttribute("aria-label", `Open ${stream.title} project details`);
+      link.append(article);
+      return link;
     }
 
     function renderBoard() {
@@ -608,9 +596,10 @@
         if (!Array.isArray(data.streams) || !Array.isArray(data.updates)) {
           throw new Error("The progress data has an invalid format.");
         }
-        if (data.streams.some((stream) => !Object.hasOwn(stateLabels, stream.state)
+        if (data.streams.some((stream) => typeof stream.id !== "string" || !stream.id
+          || !Object.hasOwn(stateLabels, stream.state)
           || !Number.isInteger(stream.progress) || stream.progress < 0 || stream.progress > 100)) {
-          throw new Error("The tracker has an unknown status or missing progress estimate.");
+          throw new Error("The tracker has an unknown project, status or progress estimate.");
         }
         tracker = data;
         document.querySelector("#stream-count").textContent = String(data.streams.length);

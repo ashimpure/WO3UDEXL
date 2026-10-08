@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping keep the public project board accurate. This creates a public GitHub issue; it will not change the site automatically. Please do not include private details, local file paths, or game files.
+        Thanks for helping keep the public project tracker up to date. This creates a public GitHub issue; it will not change the site automatically. Please do not include private details, local file paths, game files, or anything you do not have permission to share.
   - type: dropdown
     id: request_type
     attributes:
@@ -14,7 +14,8 @@ body:
         - Progress estimate
         - Workstream status
         - Description or next milestone
-        - Add a project workstream
+        - Add a project area or smaller step
+        - Suggest or update a screenshot
         - Other
     validations:
       required: true
@@ -22,8 +23,8 @@ body:
     id: workstream
     attributes:
       label: Workstream
-      description: Which item on the board does this relate to?
-      placeholder: For example, HD renderer
+      description: Which project area, character, outfit or screenshot does this relate to?
+      placeholder: For example, Nobuyuki Sanada
     validations:
       required: true
   - type: dropdown
@@ -57,7 +58,7 @@ body:
     id: proposed_progress
     attributes:
       label: Suggested rough progress estimate
-      description: Optional whole number from 0 to 100. Estimates are directional, not measured completion.
+      description: Optional rough whole number from 0 to 100. Estimates are directional, not measured completion.
       placeholder: "For example, 40"
     validations:
       required: false
@@ -72,8 +73,8 @@ body:
   - type: textarea
     id: references
     attributes:
-      label: Public reference links
-      description: Link relevant public repository files, discussions, or project updates. Do not link local paths.
+      label: Public reference links or screenshot
+      description: Link public project notes or a screenshot you have permission to share. Do not link local paths or game files. Screenshots are reviewed before they are added to the site.
       placeholder: https://github.com/ashimpure/WO3UDEXL/...
     validations:
       required: false
