@@ -7,20 +7,20 @@
       "title": "New characters",
       "area": "Character additions",
       "state": "in-progress",
-      "progress": 45,
-      "summary": "Nobuyuki Sanada is the current character focus. Other names in the plan are possible future additions.",
-      "activity": "Finalizing the work on Nobuyuki.",
-      "description": "The current character focus is Nobuyuki Sanada from Samurai Warriors 4. Other possible characters are listed separately as plans, not confirmed additions.",
+      "progress": 1,
+      "summary": "Nobuyuki Sanada is the only character currently being worked on. The wider plan lists more than 90 possible additions.",
+      "activity": "Working through the initial steps to bring Nobuyuki into the game.",
+      "description": "The character expansion covers a large list of possible additions. Nobuyuki Sanada is the only character currently being worked on, and his import is still at an early stage. The overall estimate reflects the full character area, not just progress on Nobuyuki.",
       "substreams": [
         {
           "id": "nobuyuki-sanada",
           "title": "Nobuyuki Sanada",
           "area": "Samurai Warriors 4",
           "state": "in-progress",
-          "progress": 45,
-          "summary": "Nobuyuki is the first character being worked on, using his Samurai Warriors 4 appearance and animations.",
-          "activity": "Finalizing Nobuyuki's outfit and animations.",
-          "description": "Nobuyuki is the main character focus so far. His appearance and animations are based on Samurai Warriors 4.",
+          "progress": 5,
+          "summary": "Nobuyuki is the first character being worked on; the process of bringing him into the game is still in its early stages.",
+          "activity": "Working through the initial steps to bring Nobuyuki into the game.",
+          "description": "Nobuyuki is the main character focus so far. His appearance and animations are based on Samurai Warriors 4, and the import approach is still being worked out.",
           "screenshots": []
         }
       ],
