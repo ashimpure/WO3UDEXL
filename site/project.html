@@ -212,7 +212,8 @@
         if (!Array.isArray(group.characters) || group.characters.length === 0) return;
         const details = document.createElement("details");
         const summary = document.createElement("summary");
-        summary.append(document.createTextNode(`${group.title} `), node("span", "", `· ${group.characters.length} characters · ${group.priority} priority`));
+        const countLabel = group.characters.length === 1 ? "character" : "characters";
+        summary.append(document.createTextNode(`${group.title} `), node("span", "", `· ${group.characters.length} ${countLabel} · ${group.priority} priority`));
         const list = node("ul", "character-list");
         group.characters.forEach((name) => list.append(node("li", "", name)));
         details.append(summary, node("p", "section-intro", `Planned category: ${group.category}.`), list);
