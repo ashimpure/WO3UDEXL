@@ -262,27 +262,27 @@
     {
       "date": "2026-10-08",
       "title": "Project progress updated",
-      "detail": "Progress estimates are approximate and are not release dates."
+      "detail": "Approximate progress estimates have been added across the project areas."
     },
     {
       "date": "2026-10-07",
       "title": "Gallery layout fix",
-      "detail": "An update fixes a Gallery screen layout problem. Other menu changes are awaiting review."
+      "detail": "A Gallery screen layout issue was fixed. Other menu layout and scaling work is ongoing."
     },
     {
       "date": "2026-10-06",
       "title": "Graphics update prepared",
-      "detail": "A graphics update is ready for testing; its results have not yet been confirmed in-game."
+      "detail": "A graphics-quality update has been prepared. In-game results have not yet been confirmed."
     },
     {
       "date": "2026-10-06",
       "title": "Character-slot work paused",
-      "detail": "Work on additional character slots is paused pending further checks."
+      "detail": "The initial character-slot test is disabled while the approach is reassessed."
     },
     {
       "date": "2026-10-06",
       "title": "Larger battles explored",
-      "detail": "The project is looking at ways to increase the number of characters in each battle."
+      "detail": "Work is underway to understand the game's character limits and the performance impact of larger battles."
     }
   ]
 }
