@@ -1,22 +1,25 @@
 # Warriors Orochi 3 Ultimate Definitive Edition Xtreme Legends
 
-A fan-made project exploring new playable characters, costumes, clearer screens, a sharper picture, larger battles, and more content for WO3U Definitive Edition.
+<img width="1536" height="768" alt="Warriors Orochi 3 Ultimate Definitive Edition Xtreme Legends logo" src="https://github.com/user-attachments/assets/ecd3b616-20ff-42eb-ac0a-093256c96574" />
 
-## Project tracker
+[**View the project tracker**](https://ashimpure.github.io/WO3UDEXL/)
 
-Visit the [public project tracker](https://ashimpure.github.io/WO3UDEXL/). It includes a high-level board and shareable detail pages for the individual project areas. Progress bars are rough estimates, not measured completion or release promises.
+This project explores adding characters, costumes, improved graphics and menus, larger battles, new stages, and new enemy types to Warriors Orochi 3 Ultimate Definitive Edition.
 
-To suggest a correction or new idea, [open a tracker update](https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml). Suggestions and screenshots are reviewed before they appear on the site.
-
-## Keeping the tracker up to date
-
-- Edit `site/progress.json` to update the project areas, smaller steps, rough progress estimates, and recent news.
-- Add approved screenshots under `site/assets/screenshots/` and reference them from the relevant `screenshots` list in `site/progress.json`.
-- Keep private notes, game files, local paths, debug images, and unapproved material out of the public site.
-- Push changes to `main`; GitHub Actions publishes the `site/` folder to GitHub Pages automatically.
-- See [`CLAUDE.md`](CLAUDE.md) for instructions for Claude Code and other coding agents.
+Progress bars on the tracker are approximate estimates. [Suggest an update](https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml).
 
 ## Community
 
-- [Musou Warriors Discord invite](https://discord.com/invite/SpCw3vC)
-- [WO3U project discussion](https://discord.com/channels/606031682708963328/1555967493070393426)
+- [Musou Warriors Discord](https://discord.com/invite/SpCw3vC)
+- [Project discussion](https://discord.com/channels/606031682708963328/1555967493070393426)
+
+## Screenshots
+
+<p align="center">
+  <img width="640" height="352" alt="Project screenshot" src="https://github.com/user-attachments/assets/c2ff4ee0-b71a-4079-9b76-273b938d40a5" />
+  <img width="640" height="352" alt="Project screenshot" src="https://github.com/user-attachments/assets/55978841-0d3a-45d2-9fef-b07aa868c0ca" />
+  <img width="640" height="352" alt="Project screenshot" src="https://github.com/user-attachments/assets/f8b4aeb3-aea0-48ee-91b3-f070bb751cd8" />
+  <img width="640" height="352" alt="Project screenshot" src="https://github.com/user-attachments/assets/86c53cdc-99b3-44ca-9a73-853726277723" />
+  <img width="640" height="352" alt="Project screenshot" src="https://github.com/user-attachments/assets/e61a8d13-d7d8-4dc7-9bf0-a3eed7e85c7e" />
+  <img width="640" height="352" alt="Project screenshot" src="https://github.com/user-attachments/assets/2c330c75-385c-4efb-9dd8-f4f2742ac70d" />
+</p>

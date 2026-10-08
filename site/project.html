@@ -107,7 +107,7 @@
   <main class="main">
     <header class="topbar">
       <div class="crumb"><a href="index.html">Project board</a> <span aria-hidden="true">/</span> <strong id="crumb-title">Project details</strong></div>
-      <a class="button primary" href="https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml">＋ Share an update</a>
+      <a class="button primary" href="https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml">＋ Suggest an update</a>
     </header>
     <div id="content" class="content" aria-live="polite">
       <p class="empty-state">Loading project details…</p>
@@ -116,10 +116,10 @@
 
   <script>
     const labels = {
-      planning: "Coming up",
+      planning: "Planning",
       "in-progress": "In progress",
-      "ready-to-test": "Ready to try",
-      "on-hold": "Taking a break",
+      "ready-to-test": "Ready to test",
+      "on-hold": "On hold",
       paused: "Paused"
     };
     const content = document.querySelector("#content");
@@ -151,7 +151,7 @@
       card.append(header, node("p", "", item.summary));
       addProgress(card, item, true);
       const next = node("p", "next");
-      next.append(node("strong", "", "What’s next: "), document.createTextNode(item.next));
+      next.append(node("strong", "", "Next: "), document.createTextNode(item.next));
       card.append(next);
       const link = node("a", "work-link");
       link.href = `project.html?id=${encodeURIComponent(item.id)}`;
@@ -164,7 +164,7 @@
       const section = node("section", "section-panel");
       section.append(node("h2", "", "Screenshots"));
       if (!Array.isArray(screenshots) || screenshots.length === 0) {
-        section.append(node("p", "empty-gallery", "No screenshots have been added yet. This gallery can show selected, public-ready images as the work progresses."));
+        section.append(node("p", "empty-gallery", "No screenshots available."));
       } else {
         const gallery = node("div", "gallery");
         screenshots.forEach((shot) => {
@@ -188,8 +188,8 @@
     function renderSubstreams(parent, items) {
       if (!Array.isArray(items) || items.length === 0) return;
       const section = node("section", "section-panel");
-      section.append(node("h2", "", "The smaller steps"));
-      section.append(node("p", "section-intro", "Open a step for its current status and what comes next."));
+      section.append(node("h2", "", "Related work"));
+      section.append(node("p", "section-intro", "Select an item for its status and details."));
       const list = node("div", "work-list");
       items.forEach((item) => list.append(renderWork(item)));
       section.append(list);
@@ -199,16 +199,16 @@
     function renderPlannedGroups(parent, groups) {
       if (!Array.isArray(groups) || groups.length === 0) return;
       const section = node("section", "section-panel");
-      section.append(node("h2", "", "Other character ideas"));
-      section.append(node("p", "section-intro", "These names come from the long-term planning sheet. They are ideas only, not confirmed or promised additions."));
+      section.append(node("h2", "", "Planned character additions"));
+      section.append(node("p", "section-intro", "These names are listed in the project plan. They are possible additions, not confirmed characters."));
       groups.forEach((group) => {
         if (!Array.isArray(group.characters) || group.characters.length === 0) return;
         const details = document.createElement("details");
         const summary = document.createElement("summary");
-        summary.append(document.createTextNode(`${group.title} `), node("span", "", `· ${group.characters.length} names · ${group.priority} priority`));
+        summary.append(document.createTextNode(`${group.title} `), node("span", "", `· ${group.characters.length} characters · ${group.priority} priority`));
         const list = node("ul", "character-list");
         group.characters.forEach((name) => list.append(node("li", "", name)));
-        details.append(summary, node("p", "section-intro", `Suggested group: ${group.category}. Priority is copied from the planning sheet, not a release commitment.`), list);
+        details.append(summary, node("p", "section-intro", `Planned category: ${group.category}.`), list);
         section.append(details);
       });
       parent.append(section);
@@ -246,7 +246,7 @@
       renderSubstreams(content, item.substreams);
       renderPlannedGroups(content, item.plannedGroups);
       renderGallery(content, item.screenshots);
-      content.append(node("p", "footer", "Progress is a rough estimate. Plans can change; nothing here is a release promise."));
+      content.append(node("p", "footer", "Progress percentages are estimates. Plans may change."));
     }
 
     const id = new URLSearchParams(location.search).get("id");

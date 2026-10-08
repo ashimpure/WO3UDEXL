@@ -4,23 +4,23 @@
   "streams": [
     {
       "id": "new-playable-characters",
-      "title": "New playable characters",
-      "area": "More fighters to play",
+      "title": "New characters",
+      "area": "Character additions",
       "state": "in-progress",
       "progress": 45,
-      "summary": "Nobuyuki Sanada is the first character being brought over from another Warriors game. Other names in the planning sheet are long-term ideas, not confirmed additions.",
-      "next": "Continue Nobuyuki's outfit and movement checks, then confirm the extra character slot is safe to use.",
-      "description": "The character plan starts with Nobuyuki Sanada from Samurai Warriors 4. The long-term roster list gathers possible future additions from several games; it is a wishlist, not a promise that every name will be added.",
+      "summary": "Nobuyuki Sanada is the current character focus. Other names in the plan are possible future additions.",
+      "next": "Continue work on Nobuyuki and confirm which character to focus on next.",
+      "description": "The current character focus is Nobuyuki Sanada from Samurai Warriors 4. Other possible characters are listed separately as plans, not confirmed additions.",
       "substreams": [
         {
           "id": "nobuyuki-sanada",
           "title": "Nobuyuki Sanada",
-          "area": "Current character focus",
+          "area": "Samurai Warriors 4",
           "state": "in-progress",
           "progress": 45,
-          "summary": "Bringing Nobuyuki into the game with his Samurai Warriors 4 look and movement.",
-          "next": "Finish checking the outfit's moving cloth and confirm the character works in-game.",
-          "description": "Nobuyuki is the main character focus so far. The planning notes identify his Samurai Warriors 4 outfit and movement as the starting point. The public notes do not yet confirm the final in-game checks as complete.",
+          "summary": "Nobuyuki is the first character being worked on, using his Samurai Warriors 4 appearance and animations.",
+          "next": "Complete the outfit and animation checks.",
+          "description": "Nobuyuki is the main character focus so far. His appearance and animations are based on Samurai Warriors 4.",
           "screenshots": []
         }
       ],
@@ -96,13 +96,13 @@
     },
     {
       "id": "costume-expansion",
-      "title": "More costumes",
-      "area": "Fresh looks",
+      "title": "Costume additions",
+      "area": "New outfits",
       "state": "in-progress",
       "progress": 20,
-      "summary": "The outfit plan includes looks from other Warriors games and beyond. Some are early ideas; Nobuyuki's character work remains the main focus.",
-      "next": "Continue the Sophitia braid checks, then choose the next outfit set to work on.",
-      "description": "This area covers bringing existing outfits into the game and making room for additional looks. The planning sheet is a wishlist, not a list of finished or announced outfits.",
+      "summary": "The plan includes outfits from other games. Work is currently focused on Sophitia's outfit.",
+      "next": "Complete the Sophitia outfit, then choose the next outfit to work on.",
+      "description": "This area tracks outfit additions. Planned outfits are not confirmed until work begins.",
       "substreams": [
         {
           "id": "sophitia-outfits",
@@ -110,9 +110,9 @@
           "area": "Soulcalibur",
           "state": "in-progress",
           "progress": 35,
-          "summary": "The Broken Destiny outfit has already been brought over; its moving braid still needs work.",
-          "next": "Finish the braid movement checks, then review the other planned Soulcalibur looks.",
-          "description": "The plan records Sophitia's Broken Destiny Player 1 outfit as already ported, with braid physics still in progress. Three Soulcalibur 2-inspired outfits are lower-priority wishlist items.",
+          "summary": "Sophitia's Broken Destiny outfit has been added; the braid movement still needs work.",
+          "next": "Complete the braid movement, then review the other planned Soulcalibur outfits.",
+          "description": "The Broken Destiny outfit has been added, and work continues on the braid movement. Three Soulcalibur 2 outfits are also listed as lower-priority plans.",
           "screenshots": []
         },
         {
@@ -121,9 +121,9 @@
           "area": "Samurai Warriors 4",
           "state": "planning",
           "progress": 15,
-          "summary": "The plan is to bring Samurai Warriors 4 looks to Samurai Warriors characters.",
-          "next": "Confirm the first characters and outfits to include.",
-          "description": "The spreadsheet lists outfit ports for Samurai 1, 2 and 3 characters as a high-priority direction. The plan needs a confirmed first set before it should be treated as active work.",
+          "summary": "Samurai Warriors 4 outfits are planned for Samurai Warriors characters.",
+          "next": "Choose the first characters and outfits.",
+          "description": "The plan includes outfits for Samurai 1, 2 and 3 characters. The first set has not been chosen.",
           "screenshots": []
         },
         {
@@ -132,20 +132,20 @@
           "area": "Dynasty Warriors 8 XL & 9",
           "state": "planning",
           "progress": 5,
-          "summary": "Outfits from Dynasty Warriors 8 XL and 9 are on the longer-term list.",
-          "next": "Pick a first character group and outfit set.",
-          "description": "The planning sheet includes outfit ports for the Wei, Wu, Shu, Jin and Other 1 groups. These are wishlist entries, not confirmed finished outfits.",
+          "summary": "Outfits from Dynasty Warriors 8 XL and 9 are planned.",
+          "next": "Choose the first character group and outfits.",
+          "description": "The plan includes outfits for characters from the Wei, Wu, Shu, Jin and Other groups. Work has not started.",
           "screenshots": []
         },
         {
           "id": "dynasty-warriors-origins-costumes",
           "title": "Dynasty Warriors: Origins outfits",
-          "area": "Longer-term ideas",
+          "area": "Planned outfits",
           "state": "planning",
           "progress": 5,
-          "summary": "A Dynasty Warriors: Origins outfit set is listed as a future possibility.",
-          "next": "Review whether this outfit set fits the project's scope.",
-          "description": "This is an early planning-sheet entry and has not been confirmed as active work.",
+          "summary": "Dynasty Warriors: Origins outfits are listed in the plan.",
+          "next": "Decide whether to include these outfits.",
+          "description": "This is a possible future addition and is not active work.",
           "screenshots": []
         }
       ],
@@ -153,23 +153,23 @@
     },
     {
       "id": "more-room-for-additions",
-      "title": "Making room for characters & outfits",
-      "area": "More room to grow",
+      "title": "New character and costume slots",
+      "area": "Character and costume selection",
       "state": "on-hold",
       "progress": 25,
-      "summary": "Before more fighters and outfits can be added, the game needs safe extra spaces and clear ways to find them.",
-      "next": "Recheck the character-slot test, then decide which new categories and outfit spaces to tackle first.",
-      "description": "This is the shared groundwork behind future characters, character-select categories and extra outfit slots. It is separate from creating a character or outfit: this work makes room for those additions.",
+      "summary": "Plans include additional character and costume slots, and new character-select categories.",
+      "next": "Confirm which slot and category changes to include.",
+      "description": "This area tracks plans for additional character and costume slots, and new character-select categories. It is separate from creating characters and outfits.",
       "substreams": [
         {
           "id": "extra-character-slots",
-          "title": "More character spaces",
+          "title": "Character slots",
           "area": "Character selection",
           "state": "paused",
           "progress": 25,
-          "summary": "An early test found a possible way to add character spaces, but it needs another safety check before use.",
-          "next": "Repeat the test with the corrected setup and check that the character and saved data remain intact.",
-          "description": "A first test was left switched off while the extra character-space approach is checked. No new slot should be described as ready until the follow-up test succeeds.",
+          "summary": "Work on additional character slots is paused while the approach is reviewed.",
+          "next": "Confirm whether the proposed character slots can be used.",
+          "description": "The character-slot work is paused pending further checks.",
           "screenshots": []
         },
         {
@@ -178,20 +178,20 @@
           "area": "Character selection",
           "state": "planning",
           "progress": 20,
-          "summary": "The plan includes a Samurai Warriors 4 category for Nobuyuki and other possible new groups.",
-          "next": "Confirm the first categories and how the new characters should be grouped.",
-          "description": "The planning sheet proposes a Samurai 4 tab for Nobuyuki (tab 13), as well as possible new groups such as Other 3. The final list and order are not confirmed.",
+          "summary": "A new Samurai Warriors 4 category is proposed for Nobuyuki and other possible characters.",
+          "next": "Confirm which new categories to add.",
+          "description": "The plan proposes a new Samurai Warriors 4 category and other possible groups. Their final names and contents have not been confirmed.",
           "screenshots": []
         },
         {
           "id": "extra-costume-slots",
-          "title": "More outfit spaces",
+          "title": "Costume slots",
           "area": "Costume selection",
           "state": "planning",
           "progress": 15,
-          "summary": "Extra outfit spaces would make room for more character looks.",
-          "next": "Confirm how many extra outfits can be supported and which characters need them first.",
-          "description": "This groundwork is about making additional outfit choices possible and easy to find. The outfit wishlist is tracked separately under More costumes.",
+          "summary": "Additional costume slots are planned for future outfits.",
+          "next": "Confirm how many additional slots are needed.",
+          "description": "This area tracks plans for additional costume slots. Costume additions are tracked separately.",
           "screenshots": []
         }
       ],
@@ -199,61 +199,61 @@
     },
     {
       "id": "sharper-picture",
-      "title": "A sharper picture",
-      "area": "Visual improvements",
+      "title": "Improved graphics",
+      "area": "Visual quality",
       "state": "ready-to-test",
       "progress": 45,
-      "summary": "A picture-quality update is prepared for a careful in-game test, but it has not yet been checked in play.",
-      "next": "When testing resumes, install it in a separate test copy and check the opening stages.",
-      "description": "The prepared update aims to improve image clarity and visual quality. It is not yet confirmed working in-game, and testing is paused until it is safe to resume.",
+      "summary": "A graphics update is prepared but has not yet been tested in-game.",
+      "next": "Test the update in-game.",
+      "description": "The update aims to improve image quality. Its results have not yet been confirmed in-game.",
       "substreams": [],
       "screenshots": []
     },
     {
       "id": "clearer-screens",
-      "title": "Clearer, easier-to-use screens",
-      "area": "Menus & accessibility",
+      "title": "Menu improvements",
+      "area": "Menus and accessibility",
       "state": "on-hold",
       "progress": 65,
-      "summary": "Several screen layout and scaling fixes have been tested. A wider review is still needed.",
-      "next": "Review the screens in-game and note any remaining layout problems.",
-      "description": "The latest recorded update fixes a Gallery layout issue. Other screen and scaling work is waiting for a broader hands-on review.",
+      "summary": "Several menu layout and scaling fixes have been tested; a broader review is pending.",
+      "next": "Review the menus and identify remaining issues.",
+      "description": "A recent update fixed a Gallery layout issue. Other menu changes are awaiting review.",
       "substreams": [],
       "screenshots": []
     },
     {
       "id": "bigger-battles",
-      "title": "Bigger battles",
-      "area": "More action on screen",
+      "title": "Larger battles",
+      "area": "Battle size and performance",
       "state": "in-progress",
       "progress": 35,
-      "summary": "The project is exploring how to show more fighters at once without slowing the game down.",
-      "next": "Finish reviewing the game's limits, then test changes carefully and measure performance.",
-      "description": "The work has mapped some of the game's limits and possible approaches. No larger battle size is confirmed as safe or complete yet.",
+      "summary": "The project is exploring how to show more characters in each battle while maintaining performance.",
+      "next": "Test the proposed changes and check performance.",
+      "description": "Possible changes have been identified, but larger battles have not yet been confirmed in-game.",
       "substreams": [],
       "screenshots": []
     },
     {
       "id": "more-battles",
-      "title": "More battles to play",
-      "area": "New places & scenarios",
+      "title": "New stages",
+      "area": "Battle content",
       "state": "planning",
       "progress": 5,
-      "summary": "New and adapted battlefields are part of the project, but a first selection is still needed.",
-      "next": "Choose the first battlefields and the games they could come from.",
-      "description": "This covers both original battle ideas and battlefields adapted from other games. No confirmed shortlist or order has been published yet.",
+      "summary": "New and adapted stages are planned; the first selection has not been made.",
+      "next": "Choose the first stages to add or adapt.",
+      "description": "This area covers new stages and stages adapted from other games. The first selection has not been confirmed.",
       "substreams": [],
       "screenshots": []
     },
     {
       "id": "new-enemies",
       "title": "New enemies",
-      "area": "More variety in battle",
+      "area": "Battle content",
       "state": "planning",
       "progress": 5,
-      "summary": "New enemy types are part of the wider idea, but the first choices are still to be made.",
-      "next": "List the enemy types to consider and what would make them different.",
-      "description": "This is an early project idea. The enemy types and how they should behave have not yet been chosen.",
+      "summary": "New enemy types are planned; the first choices have not been made.",
+      "next": "Choose which enemy types to add.",
+      "description": "The enemy types to add have not yet been selected.",
       "substreams": [],
       "screenshots": []
     }
@@ -261,28 +261,28 @@
   "updates": [
     {
       "date": "2026-10-08",
-      "title": "Project areas and progress estimates added",
-      "detail": "The board now shows rough, manually maintained estimates. They are directional, not measured completion or promises."
+      "title": "Project progress updated",
+      "detail": "Progress estimates are approximate and are not release dates."
     },
     {
       "date": "2026-10-07",
-      "title": "Gallery layout fix installed",
-      "detail": "An update addresses a Gallery screen layout problem. The wider screen-improvement work is waiting for review."
+      "title": "Gallery layout fix",
+      "detail": "An update fixes a Gallery screen layout problem. Other menu changes are awaiting review."
     },
     {
       "date": "2026-10-06",
-      "title": "Picture-quality update prepared",
-      "detail": "A visual update is ready for a future careful test; it has not yet been confirmed in-game."
+      "title": "Graphics update prepared",
+      "detail": "A graphics update is ready for testing; its results have not yet been confirmed in-game."
     },
     {
       "date": "2026-10-06",
-      "title": "Extra character-space test paused",
-      "detail": "The first test was left switched off while a corrected follow-up check is planned."
+      "title": "Character-slot work paused",
+      "detail": "Work on additional character slots is paused pending further checks."
     },
     {
       "date": "2026-10-06",
-      "title": "Bigger battles explored",
-      "detail": "The project is looking at ways to show more fighters without making the game run poorly."
+      "title": "Larger battles explored",
+      "detail": "The project is looking at ways to increase the number of characters in each battle."
     }
   ]
 }

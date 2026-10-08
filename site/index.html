@@ -148,6 +148,21 @@
     .intro-link { flex: 0 0 auto; padding-bottom: 2px;     color: #81ceff; font-size: 11px; text-decoration: none; }
     .intro-link:hover { text-decoration: underline; }
 
+    .overall-progress {
+      margin: 0 0 17px;
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+    }
+
+    .overall-progress-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+    .overall-progress-title { font-size: 12px; font-weight: 750; }
+    .overall-progress-value { font-size: 17px; font-weight: 800; }
+    .overall-progress-track { height: 8px; overflow: hidden; border-radius: 99px; background: #29364a; }
+    .overall-progress-fill { width: var(--progress); height: 100%; border-radius: inherit; background: var(--teal); }
+    .overall-progress-note { margin: 7px 0 0; color: var(--muted); font-size: 10px; }
+
     .summary {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -413,11 +428,11 @@
       <a class="brand" href="#top" aria-label="Warriors Orochi 3 Ultimate Definitive Edition Xtreme Legends"><img class="brand-logo" src="assets/wo3u-xl-logo.png" alt="Warriors Orochi 3 Ultimate Definitive Edition Xtreme Legends"></a>
       <span class="sidebar-label">Project</span>
       <a class="side-link active" href="#board"><span class="side-icon" aria-hidden="true">▦</span>Progress board</a>
-      <a class="side-link" href="#updates"><span class="side-icon" aria-hidden="true">◷</span>Latest news</a>
+      <a class="side-link" href="#updates"><span class="side-icon" aria-hidden="true">◷</span>Updates</a>
       <span class="sidebar-label">Community</span>
       <a class="side-link" href="https://github.com/ashimpure/WO3UDEXL"><span class="side-icon" aria-hidden="true">⌘</span>GitHub repository</a>
       <a class="side-link" href="https://discord.com/channels/606031682708963328/1555967493070393426"><span class="side-icon" aria-hidden="true">↗</span>Project discussion</a>
-      <div class="sidebar-bottom">Fan-made project · Status snapshot</div>
+      <div class="sidebar-bottom">Project status</div>
     </aside>
 
     <main id="top" class="main">
@@ -425,29 +440,40 @@
         <div class="crumb">Projects <span aria-hidden="true">/</span> <strong>WO3U Xtreme Legends</strong></div>
         <div class="top-actions">
           <a class="button" href="#updates">◷ Updates</a>
-          <a class="button primary" href="https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml">＋ Share an update</a>
+          <a class="button primary" href="https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml">＋ Suggest an update</a>
         </div>
       </header>
 
       <div class="content">
         <section class="intro" aria-labelledby="page-title">
           <div>
-            <p class="eyebrow">Made by fans · Growing together</p>
+            <p class="eyebrow">Project overview</p>
             <h1 id="page-title">Warriors Orochi 3: Xtreme Legends</h1>
-            <p>See what’s planned, what’s being worked on, and what could be coming next to Warriors Orochi 3 Ultimate Definitive Edition.</p>
+            <p>Project plans and progress for Warriors Orochi 3 Ultimate Definitive Edition.</p>
           </div>
           <a class="intro-link" href="https://github.com/ashimpure/WO3UDEXL">Open the GitHub repository ↗</a>
         </section>
 
+        <section class="overall-progress" aria-label="Overall project progress">
+          <div class="overall-progress-head">
+            <span class="overall-progress-title">Overall project progress</span>
+            <strong id="overall-progress-value" class="overall-progress-value">—</strong>
+          </div>
+          <div id="overall-progress-track" class="overall-progress-track" role="progressbar" aria-label="Overall project progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div id="overall-progress-fill" class="overall-progress-fill" style="--progress: 0%"></div>
+          </div>
+          <p class="overall-progress-note">Average estimate across the project areas; each area counts equally.</p>
+        </section>
+
         <section class="summary" aria-label="Project snapshot">
           <div class="summary-card"><span class="summary-icon" aria-hidden="true">▦</span><span><strong id="stream-count" class="summary-value">—</strong><span class="summary-label">areas of the project</span></span></div>
-          <div class="summary-card"><span class="summary-icon" aria-hidden="true">◉</span><span><strong id="active-count" class="summary-value">—</strong><span class="summary-label">being worked on or ready to try</span></span></div>
+          <div class="summary-card"><span class="summary-icon" aria-hidden="true">◉</span><span><strong id="active-count" class="summary-value">—</strong><span class="summary-label">in progress or ready for testing</span></span></div>
           <div class="summary-card"><span class="summary-icon" aria-hidden="true">◷</span><span><strong id="snapshot-date" class="summary-value">—</strong><span class="summary-label">last project update</span></span></div>
         </section>
 
         <section id="board" aria-labelledby="board-title">
           <div class="board-toolbar">
-            <h2 id="board-title">Explore the project</h2>
+            <h2 id="board-title">Project areas</h2>
             <div class="board-controls">
               <span class="view-chip selected" aria-current="true">▦ Project board</span>
               <label class="sr-only" for="search">Search project areas</label>
@@ -455,17 +481,16 @@
             </div>
           </div>
           <div id="board-columns" class="board" aria-live="polite"></div>
-          <p class="notice"><span aria-hidden="true">ⓘ</span><span><strong>About the progress bars:</strong> these are friendly, rough estimates of how far along each area feels. They aren’t exact measurements or release promises. Open a card for the latest details and screenshots.</span></p>
+          <p class="notice"><span aria-hidden="true">ⓘ</span><span><strong>Progress estimates:</strong> percentages are approximate, manually updated, and not release dates. Select a project area for more information.</span></p>
         </section>
 
         <section id="updates" class="updates" aria-labelledby="updates-title">
-          <p class="eyebrow">From the project</p>
-          <h2 id="updates-title">Latest news</h2>
+          <h2 id="updates-title">Updates</h2>
           <ol id="timeline" class="timeline"></ol>
         </section>
 
         <footer class="footer">
-          <p>Fan-made project tracker · Warriors Orochi 3 Ultimate Definitive Edition</p>
+          <p>Warriors Orochi 3 Ultimate Definitive Edition project tracker</p>
           <p id="compiled-note"></p>
         </footer>
       </div>
@@ -474,17 +499,17 @@
 
   <script>
     const stateLabels = {
-      planning: "Coming up",
+      planning: "Planning",
       "in-progress": "In progress",
-      "ready-to-test": "Ready to try",
-      "on-hold": "Taking a break",
+      "ready-to-test": "Ready to test",
+      "on-hold": "On hold",
       paused: "Paused"
     };
     const lanes = [
-      { id: "planning", title: "Coming up" },
+      { id: "planning", title: "Planning" },
       { id: "in-progress", title: "In progress" },
-      { id: "ready-to-test", title: "Ready to try" },
-      { id: "on-hold", title: "Taking a break" }
+      { id: "ready-to-test", title: "Ready to test" },
+      { id: "on-hold", title: "On hold" }
     ];
     const colorClasses = ["color-cyan", "color-blue", "color-coral", "color-lavender", "color-neutral", "color-teal"];
     const board = document.querySelector("#board-columns");
@@ -528,7 +553,7 @@
       article.append(progressHead, track);
 
       const next = makeElement("p", "task-next");
-      next.append(makeElement("strong", "", "What’s next: "), document.createTextNode(stream.next));
+      next.append(makeElement("strong", "", "Next: "), document.createTextNode(stream.next));
       article.append(next);
       const link = makeElement("a", "task-link");
       link.href = `project.html?id=${encodeURIComponent(stream.id)}`;
@@ -593,7 +618,7 @@
         return response.json();
       })
       .then((data) => {
-        if (!Array.isArray(data.streams) || !Array.isArray(data.updates)) {
+        if (!Array.isArray(data.streams) || data.streams.length === 0 || !Array.isArray(data.updates)) {
           throw new Error("The progress data has an invalid format.");
         }
         if (data.streams.some((stream) => typeof stream.id !== "string" || !stream.id
@@ -602,6 +627,13 @@
           throw new Error("The tracker has an unknown project, status or progress estimate.");
         }
         tracker = data;
+        const overallProgress = Math.round(
+          data.streams.reduce((total, stream) => total + stream.progress, 0) / data.streams.length
+        );
+        document.querySelector("#overall-progress-value").textContent = `${overallProgress}%`;
+        const overallTrack = document.querySelector("#overall-progress-track");
+        overallTrack.setAttribute("aria-valuenow", String(overallProgress));
+        document.querySelector("#overall-progress-fill").style.setProperty("--progress", `${overallProgress}%`);
         document.querySelector("#stream-count").textContent = String(data.streams.length);
         document.querySelector("#active-count").textContent = String(
           data.streams.filter((stream) => stream.state === "in-progress" || stream.state === "ready-to-test").length
