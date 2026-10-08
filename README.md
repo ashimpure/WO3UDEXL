@@ -1,5 +1,6 @@
 <img width="1536" height="768" alt="logo20" src="https://github.com/user-attachments/assets/ecd3b616-20ff-42eb-ac0a-093256c96574" />
 
+[**View the public project progress tracker**](https://ashimpure.github.io/WO3UDEXL/)
 
 https://discord.com/invite/SpCw3vC - Invite link to the Musou Warriors discord
 https://discord.com/channels/606031682708963328/1555967493070393426 - Mod Project thread in the Musou Warriors Discord

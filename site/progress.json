@@ -1,0 +1,77 @@
+{
+  "compiledOn": "8 October 2026",
+  "asOf": "2026-10-07",
+  "streams": [
+    {
+      "title": "New playable characters",
+      "area": "Roster expansion",
+      "state": "paused",
+      "summary": "Research mapped the available slot structure, and a first Tier A clone-slot prototype was staged. The feature was turned off in the test configuration; the current plan is parked while the character-slot path is validated.",
+      "next": "Re-run the Tier A test against the corrected build, confirm the character info and save data, then choose the first characters and assets."
+    },
+    {
+      "title": "Costume expansion",
+      "area": "Characters & cosmetics",
+      "state": "planning",
+      "summary": "Backported and original costumes are part of the project scope. The source notes identify costume wishlists and mappings to decide, but do not yet establish a prioritized public release plan.",
+      "next": "Choose the first character/outfit pairings and record their source game, slot type, and priority."
+    },
+    {
+      "title": "HD renderer",
+      "area": "Visual quality",
+      "state": "ready-to-test",
+      "summary": "Phase 1 renderer v20 is built and staged with anisotropic filtering, sharper supersampling, dithering, safer release keys, and quality presets. It has not been installed for in-game validation; renderer testing is paused.",
+      "next": "Resume testing when safe, install the staged build in the test copy, and run the documented Prologue checks."
+    },
+    {
+      "title": "Redesigned UI",
+      "area": "Interface & accessibility",
+      "state": "on-hold",
+      "summary": "UI scaling and layout fixes have gone through multiple test rounds. The latest recorded update installs v8.18j for a Gallery layout regression; broader UI work is on hold pending in-depth review.",
+      "next": "Complete the planned hands-on review, report remaining layout issues, and decide whether to resume the next fix round."
+    },
+    {
+      "title": "Larger on-screen battles",
+      "area": "Crowd & performance",
+      "state": "in-progress",
+      "summary": "The unit-limit effort has mapped key structures and developed relocation prototypes. Separately, renderer notes identify the cost of drawing and shadowing dense crowds; neither track is yet a finished, validated player-facing feature.",
+      "next": "Finish classifying remaining unit-limit tables, then run controlled test-copy checks and measure crowd performance before raising caps."
+    },
+    {
+      "title": "New and backported stages",
+      "area": "Battle content",
+      "state": "planning",
+      "summary": "New and backported stages are an agreed project goal, but the source notes do not yet define a confirmed shortlist or implementation order.",
+      "next": "Pick candidate stages, their source games, and the closest WO3U stages to adapt."
+    },
+    {
+      "title": "New enemy types",
+      "area": "Battle content",
+      "state": "planning",
+      "summary": "New enemy types are in the project scope. A wishlist is still needed before the work can be sized or sequenced.",
+      "next": "List the enemy types to add, their source games, and any notes on how they should behave."
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-07",
+      "title": "UI Gallery layout fix installed",
+      "detail": "The v8.18j update addresses a Gallery-row regression. The wider UI work remains on hold for a broader review."
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Renderer Phase 1 staged",
+      "detail": "The v20 quality-feature build is ready for a future controlled test; no in-game validation is recorded yet."
+    },
+    {
+      "date": "2026-10-06",
+      "title": "New-slot prototype parked",
+      "detail": "The Tier A character-slot work was left switched off in the test configuration pending a corrected-build rerun."
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Crowd performance path outlined",
+      "detail": "Notes identify shadow reduction and instanced draws as possible ways to lower the cost of larger battles."
+    }
+  ]
+}
