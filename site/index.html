@@ -3,646 +3,86 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#090f19">
-  <meta name="description" content="Follow progress on the Warriors Orochi 3 Ultimate Definitive Edition expansion project.">
-  <title>WO3U Xtreme Legends — Project Board</title>
-  <style>
-    :root {
-      color-scheme: dark;
-      --navy: #080d16;
-      --navy-soft: #14223a;
-      --ink: #eef3fb;
-      --muted: #a3b0c3;
-      --line: #29374c;
-      --canvas: #0b111c;
-      --white: #131c2a;
-      --cyan: #142e3a;
-      --blue: #172d45;
-      --coral: #392820;
-      --lavender: #2d2540;
-      --teal: #66d6e2;
-      --radius: 13px;
-    }
-
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      min-width: 320px;
-      margin: 0;
-      background:
-        radial-gradient(ellipse at 78% -20%, rgb(35 76 126 / 15%), transparent 42rem),
-        var(--canvas);
-      color: var(--ink);
-      font: 14px/1.5 "Segoe UI", system-ui, -apple-system, sans-serif;
-    }
-
-    a { color: inherit; }
-    button, input { font: inherit; }
-    a:focus-visible, button:focus-visible, input:focus-visible {
-      outline: 3px solid #ffc46b;
-      outline-offset: 3px;
-    }
-
-    .app { min-height: 100vh; }
-    .sidebar {
-      position: fixed;
-      z-index: 2;
-      inset: 0 auto 0 0;
-      display: flex;
-      width: 208px;
-      flex-direction: column;
-      padding: 19px 10px 14px;
-      background: var(--navy);
-      color: #e8eef9;
-    }
-
-    .brand { display: block; padding: 0 5px 20px; text-decoration: none; }
-    .brand-logo { display: block; width: 100%; height: 88px; object-fit: contain; }
-
-    .sidebar-label {
-      padding: 15px 9px 6px;
-      color: #8799b7;
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: .11em;
-      text-transform: uppercase;
-    }
-
-    .side-link {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      min-height: 36px;
-      padding: 7px 10px;
-      border-radius: 8px;
-      color: #d2dced;
-      font-size: 12px;
-      text-decoration: none;
-    }
-
-    .side-link:hover, .side-link.active { background: #1b2e4b; color: #f4f7fc; }
-    .side-icon { width: 16px; color: #92cfe1; text-align: center; }
-    .main { min-height: 100vh; margin-left: 208px; }
-    .topbar {
-      position: sticky;
-      z-index: 1;
-      top: 0;
-      display: flex;
-      min-height: 58px;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      padding: 9px 26px;
-      border-bottom: 1px solid var(--line);
-      background: rgb(19 28 42 / 95%);
-      backdrop-filter: blur(12px);
-    }
-
-    .crumb { color: var(--muted); font-size: 12px; }
-    .crumb strong { color: var(--ink); }
-    .top-actions { display: flex; align-items: center; gap: 9px; }
-
-    .button {
-      display: inline-flex;
-      min-height: 36px;
-      align-items: center;
-      justify-content: center;
-      gap: 7px;
-      padding: 7px 13px;
-      border: 1px solid var(--line);
-      border-radius: 9px;
-      background: var(--white);
-      color: var(--ink);
-      font-size: 12px;
-      font-weight: 650;
-      text-decoration: none;
-      transition: transform .15s ease, box-shadow .15s ease;
-    }
-
-    .button:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgb(16 34 71 / 10%); }
-    .button.primary { border-color: #2689cc; background: #1677b8; color: #f8fbff; }
-    .button.primary:hover { background: #208bcf; }
-
-    .content { padding: 27px 25px 34px; }
-    .intro {
-      display: flex;
-      align-items: end;
-      justify-content: space-between;
-      gap: 20px;
-      margin-bottom: 19px;
-    }
-
-    .eyebrow {
-      margin: 0 0 4px;
-      color: var(--teal);
-      font-size: 10px;
-      font-weight: 800;
-      letter-spacing: .13em;
-      text-transform: uppercase;
-    }
-
-    h1 { margin: 0; font-size: clamp(22px, 3vw, 29px); letter-spacing: -.035em; line-height: 1.2; }
-    .intro p:last-child { max-width: 660px; margin: 8px 0 0; color: var(--muted); font-size: 12px; }
-    .intro-link { flex: 0 0 auto; padding-bottom: 2px;     color: #81ceff; font-size: 11px; text-decoration: none; }
-    .intro-link:hover { text-decoration: underline; }
-
-    .overall-progress {
-      margin: 0 0 17px;
-      padding: 14px 16px;
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: var(--white);
-    }
-
-    .overall-progress-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
-    .overall-progress-title { font-size: 12px; font-weight: 750; }
-    .overall-progress-value { font-size: 17px; font-weight: 800; }
-    .overall-progress-track { height: 8px; overflow: hidden; border-radius: 99px; background: #29364a; }
-    .overall-progress-fill { width: var(--progress); height: 100%; border-radius: inherit; background: var(--teal); }
-    .overall-progress-note { margin: 7px 0 0; color: var(--muted); font-size: 10px; }
-
-    .summary {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 11px;
-      margin-bottom: 23px;
-    }
-
-    .summary-card {
-      display: flex;
-      min-height: 67px;
-      align-items: center;
-      gap: 12px;
-      padding: 12px 15px;
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: var(--white);
-    }
-
-    .summary-icon {
-      display: grid;
-      width: 34px;
-      height: 34px;
-      flex: 0 0 auto;
-      place-items: center;
-      border-radius: 10px;
-      background: #193443;
-      color: #76d9e2;
-      font-size: 15px;
-      font-weight: 800;
-    }
-
-    .summary-value { display: block; font-size: 18px; font-weight: 800; letter-spacing: -.04em; line-height: 1.15; }
-    .summary-label { display: block; margin-top: 3px; color: var(--muted); font-size: 10px; }
-
-    .board-toolbar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 14px;
-      margin-bottom: 12px;
-    }
-
-    .board-toolbar h2 { margin: 0; font-size: 15px; letter-spacing: -.02em; }
-    .board-controls { display: flex; align-items: center; gap: 8px; }
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-      border: 0;
-    }
-
-    .view-chip {
-      display: inline-flex;
-      min-height: 32px;
-      align-items: center;
-      gap: 7px;
-      padding: 5px 10px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: #151f2e;
-      color: #c0ccdc;
-      font-size: 10px;
-    }
-
-    .view-chip.selected { border-color: #31546a; color: #80d6e3; font-weight: 700; }
-
-    .search {
-      width: 190px;
-      min-height: 32px;
-      padding: 6px 10px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: #151f2e;
-      color: var(--ink);
-      font-size: 11px;
-    }
-
-    .board {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(205px, 1fr));
-      align-items: start;
-      gap: 11px;
-    }
-
-    .lane {
-      min-height: 200px;
-      padding: 10px;
-      border: 1px solid #28374a;
-      border-radius: 12px;
-      background: #111a27;
-    }
-
-    .lane-heading {
-      display: flex;
-      min-height: 29px;
-      align-items: center;
-      justify-content: space-between;
-      gap: 8px;
-      padding: 0 2px 9px;
-    }
-
-    .lane-title { display: flex; align-items: center; gap: 7px; font-size: 11px; font-weight: 750; }
-    .lane-dot { width: 8px; height: 8px; border-radius: 50%; background: #94a3b8; }
-    .lane[data-lane="in-progress"] .lane-dot { background: #4aa9ff; }
-    .lane[data-lane="ready-to-test"] .lane-dot { background: #4fd2af; }
-    .lane[data-lane="on-hold"] .lane-dot { background: #edbc6b; }
-
-    .count {
-      display: grid;
-      min-width: 19px;
-      height: 19px;
-      place-items: center;
-      border-radius: 99px;
-      background: #202c3d;
-      color: #bac6d7;
-      font-size: 10px;
-      font-weight: 750;
-    }
-
-    .lane-cards { display: grid; gap: 9px; }
-    .task-link { display: block; color: inherit; text-decoration: none; }
-    .task-card {
-      --card-bg: var(--cyan);
-      --progress-color: #51cfda;
-      padding: 12px;
-      border: 1px solid rgb(130 158 190 / 15%);
-      border-radius: 10px;
-      background: var(--card-bg);
-      box-shadow: 0 3px 10px rgb(0 0 0 / 16%);
-      transition: transform .15s ease, box-shadow .15s ease;
-    }
-
-    .task-card:hover { transform: translateY(-2px); box-shadow: 0 8px 18px rgb(0 0 0 / 27%); }
-    .task-card.color-blue { --card-bg: var(--blue); --progress-color: #62acff; }
-    .task-card.color-coral { --card-bg: var(--coral); --progress-color: #ff9d73; }
-    .task-card.color-lavender { --card-bg: var(--lavender); --progress-color: #bd98ff; }
-    .task-card.color-neutral { --card-bg: #1b2635; --progress-color: #9aaec8; }
-    .task-card.color-teal { --card-bg: #15352e; --progress-color: #5bd5ae; }
-
-    .task-area { margin: 0 0 5px; color: #a9b8cb; font-size: 9px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
-    .task-title-row { display: flex; align-items: start; justify-content: space-between; gap: 8px; }
-    .task-title { margin: 0; font-size: 12px; font-weight: 750; line-height: 1.3; }
-    .task-badge {
-      flex: 0 0 auto;
-      padding: 3px 6px;
-      border-radius: 5px;
-      background: rgb(7 13 22 / 42%);
-      color: #d8e2ef;
-      font-size: 8px;
-      font-weight: 750;
-      line-height: 1.35;
-    }
-
-    .task-summary { margin: 8px 0 10px; color: #d1dbea; font-size: 10px; line-height: 1.45; }
-    .progress-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 5px; }
-    .progress-label { color: #aab9cc; font-size: 9px; }
-    .progress-value { color: #f2f6fc; font-size: 11px; font-weight: 800; }
-    .progress-track { height: 6px; overflow: hidden; border-radius: 99px; background: #29364a; }
-    .progress-fill { width: var(--progress); height: 100%; border-radius: inherit; background: var(--progress-color); }
-    .task-activity { margin: 9px 0 0; padding-top: 8px; border-top: 1px solid rgb(161 183 211 / 18%); color: #b8c5d7; font-size: 9px; line-height: 1.4; }
-    .task-activity strong { color: #e7eef8; }
-
-    .empty-lane { padding: 16px 9px; color: #91a0b4; font-size: 10px; text-align: center; }
-    .notice {
-      display: flex;
-      align-items: start;
-      gap: 9px;
-      margin: 13px 0 0;
-      padding: 10px 12px;
-      border: 1px solid #2a394d;
-      border-radius: 9px;
-      background: #111a28;
-      color: #b4c1d1;
-      font-size: 10px;
-    }
-
-    .notice strong { color: #edf3fa; }
-    .updates {
-      margin-top: 28px;
-      padding: 18px;
-      border: 1px solid var(--line);
-      border-radius: 13px;
-      background: var(--white);
-    }
-
-    .updates h2 { margin: 0 0 13px; font-size: 15px; }
-    .timeline { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px 22px; padding: 0; margin: 0; list-style: none; }
-    .timeline li { display: grid; grid-template-columns: 82px 1fr; gap: 10px; }
-    .timeline time { color: #6ed4df; font-size: 9px; font-weight: 750; }
-    .timeline strong { display: block; font-size: 10px; }
-    .timeline p { margin: 3px 0 0; color: var(--muted); font-size: 9px; }
-
-    .footer { display: flex; justify-content: space-between; gap: 12px; padding: 17px 2px 0; color: #98a7bb; font-size: 9px; }
-    .footer p { margin: 0; }
-    .load-error { padding: 20px; border-radius: 9px; background: #3a2029; color: #ffd2da; }
-
-    @media (max-width: 1170px) {
-      .board { grid-template-columns: repeat(2, minmax(220px, 1fr)); }
-    }
-
-    @media (max-width: 760px) {
-      .sidebar {
-        position: static;
-        width: auto;
-        min-height: auto;
-        flex-direction: row;
-        align-items: center;
-        gap: 8px;
-        padding: 8px 12px;
-      }
-
-      .brand { flex: 0 0 auto; padding: 0 5px; }
-      .brand-logo { width: 112px; height: 48px; }
-      .sidebar-label, .side-link:not(.active) { display: none; }
-      .side-link.active { min-height: 30px; padding: 5px 9px; font-size: 10px; }
-      .main { margin-left: 0; }
-      .topbar { padding-inline: 15px; }
-      .content { padding: 20px 15px 27px; }
-      .board { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .summary-card { min-height: 61px; padding: 9px; gap: 8px; }
-      .summary-icon { width: 28px; height: 28px; }
-      .summary-value { font-size: 15px; }
-    }
-
-    @media (max-width: 520px) {
-      .sidebar { overflow-x: auto; }
-      .brand { font-size: 11px; }
-      .side-link.active { white-space: nowrap; }
-      .topbar { min-height: 51px; }
-      .top-actions { gap: 6px; }
-      .top-actions .button { min-height: 32px; padding: 6px 9px; font-size: 10px; }
-      .intro { align-items: start; flex-direction: column; gap: 10px; }
-      .intro-link { padding: 0; }
-      .summary { gap: 6px; }
-      .summary-card { align-items: start; flex-direction: column; gap: 5px; padding: 9px; }
-      .summary-icon { width: 24px; height: 24px; font-size: 11px; }
-      .summary-label { font-size: 9px; }
-      .board-toolbar { align-items: start; flex-direction: column; }
-      .board-controls { width: 100%; }
-      .search { width: 100%; }
-      .board { grid-template-columns: minmax(0, 1fr); }
-      .lane { min-height: 80px; }
-      .task-card { padding: 13px; }
-      .task-summary { font-size: 11px; }
-      .task-activity { font-size: 10px; }
-      .timeline { grid-template-columns: minmax(0, 1fr); }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
-    }
-  </style>
+  <meta name="theme-color" content="#091427">
+  <meta name="description" content="Follow progress on the Warriors Orochi 3 Ultimate Xtreme Legends mod.">
+  <title>WO3U Xtreme Legends — Project progress</title>
+  <link rel="stylesheet" href="map.css">
 </head>
 <body>
-  <div class="app">
-    <aside class="sidebar" aria-label="Project navigation">
-      <a class="brand" href="#top" aria-label="Warriors Orochi 3 Ultimate Definitive Edition Xtreme Legends"><img class="brand-logo" src="assets/wo3u-xl-logo.png" alt="Warriors Orochi 3 Ultimate Definitive Edition Xtreme Legends"></a>
-      <span class="sidebar-label">Project</span>
-      <a class="side-link active" href="#board"><span class="side-icon" aria-hidden="true">▦</span>Progress board</a>
-      <a class="side-link" href="#updates"><span class="side-icon" aria-hidden="true">◷</span>Updates</a>
-      <span class="sidebar-label">Community</span>
-      <a class="side-link" href="https://github.com/ashimpure/WO3UDEXL"><span class="side-icon" aria-hidden="true">⌘</span>GitHub repository</a>
-      <a class="side-link" href="https://discord.com/channels/606031682708963328/1555967493070393426"><span class="side-icon" aria-hidden="true">↗</span>Project discussion</a>
-    </aside>
+  <header class="masthead">
+    <a class="masthead-brand" href="index.html">
+      <img src="assets/wo3u-xl-logo.png" alt="Warriors Orochi 3 Ultimate Xtreme Legends">
+      <span class="masthead-title">Project progress</span>
+    </a>
+    <nav class="masthead-nav" aria-label="Site">
+      <a href="#updates">Updates</a>
+      <a href="https://github.com/ashimpure/WO3UDEXL">GitHub</a>
+      <a href="https://discord.com/channels/606031682708963328/1555967493070393426">Discussion</a>
+      <a class="suggest" href="https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml">Suggest an update</a>
+    </nav>
+  </header>
 
-    <main id="top" class="main">
-      <header class="topbar">
-        <div class="crumb">Projects <span aria-hidden="true">/</span> <strong>WO3U Xtreme Legends</strong></div>
-        <div class="top-actions">
-          <a class="button" href="#updates">◷ Updates</a>
-          <a class="button primary" href="https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml">＋ Suggest an update</a>
-        </div>
-      </header>
-
-      <div class="content">
-        <section class="intro" aria-labelledby="page-title">
-          <div>
-            <h1 id="page-title">Project overview</h1>
-          </div>
-          <a class="intro-link" href="https://github.com/ashimpure/WO3UDEXL">Open the GitHub repository ↗</a>
-        </section>
-
-        <section class="overall-progress" aria-label="Overall project progress">
-          <div class="overall-progress-head">
-            <span class="overall-progress-title">Overall project progress</span>
-            <strong id="overall-progress-value" class="overall-progress-value">—</strong>
-          </div>
-          <div id="overall-progress-track" class="overall-progress-track" role="progressbar" aria-label="Overall project progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
-            <div id="overall-progress-fill" class="overall-progress-fill" style="--progress: 0%"></div>
-          </div>
-          <p class="overall-progress-note">Average estimate across the project areas; each area counts equally.</p>
-        </section>
-
-        <section class="summary" aria-label="Project snapshot">
-          <div class="summary-card"><span class="summary-icon" aria-hidden="true">▦</span><span><strong id="stream-count" class="summary-value">—</strong><span class="summary-label">areas of the project</span></span></div>
-          <div class="summary-card"><span class="summary-icon" aria-hidden="true">◉</span><span><strong id="active-count" class="summary-value">—</strong><span class="summary-label">in progress or ready for testing</span></span></div>
-          <div class="summary-card"><span class="summary-icon" aria-hidden="true">◷</span><span><strong id="snapshot-date" class="summary-value">—</strong><span class="summary-label">last project update</span></span></div>
-        </section>
-
-        <section id="board" aria-labelledby="board-title">
-          <div class="board-toolbar">
-            <h2 id="board-title">Project areas</h2>
-            <div class="board-controls">
-              <span class="view-chip selected" aria-current="true">▦ Project board</span>
-              <label class="sr-only" for="search">Search project areas</label>
-              <input id="search" class="search" type="search" placeholder="⌕  Search project areas" autocomplete="off">
-            </div>
-          </div>
-          <div id="board-columns" class="board" aria-live="polite"></div>
-          <p class="notice"><span aria-hidden="true">ⓘ</span><span><strong>Progress estimates:</strong> percentages are approximate, manually updated, and not release dates. Select a project area for more information.</span></p>
-        </section>
-
-        <section id="updates" class="updates" aria-labelledby="updates-title">
-          <h2 id="updates-title">Updates</h2>
-          <ol id="timeline" class="timeline"></ol>
-        </section>
-
+  <main class="page">
+    <section class="map-head" aria-labelledby="title">
+      <div>
+        <h1 id="title">Where the mod is at</h1>
+        <p>A quick look at where each part of Xtreme Legends is at. Pick one for more detail and screenshots.</p>
       </div>
-    </main>
-  </div>
+      </section>
 
+    <ol id="lines" class="lines" aria-live="polite"></ol>
+
+    <section id="updates" class="notes" aria-labelledby="updates-title">
+      <h2 id="updates-title">Latest updates</h2>
+      <ol id="timeline"></ol>
+    </section>
+
+    <p class="fine" id="as-of">Progress figures are rough estimates, not release dates.</p>
+  </main>
+
+  <script src="map.js"></script>
   <script>
-    const stateLabels = {
-      planning: "Planning",
-      "in-progress": "In progress",
-      "ready-to-test": "Ready to test",
-      "on-hold": "On hold",
-      paused: "Paused"
-    };
-    const activityLabels = {
-      planning: "Planned:",
-      "in-progress": "Ongoing:",
-      "ready-to-test": "Ready to test:",
-      "on-hold": "On hold:",
-      paused: "On hold:"
-    };
-    const lanes = [
-      { id: "planning", title: "Planning" },
-      { id: "in-progress", title: "In progress" },
-      { id: "ready-to-test", title: "Ready to test" },
-      { id: "on-hold", title: "On hold" }
-    ];
-    const colorClasses = ["color-cyan", "color-blue", "color-coral", "color-lavender", "color-neutral", "color-teal"];
-    const board = document.querySelector("#board-columns");
-    const search = document.querySelector("#search");
-    let tracker;
+    const lines = document.querySelector("#lines");
 
-    function makeElement(tag, className, text) {
-      const element = document.createElement(tag);
-      if (className) element.className = className;
-      if (text !== undefined) element.textContent = text;
-      return element;
-    }
+    function renderLine(stream, index) {
+      const color = lineColor(index);
+      const row = el("li", "line");
+      row.style.setProperty("--c", color);
 
-    function makeTaskCard(stream, index) {
-      const article = makeElement("article", `task-card ${colorClasses[index % colorClasses.length]}`);
-      const percent = Number(stream.progress);
-      if (!Number.isInteger(percent) || percent < 0 || percent > 100) {
-        throw new Error(`Invalid progress estimate for "${stream.title}".`);
-      }
-      article.append(makeElement("p", "task-area", stream.area));
-
-      const titleRow = makeElement("div", "task-title-row");
-      titleRow.append(makeElement("h3", "task-title", stream.title));
-      titleRow.append(makeElement("span", "task-badge", stateLabels[stream.state]));
-      article.append(titleRow, makeElement("p", "task-summary", stream.summary));
-
-      const progressHead = makeElement("div", "progress-head");
-      progressHead.append(
-        makeElement("span", "progress-label", "Estimated progress"),
-        makeElement("span", "progress-value", `${percent}%`)
-      );
-      const track = makeElement("div", "progress-track");
-      track.setAttribute("role", "progressbar");
-      track.setAttribute("aria-label", `${stream.title}: estimated progress`);
-      track.setAttribute("aria-valuemin", "0");
-      track.setAttribute("aria-valuemax", "100");
-      track.setAttribute("aria-valuenow", String(percent));
-      const fill = makeElement("div", "progress-fill");
-      fill.style.setProperty("--progress", `${percent}%`);
-      track.append(fill);
-      article.append(progressHead, track);
-
-      const activity = makeElement("p", "task-activity");
-      activity.append(makeElement("strong", "", activityLabels[stream.state]), document.createTextNode(` ${stream.activity}`));
-      article.append(activity);
-      const link = makeElement("a", "task-link");
+      const name = el("div", "line-name");
+            const text = el("div");
+      const h2 = el("h2");
+      const link = el("a", "", stream.title);
       link.href = `project.html?id=${encodeURIComponent(stream.id)}`;
-      link.setAttribute("aria-label", `Open ${stream.title} project details`);
-      link.append(article);
-      return link;
+      h2.append(link);
+      const meta = el("p", "line-meta");
+      meta.append(el("span", "status", STATE_LABELS[stream.state]), document.createTextNode(` · ${stream.area}`));
+      text.append(h2, meta);
+      name.append(text);
+
+      const body = el("div", "line-body");
+      body.append(makeStrip(stream, color, stream.substreams || []), el("p", "", stream.summary), makeNow(stream, "now"));
+      row.append(name, body);
+      return row;
     }
 
-    function renderBoard() {
-      const query = search.value.trim().toLowerCase();
-      board.replaceChildren();
-      lanes.forEach((lane) => {
-        const matching = tracker.streams.filter((stream) => {
-          const matchesLane = lane.id === "on-hold"
-            ? stream.state === "on-hold" || stream.state === "paused"
-            : stream.state === lane.id;
-          const searchable = `${stream.title} ${stream.area} ${stream.summary} ${stream.activity}`.toLowerCase();
-          return matchesLane && searchable.includes(query);
-        });
-        const section = makeElement("section", "lane");
-        section.dataset.lane = lane.id;
-        const heading = makeElement("div", "lane-heading");
-        const title = makeElement("div", "lane-title");
-        title.append(makeElement("span", "lane-dot"), document.createTextNode(lane.title));
-        heading.append(title, makeElement("span", "count", String(matching.length)));
-        const cards = makeElement("div", "lane-cards");
-        if (matching.length === 0) {
-          cards.append(makeElement("p", "empty-lane", query ? "No matching workstreams." : "Nothing here yet."));
-        } else {
-          matching.forEach((stream) => {
-            cards.append(makeTaskCard(stream, tracker.streams.indexOf(stream)));
-          });
-        }
-        section.append(heading, cards);
-        board.append(section);
-      });
-    }
-
-    function renderTimeline() {
-      const timeline = document.querySelector("#timeline");
-      tracker.updates.forEach((update) => {
-        const item = document.createElement("li");
-        const time = document.createElement("time");
-        time.dateTime = update.date;
-        time.textContent = new Intl.DateTimeFormat("en", {
-          day: "numeric", month: "short", year: "numeric", timeZone: "UTC"
-        }).format(new Date(`${update.date}T00:00:00Z`));
-        const detail = document.createElement("div");
-        detail.append(makeElement("strong", "", update.title), makeElement("p", "", update.detail));
-        item.append(time, detail);
-        timeline.append(item);
-      });
-    }
-
-    function showLoadError(error) {
-      board.replaceChildren(makeElement("p", "load-error", `The project board could not be loaded. ${error.message}`));
-    }
-
-    fetch(`./progress.json?v=${Date.now()}`)
-      .then((response) => {
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        return response.json();
-      })
+    loadTracker()
       .then((data) => {
-        if (!Array.isArray(data.streams) || data.streams.length === 0 || !Array.isArray(data.updates)) {
-          throw new Error("The progress data has an invalid format.");
-        }
-        if (data.streams.some((stream) => typeof stream.id !== "string" || !stream.id
-          || !Object.hasOwn(stateLabels, stream.state)
-          || !Number.isInteger(stream.progress) || stream.progress < 0 || stream.progress > 100)) {
-          throw new Error("The tracker has an unknown project, status or progress estimate.");
-        }
-        tracker = data;
-        const overallProgress = Math.round(
-          data.streams.reduce((total, stream) => total + stream.progress, 0) / data.streams.length
-        );
-        document.querySelector("#overall-progress-value").textContent = `${overallProgress}%`;
-        const overallTrack = document.querySelector("#overall-progress-track");
-        overallTrack.setAttribute("aria-valuenow", String(overallProgress));
-        document.querySelector("#overall-progress-fill").style.setProperty("--progress", `${overallProgress}%`);
-        document.querySelector("#stream-count").textContent = String(data.streams.length);
-        document.querySelector("#active-count").textContent = String(
-          data.streams.filter((stream) => stream.state === "in-progress" || stream.state === "ready-to-test").length
-        );
-        document.querySelector("#snapshot-date").textContent = new Intl.DateTimeFormat("en", {
-          day: "numeric", month: "short", year: "numeric", timeZone: "UTC"
-        }).format(new Date(`${data.asOf}T00:00:00Z`));
-        renderBoard();
-        renderTimeline();
-        search.addEventListener("input", renderBoard);
+        data.streams.forEach((stream, i) => lines.append(renderLine(stream, i)));
+        const timeline = document.querySelector("#timeline");
+        [...data.updates].sort((a, b) => b.date.localeCompare(a.date)).forEach((update) => {
+          const li = el("li");
+          const time = el("time", "", formatDate(update.date));
+          time.dateTime = update.date;
+          const detail = el("div");
+          detail.append(el("strong", "", update.title), el("p", "", update.detail));
+          li.append(time, detail);
+          timeline.append(li);
+        });
+        document.querySelector("#as-of").textContent =
+          `Last updated ${formatDate(data.asOf)}. Progress figures are rough estimates, not release dates.`;
       })
-      .catch(showLoadError);
+      .catch((error) => lines.replaceChildren(el("li", "load-error", `The progress map could not be loaded. ${error.message}`)));
   </script>
 </body>
 </html>

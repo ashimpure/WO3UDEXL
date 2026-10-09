@@ -3,284 +3,136 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#090f19">
-  <meta name="description" content="Project details, progress and screenshots for the Warriors Orochi 3 Ultimate Definitive Edition expansion.">
+  <meta name="theme-color" content="#091427">
+  <meta name="description" content="Progress and screenshots for part of the Warriors Orochi 3 Ultimate Xtreme Legends mod.">
   <title>Project details — WO3U Xtreme Legends</title>
-  <style>
-    :root {
-      color-scheme: dark;
-      --navy: #080d16;
-      --ink: #eef3fb;
-      --muted: #a3b0c3;
-      --line: #29374c;
-      --canvas: #0b111c;
-      --panel: #131c2a;
-      --teal: #66d6e2;
-    }
-
-    * { box-sizing: border-box; }
-    body {
-      min-width: 320px;
-      margin: 0;
-      background: radial-gradient(ellipse at 78% -20%, rgb(35 76 126 / 15%), transparent 42rem), var(--canvas);
-      color: var(--ink);
-      font: 14px/1.5 "Segoe UI", system-ui, -apple-system, sans-serif;
-    }
-
-    a { color: inherit; }
-    a:focus-visible, button:focus-visible { outline: 3px solid #ffc46b; outline-offset: 3px; }
-    .sidebar { position: fixed; inset: 0 auto 0 0; display: flex; width: 208px; flex-direction: column; padding: 19px 10px 14px; background: var(--navy); }
-    .brand { display: block; padding: 0 5px 20px; }
-    .brand img { display: block; width: 100%; height: 88px; object-fit: contain; }
-    .side-link { display: flex; align-items: center; gap: 10px; min-height: 36px; padding: 7px 10px; border-radius: 8px; color: #d2dced; font-size: 12px; text-decoration: none; }
-    .side-link:hover { background: #1b2e4b; }
-    .side-icon { width: 16px; color: #92cfe1; text-align: center; }
-    .main { min-height: 100vh; margin-left: 208px; }
-    .topbar { position: sticky; z-index: 1; top: 0; display: flex; min-height: 58px; align-items: center; justify-content: space-between; gap: 16px; padding: 9px 26px; border-bottom: 1px solid var(--line); background: rgb(19 28 42 / 95%); backdrop-filter: blur(12px); }
-    .crumb { color: var(--muted); font-size: 12px; }
-    .crumb a { text-decoration: none; }
-    .crumb a:hover { text-decoration: underline; }
-    .button { display: inline-flex; min-height: 36px; align-items: center; justify-content: center; padding: 7px 13px; border: 1px solid var(--line); border-radius: 9px; background: #131c2a; color: var(--ink); font-size: 12px; font-weight: 650; text-decoration: none; }
-    .button.primary { border-color: #2689cc; background: #1677b8; color: #f8fbff; }
-    .content { width: min(100%, 1040px); margin: auto; padding: 32px 28px 48px; }
-    .eyebrow { margin: 0 0 5px; color: var(--teal); font-size: 10px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
-    h1 { margin: 0; font-size: clamp(25px, 4vw, 36px); letter-spacing: -.035em; line-height: 1.18; }
-    .intro { max-width: 740px; margin: 12px 0 20px; color: var(--muted); font-size: 14px; }
-    .status-row { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; margin-bottom: 20px; }
-    .badge, .area { display: inline-flex; padding: 5px 9px; border-radius: 6px; background: #202c3d; color: #d8e2ef; font-size: 11px; font-weight: 700; }
-    .area { background: #142e3a; color: #91e0e7; }
-    .progress-panel, .section-panel { margin-top: 17px; padding: 19px; border: 1px solid var(--line); border-radius: 13px; background: var(--panel); }
-    .progress-head { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 9px; color: var(--muted); font-size: 12px; }
-    .progress-value { color: var(--ink); font-size: 17px; font-weight: 800; }
-    .progress-track { height: 10px; overflow: hidden; border-radius: 99px; background: #29364a; }
-    .progress-fill { width: var(--progress); height: 100%; border-radius: inherit; background: #51cfda; }
-    h2 { margin: 0 0 13px; font-size: 19px; letter-spacing: -.02em; }
-    h3 { margin: 0; font-size: 15px; }
-    .section-intro { margin: -6px 0 14px; color: var(--muted); font-size: 12px; }
-    .work-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; }
-    .work-link { display: block; color: inherit; text-decoration: none; }
-    .work-link:hover .work-card { border-color: #4b718a; }
-    .work-card { padding: 14px; border: 1px solid #2a394d; border-radius: 10px; background: #101927; }
-    .work-card header { display: flex; align-items: start; justify-content: space-between; gap: 10px; }
-    .work-card p { margin: 9px 0 12px; color: #c5d0df; font-size: 12px; }
-    .work-card .activity { padding-top: 9px; border-top: 1px solid #29374c; color: var(--muted); font-size: 11px; }
-    .mini-progress { height: 5px; margin-top: 12px; overflow: hidden; border-radius: 99px; background: #29364a; }
-    .mini-progress span { display: block; width: var(--progress); height: 100%; background: #62acff; }
-    .gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-    figure { margin: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 9px; background: #0b111c; }
-    figure img { display: block; width: 100%; height: auto; }
-    figcaption { padding: 9px 11px; color: #c5d0df; font-size: 11px; }
-    .empty-gallery { padding: 15px; border: 1px dashed #3a4b61; border-radius: 9px; color: var(--muted); font-size: 12px; }
-    details { border-top: 1px solid var(--line); }
-    details:first-of-type { border-top: 0; }
-    details summary { padding: 12px 0; cursor: pointer; font-size: 13px; font-weight: 700; }
-    details summary span { color: var(--muted); font-size: 11px; font-weight: 500; }
-    .character-list { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 0 13px; margin: 0; list-style: none; }
-    .character-list li { padding: 4px 8px; border: 1px solid #29374c; border-radius: 99px; color: #d1dbea; font-size: 11px; }
-    .empty-state { padding: 36px 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); color: var(--muted); text-align: center; }
-    .footer { padding-top: 24px; color: #98a7bb; font-size: 10px; }
-    .error { padding: 16px; border-radius: 8px; background: #3a2029; color: #ffd2da; }
-
-    @media (max-width: 760px) {
-      .sidebar { position: static; width: auto; min-height: auto; flex-direction: row; align-items: center; gap: 8px; padding: 8px 12px; }
-      .brand { flex: 0 0 auto; padding: 0 5px; }
-      .brand img { width: 112px; height: 45px; }
-      .main { margin-left: 0; }
-      .topbar { padding-inline: 15px; }
-      .content { padding: 24px 15px 36px; }
-    }
-    @media (max-width: 540px) {
-      .topbar { min-height: 51px; gap: 8px; }
-      .topbar .button { min-height: 32px; padding: 6px 9px; font-size: 10px; }
-      .work-list, .gallery { grid-template-columns: minmax(0, 1fr); }
-      .progress-panel, .section-panel { padding: 14px; }
-    }
-  </style>
+  <link rel="stylesheet" href="map.css">
 </head>
 <body>
-  <aside class="sidebar" aria-label="Project navigation">
-    <a class="brand" href="index.html" aria-label="Warriors Orochi 3 Ultimate Definitive Edition Xtreme Legends">
-      <img src="assets/wo3u-xl-logo.png" alt="Warriors Orochi 3 Ultimate Definitive Edition Xtreme Legends">
+  <header class="masthead">
+    <a class="masthead-brand" href="index.html">
+      <img src="assets/wo3u-xl-logo.png" alt="Warriors Orochi 3 Ultimate Xtreme Legends">
+      <span class="masthead-title">Project progress</span>
     </a>
-    <a class="side-link" href="index.html"><span class="side-icon" aria-hidden="true">▦</span>Project board</a>
-  </aside>
-  <main class="main">
-    <header class="topbar">
-      <div class="crumb"><a href="index.html">Project board</a> <span aria-hidden="true">/</span> <strong id="crumb-title">Project details</strong></div>
-      <a class="button primary" href="https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml">＋ Suggest an update</a>
-    </header>
-    <div id="content" class="content" aria-live="polite">
-      <p class="empty-state">Loading project details…</p>
-    </div>
+    <nav class="masthead-nav" aria-label="Site">
+      <a href="index.html#updates">Updates</a>
+      <a href="https://github.com/ashimpure/WO3UDEXL">GitHub</a>
+      <a class="suggest" href="https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml">Suggest an update</a>
+    </nav>
+  </header>
+
+  <main id="content" class="page" aria-live="polite">
+    <p class="empty">Loading…</p>
   </main>
 
+  <script src="map.js"></script>
   <script>
-    const labels = {
-      planning: "Planning",
-      "in-progress": "In progress",
-      "ready-to-test": "Ready to test",
-      "on-hold": "On hold",
-      paused: "Paused"
-    };
-    const activityLabels = {
-      planning: "Planned:",
-      "in-progress": "Ongoing:",
-      "ready-to-test": "Ready to test:",
-      "on-hold": "On hold:",
-      paused: "On hold:"
-    };
     const content = document.querySelector("#content");
 
-    function node(tag, className, text) {
-      const element = document.createElement(tag);
-      if (className) element.className = className;
-      if (text !== undefined) element.textContent = text;
-      return element;
-    }
-
-    function addProgress(parent, item, mini = false) {
-      const track = node("div", mini ? "mini-progress" : "progress-track");
-      track.setAttribute("role", "progressbar");
-      track.setAttribute("aria-label", `${item.title}: estimated progress`);
-      track.setAttribute("aria-valuemin", "0");
-      track.setAttribute("aria-valuemax", "100");
-      track.setAttribute("aria-valuenow", String(item.progress));
-      const fill = mini ? node("span") : node("div", "progress-fill");
-      fill.style.setProperty("--progress", `${item.progress}%`);
-      track.append(fill);
-      parent.append(track);
-    }
-
-    function renderWork(item) {
-      const card = node("article", "work-card");
-      const header = document.createElement("header");
-      header.append(node("h3", "", item.title), node("span", "badge", labels[item.state]));
-      card.append(header, node("p", "", item.summary));
-      addProgress(card, item, true);
-      const activity = node("p", "activity");
-      activity.append(node("strong", "", activityLabels[item.state]), document.createTextNode(` ${item.activity}`));
-      card.append(activity);
-      const link = node("a", "work-link");
-      link.href = `project.html?id=${encodeURIComponent(item.id)}`;
-      link.setAttribute("aria-label", `Open ${item.title} details`);
-      link.append(card);
-      return link;
-    }
-
-    function renderGallery(parent, screenshots) {
-      const section = node("section", "section-panel");
-      section.append(node("h2", "", "Screenshots"));
-      if (!Array.isArray(screenshots) || screenshots.length === 0) {
-        section.append(node("p", "empty-gallery", "No screenshots available."));
-      } else {
-        const gallery = node("div", "gallery");
-        screenshots.forEach((shot) => {
-          if (!shot || typeof shot.src !== "string" || !shot.src.startsWith("assets/screenshots/")
-            || shot.src.includes("..") || typeof shot.alt !== "string" || typeof shot.caption !== "string") {
-            throw new Error("A screenshot must use a local site image and include a description and caption.");
-          }
-          const figure = document.createElement("figure");
-          const image = document.createElement("img");
-          image.src = shot.src;
-          image.alt = shot.alt;
-          image.loading = "lazy";
-          figure.append(image, node("figcaption", "", shot.caption));
-          gallery.append(figure);
-        });
-        section.append(gallery);
-      }
-      parent.append(section);
-    }
-
-    function renderSubstreams(parent, items) {
-      if (!Array.isArray(items) || items.length === 0) return;
-      const section = node("section", "section-panel");
-      section.append(node("h2", "", "Related work"));
-      section.append(node("p", "section-intro", "Select an item for its status and details."));
-      const list = node("div", "work-list");
-      items.forEach((item) => list.append(renderWork(item)));
+    function renderStations(parent, items, color) {
+      if (!items || !items.length) return;
+      const section = el("section", "section");
+      section.style.setProperty("--c", color);
+      section.append(el("h2", "", "Parts of this area"));
+      const list = el("ol", "stations");
+      items.forEach((item) => {
+        const li = el("li");
+        const a = el("a", "", item.title);
+        a.href = `project.html?id=${encodeURIComponent(item.id)}`;
+        li.append(a, document.createTextNode(" "), el("span", "pct", `${STATE_LABELS[item.state]} · about ${item.progress}%`),
+          el("p", "", item.summary));
+        list.append(li);
+      });
       section.append(list);
       parent.append(section);
     }
 
-    function renderPlannedGroups(parent, groups) {
-      if (!Array.isArray(groups) || groups.length === 0) return;
-      const section = node("section", "section-panel");
-      section.append(node("h2", "", "Planned character additions"));
-      section.append(node("p", "section-intro", "These names are listed in the project plan. They are possible additions, not confirmed characters."));
+    function renderGallery(parent, shots, color) {
+      if (!Array.isArray(shots) || !shots.length) return;
+      const section = el("section", "section");
+      section.style.setProperty("--c", color);
+      section.append(el("h2", "", "Screenshots"));
+      const gallery = el("div", "gallery");
+      shots.forEach((shot) => {
+        if (!shot || typeof shot.src !== "string" || !shot.src.startsWith("assets/screenshots/") || shot.src.includes("..")) return;
+        const figure = el("figure");
+        const img = el("img");
+        img.src = shot.src;
+        img.alt = shot.alt || "";
+        img.loading = "lazy";
+        figure.append(img, el("figcaption", "", shot.caption || ""));
+        gallery.append(figure);
+      });
+      section.append(gallery);
+      parent.append(section);
+    }
+
+    function renderWishlist(parent, groups) {
+      if (!Array.isArray(groups) || !groups.length) return;
+      const section = el("section", "section");
+      section.append(el("h2", "", "On the wishlist"));
+      section.append(el("p", "", "Characters that could join later. None of these are confirmed."));
       groups.forEach((group) => {
-        if (!Array.isArray(group.characters) || group.characters.length === 0) return;
-        const details = document.createElement("details");
-        const summary = document.createElement("summary");
-        const countLabel = group.characters.length === 1 ? "character" : "characters";
-        summary.append(document.createTextNode(`${group.title} `), node("span", "", `· ${group.characters.length} ${countLabel} · ${group.priority} priority`));
-        const list = node("ul", "character-list");
-        group.characters.forEach((name) => list.append(node("li", "", name)));
-        details.append(summary, node("p", "section-intro", `Planned category: ${group.category}.`), list);
+        if (!Array.isArray(group.characters) || !group.characters.length) return;
+        const details = el("details");
+        const summary = el("summary");
+        summary.append(document.createTextNode(`${group.title} `), el("span", "", `· ${group.characters.length} ${group.characters.length === 1 ? "character" : "characters"}`));
+        const names = el("ul", "names");
+        group.characters.forEach((n) => names.append(el("li", "", n)));
+        details.append(summary, names);
         section.append(details);
       });
       parent.append(section);
     }
 
-    function validateItem(item) {
-      return item && typeof item.id === "string" && item.id
-        && typeof item.title === "string" && typeof item.area === "string"
-        && typeof item.summary === "string" && typeof item.activity === "string"
-        && Number.isInteger(item.progress) && item.progress >= 0 && item.progress <= 100
-        && Object.hasOwn(labels, item.state);
-    }
-
-    function renderProject(item, topLevel) {
-      if (!validateItem(item)) {
-        throw new Error("The selected project has an invalid status or progress estimate.");
-      }
+    function render(item, parent, color) {
       document.title = `${item.title} — WO3U Xtreme Legends`;
-      document.querySelector("#crumb-title").textContent = item.title;
       content.replaceChildren();
-      content.append(node("p", "eyebrow", topLevel ? "Project area" : "Project step"));
-      content.append(node("h1", "", item.title));
-      content.append(node("p", "intro", item.description || item.summary));
-      const status = node("div", "status-row");
-      status.append(node("span", "badge", labels[item.state]), node("span", "area", item.area));
-      content.append(status);
+      content.style.setProperty("--c", color);
+      const back = el("a", "back", parent ? `← ${parent.title}` : "← Project progress");
+      back.href = parent ? `project.html?id=${encodeURIComponent(parent.id)}` : "index.html";
+      content.append(back);
 
-      const progress = node("section", "progress-panel");
-      const head = node("div", "progress-head");
-      head.append(node("span", "", "Estimated progress"), node("strong", "progress-value", `${item.progress}%`));
-      progress.append(head);
-      addProgress(progress, item);
-      content.append(progress);
+      const head = el("div", "detail-head");
+      head.style.setProperty("--c", color);
+            const title = el("div");
+      const meta = el("p", "line-meta");
+      meta.append(el("span", "status", STATE_LABELS[item.state]), document.createTextNode(` · ${item.area}`));
+      title.append(el("h1", "", item.title), meta);
+      head.append(title);
+      content.append(head);
 
-      renderSubstreams(content, item.substreams);
-      renderPlannedGroups(content, item.plannedGroups);
-      renderGallery(content, item.screenshots);
-      content.append(node("p", "footer", "Progress percentages are estimates. Plans may change."));
+      const strip = el("div", "detail-strip");
+      strip.append(makeStrip(item, color, item.substreams || []));
+      content.append(strip);
+      content.append(el("p", "detail-text", item.description || item.summary), makeNow(item, "detail-now"));
+
+      renderStations(content, item.substreams, color);
+      renderGallery(content, item.screenshots, color);
+      renderWishlist(content, item.plannedGroups);
+      content.append(el("p", "fine", "Progress figures are rough estimates, not release dates."));
     }
 
     const id = new URLSearchParams(location.search).get("id");
     if (!id) {
-      content.replaceChildren(node("p", "empty-state", "This page needs a project link. Return to the project board and choose an area."));
+      content.replaceChildren(el("p", "empty", "This page needs a link from the progress map."));
     } else {
-      fetch(`./progress.json?v=${Date.now()}`)
-        .then((response) => {
-          if (!response.ok) throw new Error(`Project data could not be loaded (HTTP ${response.status}).`);
-          return response.json();
-        })
+      loadTracker()
         .then((data) => {
-          if (!Array.isArray(data.streams)
-            || data.streams.some((stream) => !validateItem(stream)
-              || (stream.substreams || []).some((child) => !validateItem(child)))) {
-            throw new Error("The project data has an invalid format.");
-          }
-          const stream = data.streams.find((item) => item.id === id);
-          const child = stream ? null : data.streams.flatMap((item) => item.substreams || []).find((item) => item.id === id);
-          if (!stream && !child) {
-            content.replaceChildren(node("p", "empty-state", "This project area could not be found. It may have been renamed or removed."));
+          let found = null;
+          data.streams.forEach((stream, i) => {
+            if (stream.id === id) found = { item: stream, parent: null, color: lineColor(i) };
+            (stream.substreams || []).forEach((child) => {
+              if (child.id === id) found = { item: child, parent: stream, color: lineColor(i) };
+            });
+          });
+          if (!found) {
+            content.replaceChildren(el("p", "empty", "This part of the project couldn't be found. It may have been renamed."));
             return;
           }
-          renderProject(stream || child, Boolean(stream));
+          render(found.item, found.parent, found.color);
         })
-        .catch((error) => content.replaceChildren(node("p", "error", `Project details could not be loaded. ${error.message}`)));
+        .catch((error) => content.replaceChildren(el("p", "load-error", `This page could not be loaded. ${error.message}`)));
     }
   </script>
 </body>
