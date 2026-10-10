@@ -115,54 +115,148 @@
       "title": "Costume additions",
       "area": "New outfits",
       "state": "in-progress",
-      "progress": 20,
-      "summary": "17 Samurai Warriors 4 outfits work in testing. Sophitia's Soulcalibur outfit is built.",
+      "progress": 3,
+      "summary": "17 Samurai Warriors 4 outfits work in testing, out of hundreds planned across the Warriors games.",
       "activity": "Samurai Warriors 4 outfits and Sophitia's Soulcalibur outfit.",
-      "description": "Outfits from other games. For now each new outfit replaces an existing one; extra outfit spaces are part of the slots work.",
+      "description": "Outfits from other games, grouped by series. Hundreds are planned, so the overall figure is low. For now each new outfit replaces an existing one; extra outfit spaces are part of the slots work.",
       "substreams": [
         {
-          "id": "sophitia-outfits",
-          "title": "Sophitia outfits",
-          "area": "Soulcalibur",
-          "state": "in-progress",
-          "progress": 35,
-          "summary": "Her Broken Destiny outfit is built and the skirt physics work. The braid physics still need fixing.",
-          "activity": "Fixing the physics on her braid.",
-          "description": "Sophitia's Broken Destiny outfit from Soulcalibur. The skirt moves properly in battle. The braid hangs correctly in the Gallery but drops to the ground in battle. A few Soulcalibur 2 outfits are planned for later.",
-          "screenshots": []
+          "id": "dynasty-warriors-costumes",
+          "title": "Dynasty Warriors",
+          "area": "Dynasty Warriors series",
+          "state": "planning",
+          "progress": 0,
+          "summary": "Outfits from Dynasty Warriors 8, 9 and Origins are planned.",
+          "activity": "Dynasty Warriors outfits are planned.",
+          "description": "Outfits from the Dynasty Warriors games, for the Wei, Wu, Shu, Jin and Other characters.",
+          "screenshots": [],
+          "substreams": [
+            {
+              "id": "dw8-outfits",
+              "title": "Dynasty Warriors 8",
+              "area": "Dynasty Warriors 8",
+              "state": "planning",
+              "progress": 0,
+              "summary": "Outfits from Dynasty Warriors 8 are planned.",
+              "activity": "Dynasty Warriors 8 outfits are planned.",
+              "description": "Outfits from Dynasty Warriors 8. Characters will be added here as work on them starts.",
+              "screenshots": []
+            },
+            {
+              "id": "dw9-outfits",
+              "title": "Dynasty Warriors 9",
+              "area": "Dynasty Warriors 9",
+              "state": "planning",
+              "progress": 0,
+              "summary": "Outfits from Dynasty Warriors 9 are planned.",
+              "activity": "Dynasty Warriors 9 outfits are planned.",
+              "description": "Outfits from Dynasty Warriors 9. Characters will be added here as work on them starts.",
+              "screenshots": []
+            },
+            {
+              "id": "dynasty-warriors-origins-costumes",
+              "title": "Dynasty Warriors: Origins",
+              "area": "Dynasty Warriors: Origins",
+              "state": "planning",
+              "progress": 0,
+              "summary": "Outfits from Dynasty Warriors: Origins are planned.",
+              "activity": "Dynasty Warriors: Origins outfits are planned.",
+              "description": "Outfits from Dynasty Warriors: Origins. Characters will be added here as work on them starts.",
+              "screenshots": []
+            },
+            {
+              "id": "other-dw-outfits",
+              "title": "Other Dynasty Warriors",
+              "area": "other Dynasty Warriors games",
+              "state": "planning",
+              "progress": 0,
+              "summary": "Outfits from other Dynasty Warriors games are planned.",
+              "activity": "other Dynasty Warriors games outfits are planned.",
+              "description": "Outfits from other Dynasty Warriors games. Characters will be added here as work on them starts.",
+              "screenshots": []
+            }
+          ]
         },
         {
           "id": "samurai-warriors-costumes",
-          "title": "Samurai Warriors outfits",
-          "area": "Samurai Warriors 4",
+          "title": "Samurai Warriors",
+          "area": "Samurai Warriors series",
           "state": "in-progress",
-          "progress": 40,
-          "summary": "17 Samurai Warriors 4 outfits, with cloth physics, work on their characters in testing.",
-          "activity": "17 outfits are done and working in testing.",
-          "description": "Samurai Warriors 4 outfits brought over to the same characters in this game, with cloth physics. 17 are done and checked in testing.",
-          "screenshots": []
+          "progress": 5,
+          "summary": "17 Samurai Warriors 4 outfits work in testing. Samurai Warriors 4-II and 5 are planned.",
+          "activity": "Samurai Warriors 4 outfits are working in testing.",
+          "description": "Outfits from the Samurai Warriors games, brought over to the same characters in this game.",
+          "screenshots": [],
+          "substreams": [
+            {
+              "id": "sw4-outfits",
+              "title": "Samurai Warriors 4",
+              "area": "Samurai Warriors 4",
+              "state": "in-progress",
+              "progress": 20,
+              "summary": "17 Samurai Warriors 4 outfits, with cloth physics, work on their characters in testing.",
+              "activity": "17 outfits are done and working in testing.",
+              "description": "Samurai Warriors 4 outfits brought over to the same characters in this game, with cloth physics. 17 are done and checked in testing.",
+              "screenshots": []
+            },
+            {
+              "id": "sw4-2-outfits",
+              "title": "Samurai Warriors 4-II",
+              "area": "Samurai Warriors 4-II",
+              "state": "planning",
+              "progress": 0,
+              "summary": "Outfits from Samurai Warriors 4-II are planned.",
+              "activity": "Samurai Warriors 4-II outfits are planned.",
+              "description": "Outfits from Samurai Warriors 4-II. Characters will be added here as work on them starts.",
+              "screenshots": []
+            },
+            {
+              "id": "sw5-outfits",
+              "title": "Samurai Warriors 5",
+              "area": "Samurai Warriors 5",
+              "state": "planning",
+              "progress": 0,
+              "summary": "Outfits from Samurai Warriors 5 are planned.",
+              "activity": "Samurai Warriors 5 outfits are planned.",
+              "description": "Outfits from Samurai Warriors 5. Characters will be added here as work on them starts.",
+              "screenshots": []
+            },
+            {
+              "id": "other-sw-outfits",
+              "title": "Other Samurai Warriors",
+              "area": "other Samurai Warriors games",
+              "state": "planning",
+              "progress": 0,
+              "summary": "Outfits from other Samurai Warriors games are planned.",
+              "activity": "other Samurai Warriors games outfits are planned.",
+              "description": "Outfits from other Samurai Warriors games. Characters will be added here as work on them starts.",
+              "screenshots": []
+            }
+          ]
         },
         {
-          "id": "dynasty-warriors-costumes",
-          "title": "Dynasty Warriors outfits",
-          "area": "Dynasty Warriors 8 XL & 9",
-          "state": "planning",
+          "id": "other-costumes",
+          "title": "Other costumes",
+          "area": "Other games",
+          "state": "in-progress",
           "progress": 5,
-          "summary": "Outfits from Dynasty Warriors 8 XL and 9 are planned.",
-          "activity": "Dynasty Warriors 8 XL and 9 outfits are planned.",
-          "description": "Outfits for the Wei, Wu, Shu, Jin and Other characters. Not started yet.",
-          "screenshots": []
-        },
-        {
-          "id": "dynasty-warriors-origins-costumes",
-          "title": "Dynasty Warriors: Origins outfits",
-          "area": "Planned outfits",
-          "state": "planning",
-          "progress": 5,
-          "summary": "Dynasty Warriors: Origins outfits may be added later.",
-          "activity": "Origins outfits may be added later.",
-          "description": "A possible future addition. Not started yet.",
-          "screenshots": []
+          "summary": "Outfits from outside the Warriors series. Sophitia's Soulcalibur outfit is the first.",
+          "activity": "Fixing the physics on Sophitia's braid.",
+          "description": "Outfits from games outside the Warriors series. Characters will be added here as work on them starts.",
+          "screenshots": [],
+          "substreams": [
+            {
+              "id": "sophitia-outfits",
+              "title": "Sophitia",
+              "area": "Soulcalibur",
+              "state": "in-progress",
+              "progress": 35,
+              "summary": "Her Broken Destiny outfit is built and the skirt physics work. The braid physics still need fixing.",
+              "activity": "Fixing the physics on her braid.",
+              "description": "Sophitia's Broken Destiny outfit from Soulcalibur. The skirt moves properly in battle. The braid hangs correctly in the Gallery but drops to the ground in battle. A few Soulcalibur 2 outfits are planned for later.",
+              "screenshots": []
+            }
+          ]
         }
       ],
       "screenshots": []

@@ -6,12 +6,12 @@
   <meta name="theme-color" content="#091427">
   <meta name="description" content="Progress and screenshots for part of the Warriors Orochi 3 Ultimate Xtreme Legends mod.">
   <title>Project details — WO3U Xtreme Legends</title>
-  <link rel="stylesheet" href="map.css">
+  <link rel="stylesheet" href="map.css?v=2">
 </head>
 <body>
   <header class="masthead">
     <a class="masthead-brand" href="index.html">
-      <img src="assets/wo3u-xl-logo.png" alt="Warriors Orochi 3 Ultimate Xtreme Legends">
+      <img src="assets/wo3u-xl-logo-trim.png" alt="Warriors Orochi 3 Ultimate Xtreme Legends">
       <span class="masthead-title">Project progress</span>
     </a>
     <nav class="masthead-nav" aria-label="Site">
@@ -25,7 +25,8 @@
     <p class="empty">Loading…</p>
   </main>
 
-  <script src="map.js"></script>
+  <script src="map.js?v=2"></script>
+  <script src="edit.js?v=1"></script>
   <script>
     const content = document.querySelector("#content");
 
@@ -111,6 +112,7 @@
       renderGallery(content, item.screenshots, color);
       renderWishlist(content, item.plannedGroups);
       content.append(el("p", "fine", "Progress figures are rough estimates, not release dates."));
+      if (window.startEditMode) window.startEditMode(content, item.id, item);
     }
 
     const id = new URLSearchParams(location.search).get("id");
@@ -121,10 +123,11 @@
         .then((data) => {
           let found = null;
           data.streams.forEach((stream, i) => {
-            if (stream.id === id) found = { item: stream, parent: null, color: lineColor(i) };
-            (stream.substreams || []).forEach((child) => {
-              if (child.id === id) found = { item: child, parent: stream, color: lineColor(i) };
-            });
+            const walk = (item, parent) => {
+              if (item.id === id) found = { item, parent, color: lineColor(i) };
+              (item.substreams || []).forEach((child) => walk(child, item));
+            };
+            walk(stream, null);
           });
           if (!found) {
             content.replaceChildren(el("p", "empty", "This part of the project couldn't be found. It may have been renamed."));

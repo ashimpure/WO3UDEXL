@@ -39,7 +39,7 @@ function loadTracker() {
     })
     .then((data) => {
       if (!Array.isArray(data.streams) || !data.streams.length || !Array.isArray(data.updates)
-        || data.streams.some((s) => !validItem(s) || (s.substreams || []).some((c) => !validItem(c)))) {
+        || !data.streams.every(function ok(s) { return validItem(s) && (s.substreams || []).every(ok); })) {
         throw new Error("The progress data has an invalid format.");
       }
       return data;
