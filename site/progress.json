@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-10",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -268,6 +268,18 @@
       "screenshots": []
     },
     {
+      "id": "named-officers-to-uniques",
+      "title": "Named officers become new characters",
+      "area": "Battle content",
+      "state": "planning",
+      "progress": 5,
+      "summary": "Battles already have named officers like Nobuyuki Sanada. The plan is to swap them for the new characters, with their own look and moves.",
+      "activity": "Working out how named officers are set up in the game's data.",
+      "description": "Many stages already feature named officers who aren't playable, such as Nobuyuki Sanada. The plan is to have them show up as the new playable characters instead, with their proper look and moveset, so meeting Nobuyuki in battle means meeting the real Nobuyuki. The game already does something similar for a few characters, which is a good sign. This follows on from the new character slots, so each new character can be used in battle once they have a slot of their own.",
+      "substreams": [],
+      "screenshots": []
+    },
+    {
       "id": "more-battles",
       "title": "New stages",
       "area": "Battle content",
@@ -293,6 +305,11 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-10-10",
+      "title": "Named officers become new characters",
+      "detail": "Added a new item: swapping named officers in battle for the new characters."
+    },
     {
       "date": "2026-10-09",
       "title": "Friendlier wording and first screenshots",
