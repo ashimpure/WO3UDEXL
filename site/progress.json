@@ -7,9 +7,9 @@
       "area": "Character additions",
       "state": "in-progress",
       "progress": 1,
-      "summary": "Nobuyuki Sanada is the first new character, and he's coming along nicely. There are 90+ more on the wishlist, so this is a long road.",
-      "activity": "Adding some extra physics to Nobuyuki's weapons.",
-      "description": "The big goal is bringing in characters from other Warriors games. Nobuyuki is the first one and is already playable in testing. The rest of the list is a wishlist for now, so the overall number stays low until more characters get going.",
+      "summary": "Nobuyuki Sanada is the first new character and is playable in testing. More than 90 others are on the wishlist.",
+      "activity": "Rebuilding Nobuyuki's moveset so it plays like Samurai Warriors 4.",
+      "description": "Characters from other Warriors games, added as new playable characters. Nobuyuki Sanada is the first and is playable in testing. The rest of the list is a wishlist, so the overall figure stays low until more characters are started.",
       "substreams": [
         {
           "id": "nobuyuki-sanada",
@@ -17,9 +17,9 @@
           "area": "Samurai Warriors 4",
           "state": "in-progress",
           "progress": 25,
-          "summary": "Playable in testing, with his Samurai Warriors 4 look, moves, physics and a full set of weapons.",
-          "activity": "Adding physics to the little pearl string on his Day & Night Blades.",
-          "description": "Nobuyuki comes over from Samurai Warriors 4 and he's in a good place. You can pick him from his own Samurai 4 tab, his coat and ponytail move properly, and all six of his weapons are in, including a sakura Mythic weapon and a black and crimson X weapon. His hidden lower blade now comes out on the right attacks, just like in Samurai Warriors 4. Next up are his own character slot, his Gallery entry and a second outfit.",
+          "summary": "Playable in testing with his Samurai Warriors 4 model, moves, cloth physics and all six weapons.",
+          "activity": "Rebuilding his moveset so it plays like Samurai Warriors 4.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4. He has his own Samurai 4 tab on Character Select, cloth physics on his coat and ponytail, and all six weapons, including a sakura Mythic weapon and a black and crimson X weapon. The weapons have their proper names, and the lower blade only comes out on the attacks that use it. His moveset is being rebuilt to match Samurai Warriors 4: the full 8-hit normal string, charge attacks, Hyper attacks, jump attacks, Mighty Strike and the musou camera now work in testing. Still to come: his own character slot, his Gallery entry and a second outfit.",
           "screenshots": [
             {
               "src": "assets/screenshots/samurai4-select.png",
@@ -116,9 +116,9 @@
       "area": "New outfits",
       "state": "in-progress",
       "progress": 20,
-      "summary": "17 Samurai Warriors 4 outfits are working, and Sophitia's Soulcalibur outfit is nearly there.",
-      "activity": "Samurai Warriors 4 outfits are working, and Sophitia's outfit is close.",
-      "description": "Bringing outfits over from other games. Samurai Warriors 4 outfits are leading the way, with Sophitia from Soulcalibur close behind.",
+      "summary": "17 Samurai Warriors 4 outfits work in testing. Sophitia's Soulcalibur outfit is built.",
+      "activity": "Samurai Warriors 4 outfits and Sophitia's Soulcalibur outfit.",
+      "description": "Outfits from other games. For now each new outfit replaces an existing one; extra outfit spaces are part of the slots work.",
       "substreams": [
         {
           "id": "sophitia-outfits",
@@ -126,9 +126,9 @@
           "area": "Soulcalibur",
           "state": "in-progress",
           "progress": 35,
-          "summary": "Her Broken Destiny outfit is built and the skirt moves nicely. The braid's movement is the last piece.",
-          "activity": "The braid's movement is the last piece of her outfit.",
-          "description": "Sophitia's Broken Destiny outfit from Soulcalibur is built and her skirt looks great in battle. Getting her braid to move properly is the last piece. A few Soulcalibur 2 outfits are on the list for later.",
+          "summary": "Her Broken Destiny outfit is built and the skirt physics work. The braid physics still need fixing.",
+          "activity": "Fixing the physics on her braid.",
+          "description": "Sophitia's Broken Destiny outfit from Soulcalibur. The skirt moves properly in battle. The braid hangs correctly in the Gallery but drops to the ground in battle. A few Soulcalibur 2 outfits are planned for later.",
           "screenshots": []
         },
         {
@@ -137,9 +137,9 @@
           "area": "Samurai Warriors 4",
           "state": "in-progress",
           "progress": 40,
-          "summary": "17 Samurai Warriors 4 outfits, physics and all, are working on their characters in testing.",
-          "activity": "17 outfits are working on their characters, physics included.",
-          "description": "Samurai Warriors 4 outfits brought back onto the same characters in this game, cloth physics included. 17 are done and working.",
+          "summary": "17 Samurai Warriors 4 outfits, with cloth physics, work on their characters in testing.",
+          "activity": "17 outfits are done and working in testing.",
+          "description": "Samurai Warriors 4 outfits brought over to the same characters in this game, with cloth physics. 17 are done and checked in testing.",
           "screenshots": []
         },
         {
@@ -148,9 +148,9 @@
           "area": "Dynasty Warriors 8 XL & 9",
           "state": "planning",
           "progress": 5,
-          "summary": "Outfits from Dynasty Warriors 8 XL and 9 are on the wishlist.",
-          "activity": "Dynasty Warriors 8 XL and 9 outfits are on the wishlist.",
-          "description": "Outfits for the Wei, Wu, Shu, Jin and Other characters. Nothing started yet.",
+          "summary": "Outfits from Dynasty Warriors 8 XL and 9 are planned.",
+          "activity": "Dynasty Warriors 8 XL and 9 outfits are planned.",
+          "description": "Outfits for the Wei, Wu, Shu, Jin and Other characters. Not started yet.",
           "screenshots": []
         },
         {
@@ -159,9 +159,9 @@
           "area": "Planned outfits",
           "state": "planning",
           "progress": 5,
-          "summary": "Dynasty Warriors: Origins outfits are being considered.",
-          "activity": "Origins outfits are a maybe for later.",
-          "description": "A possible future addition. Not being worked on yet.",
+          "summary": "Dynasty Warriors: Origins outfits may be added later.",
+          "activity": "Origins outfits may be added later.",
+          "description": "A possible future addition. Not started yet.",
           "screenshots": []
         }
       ],
@@ -173,9 +173,9 @@
       "area": "Character and costume selection",
       "state": "in-progress",
       "progress": 35,
-      "summary": "The Samurai 4 tab is in, and the first extra character slot is working. Extra outfit spaces come later.",
-      "activity": "The Samurai 4 tab is in, and the first extra character slot is working.",
-      "description": "Making room in the game for more: extra character slots, new tabs on the character select screen, and extra outfit spaces. This is separate from making the characters and outfits themselves.",
+      "summary": "The Samurai 4 tab is in and the first extra character slot works. Extra outfit spaces come later.",
+      "activity": "The Samurai 4 tab is in and the first extra character slot works.",
+      "description": "Room in the game for more characters and outfits: extra character slots, new tabs on the character select screen and extra outfit spaces. Making the characters and outfits themselves is tracked separately.",
       "substreams": [
         {
           "id": "extra-character-slots",
@@ -183,9 +183,9 @@
           "area": "Character selection",
           "state": "in-progress",
           "progress": 30,
-          "summary": "The first brand new character slot is working.",
-          "activity": "The first extra character slot is working.",
-          "description": "The first brand new character slot shows up on the select screen and can be picked. Nobuyuki will move into it, which also brings Kojirō back to his usual place.",
+          "summary": "The first new character slot works.",
+          "activity": "The first new character slot works.",
+          "description": "The first new character slot appears on the select screen and can be picked. Nobuyuki will move into it, which puts Kojirō back in his usual place.",
           "screenshots": []
         },
         {
@@ -194,9 +194,9 @@
           "area": "Character selection",
           "state": "in-progress",
           "progress": 50,
-          "summary": "There's now a Samurai 4 tab on Character Select and Duel, with Nobuyuki in it.",
+          "summary": "A Samurai 4 tab on Character Select and Duel, with Nobuyuki in it.",
           "activity": "The Samurai 4 tab is in on Character Select and Duel.",
-          "description": "New tabs on the character select screen, starting with Samurai 4 for Nobuyuki and whoever follows him. It's in on Character Select and Duel, with the Gallery next. Other tabs and their names aren't decided yet.",
+          "description": "New tabs on the character select screen, starting with Samurai 4 for Nobuyuki and later Samurai Warriors 4 characters. It works on Character Select and Duel; the Gallery is next. Other tabs haven't been decided yet.",
           "screenshots": [
             {
               "src": "assets/screenshots/samurai4-select.png",
@@ -211,9 +211,9 @@
           "area": "Costume selection",
           "state": "planning",
           "progress": 15,
-          "summary": "Extra outfit spaces are planned so new outfits don't have to replace old ones.",
-          "activity": "Extra outfit spaces are being planned.",
-          "description": "Room for more outfits per character, so new ones can sit alongside the originals. The outfits themselves are tracked separately.",
+          "summary": "Extra outfit spaces, so new outfits don't replace existing ones.",
+          "activity": "Extra outfit spaces are planned.",
+          "description": "More outfit spaces per character, so new outfits can sit alongside the originals. The outfits themselves are tracked separately.",
           "screenshots": []
         }
       ],
@@ -231,9 +231,9 @@
       "area": "Visual quality",
       "state": "in-progress",
       "progress": 50,
-      "summary": "Smoother edges, stronger light shafts and sharper shadows are already working, with more on the way.",
-      "activity": "Crisper textures and quality presets are next.",
-      "description": "The game runs a custom graphics add-on. Smoother edges, stronger light shafts, sharper shadows and shadows from the scenery are all working. Crisper textures, less colour banding and simple quality presets are next.",
+      "summary": "Smoother edges, stronger light shafts and sharper shadows work in game.",
+      "activity": "Sharper textures and quality presets are next.",
+      "description": "The mod uses its own graphics add-on. Smoother edges, stronger light shafts, sharper shadows and shadows from stage scenery work in game. Next are sharper textures, less colour banding and quality presets.",
       "substreams": [],
       "screenshots": []
     },
@@ -243,9 +243,9 @@
       "area": "Menus and accessibility",
       "state": "in-progress",
       "progress": 65,
-      "summary": "Lots of menus have been tidied up and rescaled, and there are Xbox, PlayStation 5 and Switch 2 button prompts now.",
-      "activity": "Menus are being tidied up across the game.",
-      "description": "Menus across the game have been rescaled and tidied, most recently the Gallery. Button prompts for Xbox, PlayStation 5 and Switch 2 controllers have been added too.",
+      "summary": "Many menus have been rescaled, and there are Xbox, PlayStation 5 and Switch 2 button prompts.",
+      "activity": "Rescaling menus across the game.",
+      "description": "Menus across the game have been rescaled to fit modern screens, most recently the Gallery. Button prompts for Xbox, PlayStation 5 and Switch 2 controllers have been added.",
       "substreams": [],
       "screenshots": [
         {
@@ -261,9 +261,9 @@
       "area": "Battle size and performance",
       "state": "ready-to-test",
       "progress": 50,
-      "summary": "Battles can now hold up to 250 characters instead of 180, and soldiers no longer pop in at the edge of the screen.",
-      "activity": "Bigger battles of up to 250 characters are ready to try.",
-      "description": "The game normally caps a battle at 180 characters, so soldiers vanish and pop back in as others spawn. That cap is now 250, and a test battle hit 241 without any trouble. Characters are drawn further away too.",
+      "summary": "Battles can hold up to 250 characters instead of 180, and soldiers no longer pop in at the edge of the screen.",
+      "activity": "Larger battles of up to 250 characters are ready to try.",
+      "description": "The game normally limits a battle to 180 characters, so soldiers disappear and reappear as others spawn. The limit is now 250, and a test battle reached 241. Characters are also drawn further away.",
       "substreams": [],
       "screenshots": []
     },
@@ -273,9 +273,9 @@
       "area": "Battle content",
       "state": "planning",
       "progress": 5,
-      "summary": "Battles already have named officers like Nobuyuki Sanada. The plan is to swap them for the new characters, with their own look and moves.",
-      "activity": "Working out how named officers are set up in the game's data.",
-      "description": "Many stages already feature named officers who aren't playable, such as Nobuyuki Sanada. The plan is to have them show up as the new playable characters instead, with their proper look and moveset, so meeting Nobuyuki in battle means meeting the real Nobuyuki. The game already does something similar for a few characters, which is a good sign. This follows on from the new character slots, so each new character can be used in battle once they have a slot of their own.",
+      "summary": "Named officers in battle, such as Nobuyuki Sanada, will appear as the new characters with their own model and moves.",
+      "activity": "Looking at how named officers are set up in the game data.",
+      "description": "Many stages have named officers who aren't playable, such as Nobuyuki Sanada. The plan is for them to appear as the new playable characters instead, with their own model and moveset. The game already does this for a few characters. This comes after the new character slots, since each new character needs a slot of their own first.",
       "substreams": [],
       "screenshots": []
     },
@@ -285,9 +285,9 @@
       "area": "Battle content",
       "state": "planning",
       "progress": 5,
-      "summary": "New stages and stages from other games are planned. None picked yet.",
-      "activity": "New stages are on the plan.",
-      "description": "New stages and ones brought over from other games. The first picks haven't been made.",
+      "summary": "New stages and stages from other games are planned. None chosen yet.",
+      "activity": "New stages are planned.",
+      "description": "New stages and stages brought over from other games. None have been chosen yet.",
       "substreams": [],
       "screenshots": []
     },
@@ -297,9 +297,9 @@
       "area": "Battle content",
       "state": "planning",
       "progress": 5,
-      "summary": "New enemy types are planned. None picked yet.",
-      "activity": "New enemy types are on the plan.",
-      "description": "Which enemies to add hasn't been decided yet.",
+      "summary": "New enemy types are planned. None chosen yet.",
+      "activity": "New enemy types are planned.",
+      "description": "New enemy types. None have been chosen yet.",
       "substreams": [],
       "screenshots": []
     }
@@ -307,38 +307,33 @@
   "updates": [
     {
       "date": "2026-10-10",
+      "title": "Nobuyuki's moveset rebuilt",
+      "detail": "Nobuyuki's full Samurai Warriors 4 normal string, charge attacks, Hyper attacks, jump attacks, Mighty Strike and musou camera now work in testing."
+    },
+    {
+      "date": "2026-10-10",
       "title": "Named officers become new characters",
-      "detail": "Added a new item: swapping named officers in battle for the new characters."
+      "detail": "New item on the board: named officers in battle will appear as the new characters."
     },
     {
       "date": "2026-10-09",
-      "title": "Friendlier wording and first screenshots",
-      "detail": "Rewrote the board in plainer words and added the first screenshots."
-    },
-    {
-      "date": "2026-10-09",
-      "title": "Progress review",
-      "detail": "Caught the board up with recent work: Nobuyuki's weapons and physics, the Samurai 4 tab, bigger battles and the graphics that are already working."
+      "title": "Weapon names and cord physics",
+      "detail": "Nobuyuki's weapons have their proper names, and the cord and pearl on his Heaven & Earth Blades now swing."
     },
     {
       "date": "2026-10-07",
       "title": "Nobuyuki's weapons added",
-      "detail": "All six of Nobuyuki's weapons are in, and his hidden lower blade now comes out on the right attacks."
-    },
-    {
-      "date": "2026-10-08",
-      "title": "Project progress updated",
-      "detail": "Approximate progress estimates have been added across the project areas."
+      "detail": "All six of Nobuyuki's weapons are in, and his lower blade now only comes out on the attacks that use it."
     },
     {
       "date": "2026-10-07",
       "title": "Gallery layout fix",
-      "detail": "A Gallery screen layout issue was fixed. Other menu layout and scaling work is ongoing."
+      "detail": "The Gallery screen layout is fixed."
     },
     {
       "date": "2026-10-06",
       "title": "Graphics update prepared",
-      "detail": "A graphics-quality update has been prepared. In-game results have not yet been confirmed."
+      "detail": "A graphics update with sharper textures and quality presets is built and ready to try."
     },
     {
       "date": "2026-10-06",
@@ -347,8 +342,8 @@
     },
     {
       "date": "2026-10-06",
-      "title": "Larger battles explored",
-      "detail": "Work is underway to understand the game's character limits and the performance impact of larger battles."
+      "title": "Larger battles",
+      "detail": "Started work on raising the limit on characters in a battle."
     }
   ]
 }
