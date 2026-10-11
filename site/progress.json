@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-10",
+  "asOf": "2026-10-11",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -8,7 +8,7 @@
       "state": "in-progress",
       "progress": 1,
       "summary": "Nobuyuki Sanada is the first new character and is playable in testing. More than 90 others are on the wishlist.",
-      "activity": "Rebuilding Nobuyuki's moveset so it plays like Samurai Warriors 4.",
+      "activity": "Reworking Nobuyuki's attack timing to match Samurai Warriors 4.",
       "description": "Characters from other Warriors games, added as new playable characters. Nobuyuki Sanada is the first and is playable in testing. The rest of the list is a wishlist, so the overall figure stays low until more characters are started.",
       "substreams": [
         {
@@ -18,8 +18,8 @@
           "state": "in-progress",
           "progress": 25,
           "summary": "Playable in testing with his Samurai Warriors 4 model, moves, cloth physics and all six weapons.",
-          "activity": "Rebuilding his moveset so it plays like Samurai Warriors 4.",
-          "description": "Nobuyuki is ported from Samurai Warriors 4. He has his own Samurai 4 tab on Character Select, cloth physics on his coat and ponytail, and all six weapons, including a sakura Mythic weapon and a black and crimson X weapon. The weapons have their proper names, and the lower blade only comes out on the attacks that use it. His moveset is being rebuilt to match Samurai Warriors 4: the full 8-hit normal string, charge attacks, Hyper attacks, jump attacks, Mighty Strike and the musou camera now work in testing. Still to come: his own character slot, his Gallery entry and a second outfit.",
+          "activity": "Reworking his attack timing to match Samurai Warriors 4.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4. He has his own Samurai 4 tab on Character Select, cloth physics on his coat and ponytail, and all six weapons, including a sakura Mythic weapon and a black and crimson X weapon. His moveset is being rebuilt to match Samurai Warriors 4: the full normal string, charge attacks, Hyper attacks, jump attacks, Mighty Strike and the musou camera work in testing, and his attack timing is being reworked. Still to come: his own character slot, his Gallery entry and a second outfit.",
           "screenshots": [
             {
               "src": "assets/screenshots/samurai4-select.png",
@@ -117,7 +117,7 @@
       "state": "in-progress",
       "progress": 3,
       "summary": "17 Samurai Warriors 4 outfits work in testing, out of hundreds planned across the Warriors games.",
-      "activity": "Samurai Warriors 4 outfits and Sophitia's Soulcalibur outfit.",
+      "activity": "Rebuilding several Samurai Warriors 4 outfits.",
       "description": "Outfits from other games, grouped by series. Hundreds are planned, so the overall figure is low. For now each new outfit replaces an existing one; extra outfit spaces are part of the slots work.",
       "substreams": [
         {
@@ -184,7 +184,7 @@
           "state": "in-progress",
           "progress": 5,
           "summary": "17 Samurai Warriors 4 outfits work in testing. Samurai Warriors 4-II and 5 are planned.",
-          "activity": "Samurai Warriors 4 outfits are working in testing.",
+          "activity": "Rebuilding several Samurai Warriors 4 outfits.",
           "description": "Outfits from the Samurai Warriors games, brought over to the same characters in this game.",
           "screenshots": [],
           "substreams": [
@@ -194,9 +194,9 @@
               "area": "Samurai Warriors 4",
               "state": "in-progress",
               "progress": 20,
-              "summary": "17 Samurai Warriors 4 outfits, with cloth physics, work on their characters in testing.",
-              "activity": "17 outfits are done and working in testing.",
-              "description": "Samurai Warriors 4 outfits brought over to the same characters in this game, with cloth physics. 17 are done and checked in testing.",
+              "summary": "17 Samurai Warriors 4 outfits, with cloth physics, work in testing.",
+              "activity": "Rebuilding several outfits to fix capes, hair and eyes.",
+              "description": "Samurai Warriors 4 outfits brought over to the same characters in this game, with cloth physics. All 17 are now in the same test build as the rest of the mod. Several are being rebuilt to fix see-through capes, hair and eyes.",
               "screenshots": []
             },
             {
@@ -268,7 +268,7 @@
       "state": "in-progress",
       "progress": 35,
       "summary": "The Samurai 4 tab is in and the first extra character slot works. Extra outfit spaces come later.",
-      "activity": "The Samurai 4 tab is in and the first extra character slot works.",
+      "activity": "Testing the first new character slot in battle.",
       "description": "Room in the game for more characters and outfits: extra character slots, new tabs on the character select screen and extra outfit spaces. Making the characters and outfits themselves is tracked separately.",
       "substreams": [
         {
@@ -277,9 +277,9 @@
           "area": "Character selection",
           "state": "in-progress",
           "progress": 30,
-          "summary": "The first new character slot works.",
-          "activity": "The first new character slot works.",
-          "description": "The first new character slot appears on the select screen and can be picked. Nobuyuki will move into it, which puts Kojirō back in his usual place.",
+          "summary": "The first new character slot works on the select screen, including its info panel.",
+          "activity": "Testing the first new character slot in battle.",
+          "description": "The first new character slot appears on the select screen, can be picked and shows its info panel correctly. A battle test is next. Nobuyuki will move into it, which puts Kojirō back in his usual place.",
           "screenshots": []
         },
         {
@@ -326,8 +326,8 @@
       "state": "in-progress",
       "progress": 50,
       "summary": "Smoother edges, stronger light shafts and sharper shadows work in game.",
-      "activity": "Sharper textures and quality presets are next.",
-      "description": "The mod uses its own graphics add-on. Smoother edges, stronger light shafts, sharper shadows and shadows from stage scenery work in game. Next are sharper textures, less colour banding and quality presets.",
+      "activity": "Studying how newer Warriors games render, to guide the next improvements.",
+      "description": "The mod uses its own graphics add-on. Smoother edges, stronger light shafts, sharper shadows and shadows from stage scenery work in game. Next, the way Samurai Warriors 5, Dynasty Warriors: Origins and Dynasty Warriors 3 Complete Edition Remastered draw their scenes is being studied to guide further improvements.",
       "substreams": [],
       "screenshots": []
     },
@@ -338,7 +338,7 @@
       "state": "in-progress",
       "progress": 65,
       "summary": "Many menus have been rescaled, and there are Xbox, PlayStation 5 and Switch 2 button prompts.",
-      "activity": "Rescaling menus across the game.",
+      "activity": "Reviewing how the menus are laid out before reworking the scaling.",
       "description": "Menus across the game have been rescaled to fit modern screens, most recently the Gallery. Button prompts for Xbox, PlayStation 5 and Switch 2 controllers have been added.",
       "substreams": [],
       "screenshots": [
@@ -356,8 +356,8 @@
       "state": "ready-to-test",
       "progress": 50,
       "summary": "Battles can hold up to 250 characters instead of 180, and soldiers no longer pop in at the edge of the screen.",
-      "activity": "Larger battles of up to 250 characters are ready to try.",
-      "description": "The game normally limits a battle to 180 characters, so soldiers disappear and reappear as others spawn. The limit is now 250, and a test battle reached 241. Characters are also drawn further away.",
+      "activity": "Looking at where soldiers appear, the other cause of pop-in.",
+      "description": "The game normally limits a battle to 180 characters, so soldiers disappear and reappear as others spawn. The limit is now 250, and a test battle reached 241. Characters are also drawn further away. Soldiers can still appear in view because the game places them near their officer, so that is being looked at next.",
       "substreams": [],
       "screenshots": []
     },
@@ -399,6 +399,26 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-10-11",
+      "title": "Understanding the game's logic",
+      "detail": "Further work on understanding how the game works, so content from other games can be brought over properly and existing behaviour changed safely."
+    },
+    {
+      "date": "2026-10-11",
+      "title": "Cause of pop-in narrowed down",
+      "detail": "Soldiers can appear in view because they spawn near their officer. This is the next part of the larger battles work."
+    },
+    {
+      "date": "2026-10-11",
+      "title": "Mighty Strike cleanup",
+      "detail": "Nobuyuki's Mighty Strike no longer shows a stray weapon afterimage."
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Samurai Warriors 4 outfits moved into the main test build",
+      "detail": "All 17 Samurai Warriors 4 outfits now sit in the same test build as the rest of the mod. Several are being rebuilt to fix capes, hair and eyes."
+    },
     {
       "date": "2026-10-10",
       "title": "Nobuyuki's moveset rebuilt",
