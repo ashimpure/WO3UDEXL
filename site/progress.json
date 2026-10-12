@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-11",
+  "asOf": "2026-10-12",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -19,7 +19,7 @@
           "progress": 25,
           "summary": "Playable in testing with his Samurai Warriors 4 model, moves, cloth physics and all six weapons.",
           "activity": "Reworking his attack timing to match Samurai Warriors 4.",
-          "description": "Nobuyuki is ported from Samurai Warriors 4. He has his own Samurai 4 tab on Character Select, cloth physics on his coat and ponytail, and all six weapons, including a sakura Mythic weapon and a black and crimson X weapon. His moveset is being rebuilt to match Samurai Warriors 4: the full normal string, charge attacks, Hyper attacks, jump attacks, Mighty Strike and the musou camera work in testing, and his attack timing is being reworked. Still to come: his own character slot, his Gallery entry and a second outfit.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4. He has his own Samurai 4 tab on Character Select, cloth physics on his coat and ponytail, and all six weapons, including a sakura Mythic weapon and a black and crimson X weapon. His moveset is being rebuilt to match Samurai Warriors 4: the full normal string, charge attacks, Hyper attacks, jump attacks, Special Attack and the musou camera work in testing, and his attack timing is being reworked. His Special Attack will also push enemies back, as in Samurai Warriors 4. Still to come: his own character slot, his Gallery entry and a second outfit.",
           "screenshots": [
             {
               "src": "assets/screenshots/samurai4-select.png",
@@ -268,7 +268,7 @@
       "state": "in-progress",
       "progress": 35,
       "summary": "The Samurai 4 tab is in and the first extra character slot works. Extra outfit spaces come later.",
-      "activity": "Testing the first new character slot in battle.",
+      "activity": "The Samurai 4 tab is in, and the first new character slot has been through a battle.",
       "description": "Room in the game for more characters and outfits: extra character slots, new tabs on the character select screen and extra outfit spaces. Making the characters and outfits themselves is tracked separately.",
       "substreams": [
         {
@@ -277,9 +277,9 @@
           "area": "Character selection",
           "state": "in-progress",
           "progress": 30,
-          "summary": "The first new character slot works on the select screen, including its info panel.",
-          "activity": "Testing the first new character slot in battle.",
-          "description": "The first new character slot appears on the select screen, can be picked and shows its info panel correctly. A battle test is next. Nobuyuki will move into it, which puts Kojirō back in his usual place.",
+          "summary": "The first new character slot has been through a battle and an equipment check.",
+          "activity": "The first new character slot has been through a battle and an equipment check.",
+          "description": "The first new character slot appears on the select screen, can be picked, shows its info panel and has been through a battle and an equipment check. Nobuyuki will move into it, which puts Kojirō back in his usual place.",
           "screenshots": []
         },
         {
@@ -336,10 +336,10 @@
       "title": "Menu improvements",
       "area": "Menus and accessibility",
       "state": "in-progress",
-      "progress": 65,
-      "summary": "Many menus have been rescaled, and there are Xbox, PlayStation 5 and Switch 2 button prompts.",
-      "activity": "Reviewing how the menus are laid out before reworking the scaling.",
-      "description": "Menus across the game have been rescaled to fit modern screens, most recently the Gallery. Button prompts for Xbox, PlayStation 5 and Switch 2 controllers have been added.",
+      "progress": 70,
+      "summary": "The menu scaling has been reworked, and menus hold up on 21:9 and 16:10 screens. Xbox, PlayStation 5 and Switch 2 button prompts are in.",
+      "activity": "Checking every menu screen at different screen sizes.",
+      "description": "Menus across the game have been rescaled to fit modern screens, including the Gallery screens. They have been tested at 16:9, 16:10 and 21:9. Button prompts for Xbox, PlayStation 5 and Switch 2 controllers have been added.",
       "substreams": [],
       "screenshots": [
         {
@@ -354,10 +354,22 @@
       "title": "Larger battles",
       "area": "Battle size and performance",
       "state": "ready-to-test",
-      "progress": 50,
-      "summary": "Battles can hold up to 250 characters instead of 180, and soldiers no longer pop in at the edge of the screen.",
-      "activity": "Looking at where soldiers appear, the other cause of pop-in.",
-      "description": "The game normally limits a battle to 180 characters, so soldiers disappear and reappear as others spawn. The limit is now 250, and a test battle reached 241. Characters are also drawn further away. Soldiers can still appear in view because the game places them near their officer, so that is being looked at next.",
+      "progress": 60,
+      "summary": "Battles can hold up to 250 characters instead of 180, and soldiers now reappear out of the camera's view.",
+      "activity": "Checking how the new spawning feels in play.",
+      "description": "The game normally limits a battle to 180 characters, so soldiers disappear and reappear as others spawn. The limit is now 250, and a test battle reached 241. Characters are drawn further away, soldiers only reappear where the camera can't see them, and suspend saves keep the extra soldiers.",
+      "substreams": [],
+      "screenshots": []
+    },
+    {
+      "id": "ultrawide-screens",
+      "title": "Ultrawide screens",
+      "area": "Display",
+      "state": "planning",
+      "progress": 2,
+      "summary": "Support for 21:9 and 32:9 displays.",
+      "activity": "Working out what needs to change for ultrawide screens.",
+      "description": "Support for 21:9 and 32:9 displays across battles, menus, movies and loading screens. The first step is checking how each part of the game behaves on wider screens.",
       "substreams": [],
       "screenshots": []
     },
@@ -400,6 +412,21 @@
   ],
   "updates": [
     {
+      "date": "2026-10-12",
+      "title": "Fewer soldiers popping into view",
+      "detail": "Soldiers now reappear out of the camera's view instead of in front of you."
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Menus rescaled",
+      "detail": "The menu rework is in and has been tested on wider screens."
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Ultrawide screens",
+      "detail": "New item on the board: support for 21:9 and 32:9 displays."
+    },
+    {
       "date": "2026-10-11",
       "title": "Understanding the game's logic",
       "detail": "Further work on understanding how the game works, so content from other games can be brought over properly and existing behaviour changed safely."
@@ -411,8 +438,8 @@
     },
     {
       "date": "2026-10-11",
-      "title": "Mighty Strike cleanup",
-      "detail": "Nobuyuki's Mighty Strike no longer shows a stray weapon afterimage."
+      "title": "Special Attack cleanup",
+      "detail": "Nobuyuki's Special Attack no longer shows a stray weapon afterimage."
     },
     {
       "date": "2026-10-10",
@@ -422,7 +449,7 @@
     {
       "date": "2026-10-10",
       "title": "Nobuyuki's moveset rebuilt",
-      "detail": "Nobuyuki's full Samurai Warriors 4 normal string, charge attacks, Hyper attacks, jump attacks, Mighty Strike and musou camera now work in testing."
+      "detail": "Nobuyuki's full Samurai Warriors 4 normal string, charge attacks, Hyper attacks, jump attacks, Special Attack and musou camera now work in testing."
     },
     {
       "date": "2026-10-10",
