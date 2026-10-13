@@ -343,9 +343,79 @@
       "substreams": [],
       "screenshots": [
         {
-          "src": "assets/screenshots/battle-preparations.png",
-          "alt": "The Battle Preparations menu with its updated layout",
-          "caption": "The reworked Battle Preparations menu."
+          "src": "assets/screenshots/menu-officer-select.jpg",
+          "alt": "The Officer Select screen with the reworked layout at 16:9",
+          "caption": "Officer Select."
+        },
+        {
+          "src": "assets/screenshots/menu-battle-preparations.jpg",
+          "alt": "The Battle Preparations screen with the reworked layout at 16:9",
+          "caption": "Battle Preparations."
+        },
+        {
+          "src": "assets/screenshots/menu-officer-info.jpg",
+          "alt": "The Officer Info screen with the reworked layout at 16:9",
+          "caption": "Officer Info."
+        },
+        {
+          "src": "assets/screenshots/menu-equip-weapons.jpg",
+          "alt": "The Equip Weapons screen with the reworked layout at 16:9",
+          "caption": "Equip Weapons."
+        },
+        {
+          "src": "assets/screenshots/menu-blacksmith.jpg",
+          "alt": "The Blacksmith screen with the reworked layout at 16:9",
+          "caption": "Blacksmith."
+        },
+        {
+          "src": "assets/screenshots/menu-lottery.jpg",
+          "alt": "The Blacksmith lottery screen with the reworked layout at 16:9",
+          "caption": "Blacksmith lottery."
+        },
+        {
+          "src": "assets/screenshots/menu-select-battlefield.jpg",
+          "alt": "The Story Mode Select Battlefield screen with the reworked layout at 16:9",
+          "caption": "Story Mode Select Battlefield."
+        },
+        {
+          "src": "assets/screenshots/menu-camp.jpg",
+          "alt": "The Camp menu screen with the reworked layout at 16:9",
+          "caption": "Camp menu."
+        },
+        {
+          "src": "assets/screenshots/menu-free-select-stage.jpg",
+          "alt": "The Free Mode Select Stage screen with the reworked layout at 16:9",
+          "caption": "Free Mode Select Stage."
+        },
+        {
+          "src": "assets/screenshots/menu-pause.jpg",
+          "alt": "The Pause menu screen with the reworked layout at 16:9",
+          "caption": "Pause menu."
+        },
+        {
+          "src": "assets/screenshots/menu-battle-hud.jpg",
+          "alt": "The Battle screen screen with the reworked layout at 16:9",
+          "caption": "Battle screen."
+        },
+        {
+          "src": "assets/screenshots/menu-gallery-officers.jpg",
+          "alt": "The Gallery: Officers screen with the reworked layout at 16:9",
+          "caption": "Gallery: Officers."
+        },
+        {
+          "src": "assets/screenshots/menu-gallery-movies.jpg",
+          "alt": "The Gallery: Movies screen with the reworked layout at 16:9",
+          "caption": "Gallery: Movies."
+        },
+        {
+          "src": "assets/screenshots/menu-help.jpg",
+          "alt": "The Help pop-up screen with the reworked layout at 16:9",
+          "caption": "Help pop-up."
+        },
+        {
+          "src": "assets/screenshots/menu-controls.jpg",
+          "alt": "The Controls screen with the reworked layout at 16:9",
+          "caption": "Controls."
         }
       ]
     },
