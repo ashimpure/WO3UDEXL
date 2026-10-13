@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-12",
+  "asOf": "2026-10-13",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -338,7 +338,7 @@
       "state": "in-progress",
       "progress": 70,
       "summary": "The menu scaling has been reworked, and menus hold up on 21:9 and 16:10 screens. Xbox, PlayStation 5 and Switch 2 button prompts are in.",
-      "activity": "Checking every menu screen at different screen sizes.",
+      "activity": "Fitting the menus to ultrawide screens.",
       "description": "Menus across the game have been rescaled to fit modern screens, including the Gallery screens. They have been tested at 16:9, 16:10 and 21:9. Button prompts for Xbox, PlayStation 5 and Switch 2 controllers have been added.",
       "substreams": [],
       "screenshots": [
@@ -365,13 +365,19 @@
       "id": "ultrawide-screens",
       "title": "Ultrawide screens",
       "area": "Display",
-      "state": "planning",
-      "progress": 2,
-      "summary": "Support for 21:9 and 32:9 displays.",
-      "activity": "Working out what needs to change for ultrawide screens.",
-      "description": "Support for 21:9 and 32:9 displays across battles, menus, movies and loading screens. The first step is checking how each part of the game behaves on wider screens.",
+      "state": "ready-to-test",
+      "progress": 80,
+      "summary": "Menus, movies and loading screens now fit 21:9 and 32:9 screens, and the game starts at the chosen ultrawide resolution.",
+      "activity": "Ultrawide support is ready for a full play-through.",
+      "description": "Support for 21:9 and 32:9 displays. Menus and Officer Select sit in the centre of the screen, movies and loading screens keep their shape with borders at the sides, and the game starts at the ultrawide resolution you last chose. A full play-through is next.",
       "substreams": [],
-      "screenshots": []
+      "screenshots": [
+        {
+          "src": "assets/screenshots/ultrawide-officer-select.png",
+          "alt": "Officer Select at 32:9 with Nobuyuki Sanada, Kai and Ina centred on the screen",
+          "caption": "Officer Select at 32:9."
+        }
+      ]
     },
     {
       "id": "named-officers-to-uniques",
@@ -411,6 +417,11 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-10-13",
+      "title": "Ultrawide screens ready to try",
+      "detail": "Menus, movies and loading screens now fit 21:9 and 32:9 screens."
+    },
     {
       "date": "2026-10-12",
       "title": "Fewer soldiers popping into view",
