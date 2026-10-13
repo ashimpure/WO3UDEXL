@@ -378,6 +378,11 @@
           "caption": "Story Mode Select Battlefield."
         },
         {
+          "src": "assets/screenshots/menu-difficulty.jpg",
+          "alt": "The Story Mode difficulty select with the reworked layout at 16:9",
+          "caption": "Story Mode difficulty select."
+        },
+        {
           "src": "assets/screenshots/menu-camp.jpg",
           "alt": "The Camp menu screen with the reworked layout at 16:9",
           "caption": "Camp menu."
