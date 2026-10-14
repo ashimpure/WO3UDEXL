@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-13",
+  "asOf": "2026-10-14",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -268,7 +268,7 @@
       "state": "in-progress",
       "progress": 35,
       "summary": "The Samurai 4 tab is in and the first extra character slot works. Extra outfit spaces come later.",
-      "activity": "The Samurai 4 tab is in, and the first new character slot has been through a battle.",
+      "activity": "Adding weapons for characters in the new slots.",
       "description": "Room in the game for more characters and outfits: extra character slots, new tabs on the character select screen and extra outfit spaces. Making the characters and outfits themselves is tracked separately.",
       "substreams": [
         {
@@ -276,11 +276,17 @@
           "title": "Character slots",
           "area": "Character selection",
           "state": "in-progress",
-          "progress": 30,
-          "summary": "The first new character slot has been through a battle and an equipment check.",
-          "activity": "The first new character slot has been through a battle and an equipment check.",
-          "description": "The first new character slot appears on the select screen, can be picked, shows its info panel and has been through a battle and an equipment check. Nobuyuki will move into it, which puts Kojirō back in his usual place.",
-          "screenshots": []
+          "progress": 45,
+          "summary": "New characters now get their own slots beyond the game's built-in limit.",
+          "activity": "Adding weapons for characters in the new slots.",
+          "description": "New characters now get their own slots beyond the game's built-in limit. A character in one of these slots can be picked, fight, level up and save, and works in Musou Battlefields and Triple Attacks. Weapons for these characters are next. For now they borrow Nobuyuki's look.",
+          "screenshots": [
+            {
+              "src": "assets/screenshots/new-slot-team-info.jpg",
+              "alt": "Team Info screen showing a character in one of the new slots, using Nobuyuki's look",
+              "caption": "Team Info for a character in one of the new slots."
+            }
+          ]
         },
         {
           "id": "character-categories",
@@ -429,10 +435,10 @@
       "title": "Larger battles",
       "area": "Battle size and performance",
       "state": "ready-to-test",
-      "progress": 60,
-      "summary": "Battles can hold up to 250 characters instead of 180, and soldiers now reappear out of the camera's view.",
-      "activity": "Checking how the new spawning feels in play.",
-      "description": "The game normally limits a battle to 180 characters, so soldiers disappear and reappear as others spawn. The limit is now 250, and a test battle reached 241. Characters are drawn further away, soldiers only reappear where the camera can't see them, and suspend saves keep the extra soldiers.",
+      "progress": 90,
+      "summary": "Battles can now hold up to 1,000 characters instead of 180. The busiest stage reached 999, all armed, with no slowdown.",
+      "activity": "Larger battles are ready for gameplay testing.",
+      "description": "The game normally limits a battle to 180 characters, so soldiers disappear and reappear as others spawn. The limit is now 1,000, and the busiest stage reached 999 characters, all armed, with no slowdown. Characters are also drawn further away. Gameplay testing comes later.",
       "substreams": [],
       "screenshots": []
     },
@@ -492,6 +498,16 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-10-14",
+      "title": "Battles of up to 1,000 characters",
+      "detail": "The character limit in battle is now 1,000. The busiest stage reached 999, all armed."
+    },
+    {
+      "date": "2026-10-14",
+      "title": "New character slots can level up and save",
+      "detail": "Characters in the new slots can be picked, fight, level up and save."
+    },
     {
       "date": "2026-10-13",
       "title": "Ultrawide screens ready to try",
