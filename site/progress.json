@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-17",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -39,170 +39,67 @@
           "title": "Samurai Warriors 4",
           "category": "Samurai 4 (new)",
           "priority": "High",
-          "characters": [
-            "Kojuro Katakura",
-            "Takatora Tōdō",
-            "Naotora Ii",
-            "Munenori Yagyū",
-            "Yoshitsugu Ōtani",
-            "Hisahide Matsunaga",
-            "Kagekatsu Uesugi",
-            "Takakage Kobayakawa",
-            "Koshōshō",
-            "Toyohisa Shimazu",
-            "Lady Hayakawa"
-          ]
+          "characters": ["Kojuro Katakura", "Takatora Tōdō", "Naotora Ii", "Munenori Yagyū", "Yoshitsugu Ōtani", "Hisahide Matsunaga", "Kagekatsu Uesugi", "Takakage Kobayakawa", "Koshōshō", "Toyohisa Shimazu", "Lady Hayakawa"]
         },
         {
           "title": "Samurai Warriors: Spirit of Sanada",
           "category": "Samurai 4 (new)",
           "priority": "High",
-          "characters": [
-            "Naomasa Ii",
-            "Masayuki Sanada",
-            "Chacha",
-            "Sasuke",
-            "Katsuyori Takeda",
-            "Hidetada Tokugawa"
-          ]
+          "characters": ["Naomasa Ii", "Masayuki Sanada", "Chacha", "Sasuke", "Katsuyori Takeda", "Hidetada Tokugawa"]
         },
         {
           "title": "Warriors Orochi 4",
           "category": "Other 3 (proposed)",
           "priority": "Medium",
-          "characters": [
-            "Zeus",
-            "Athena",
-            "Loki",
-            "Ares",
-            "Odin",
-            "Gaia",
-            "Hades",
-            "Yang Jian",
-            "Perseus"
-          ]
+          "characters": ["Zeus", "Athena", "Loki", "Ares", "Odin", "Gaia", "Hades", "Yang Jian", "Perseus"]
         },
         {
           "title": "Dynasty Warriors 8 XL",
           "category": "Existing factions",
           "priority": "Medium",
-          "characters": [
-            "Zhang Bao",
-            "Guan Xing",
-            "Guan Yinping",
-            "Fa Zheng",
-            "Yue Jin",
-            "Li Dian",
-            "Yu Jin",
-            "Lu Su",
-            "Han Dang",
-            "Zhu Ran",
-            "Jia Chong",
-            "Wan Yang",
-            "Zang Chunhua",
-            "Lu Lingqi",
-            "Cheng Gong"
-          ]
+          "characters": ["Zhang Bao", "Guan Xing", "Guan Yinping", "Fa Zheng", "Yue Jin", "Li Dian", "Yu Jin", "Lu Su", "Han Dang", "Zhu Ran", "Jia Chong", "Wan Yang", "Zang Chunhua", "Lu Lingqi", "Cheng Gong"]
         },
         {
           "title": "Dynasty Warriors 9",
           "category": "Existing factions",
           "priority": "Medium",
-          "characters": [
-            "Zhou Cang",
-            "Xiahouji",
-            "Xun Yu",
-            "Cao Xiu",
-            "Man Chong",
-            "Xun You",
-            "Cheng Pu",
-            "Xu Sheng",
-            "Xin Xianying",
-            "Dong Bai",
-            "Hua Xiong",
-            "Yuan Shu"
-          ]
+          "characters": ["Zhou Cang", "Xiahouji", "Xun Yu", "Cao Xiu", "Man Chong", "Xun You", "Cheng Pu", "Xu Sheng", "Xin Xianying", "Dong Bai", "Hua Xiong", "Yuan Shu"]
         },
         {
           "title": "Warriors Orochi 4",
           "category": "Other 1",
           "priority": "Medium",
-          "characters": [
-            "Diamondback"
-          ]
+          "characters": ["Diamondback"]
         },
         {
           "title": "Dynasty Warriors: Origins",
           "category": "Other 3 (proposed)",
           "priority": "Low",
-          "characters": [
-            "Ziluan"
-          ]
+          "characters": ["Ziluan"]
         },
         {
           "title": "Dynasty Warriors Strikeforce 2",
           "category": "Other 3 (proposed)",
           "priority": "Low",
-          "characters": [
-            "Xiang Yu",
-            "Beauty Yu",
-            "Xi Wangmu",
-            "King Mu"
-          ]
+          "characters": ["Xiang Yu", "Beauty Yu", "Xi Wangmu", "King Mu"]
         },
         {
           "title": "Warriors All-Stars",
           "category": "Xtra 1",
           "priority": "Medium",
-          "characters": [
-            "Ōka",
-            "Horō",
-            "Tokitsugu",
-            "Sophie Neuenmuller",
-            "Plachta",
-            "Opoona",
-            "Hajime Arima",
-            "Darius",
-            "William Adams",
-            "Nobunyaga Oda",
-            "Marie Rose",
-            "Honoka",
-            "Millenia",
-            "Laegrinna",
-            "Rio",
-            "Arnice",
-            "Christophorus",
-            "Tamaki",
-            "Shiki",
-            "Setsuna"
-          ]
+          "characters": ["Ōka", "Horō", "Tokitsugu", "Sophie Neuenmuller", "Plachta", "Opoona", "Hajime Arima", "Darius", "William Adams", "Nobunyaga Oda", "Marie Rose", "Honoka", "Millenia", "Laegrinna", "Rio", "Arnice", "Christophorus", "Tamaki", "Shiki", "Setsuna"]
         },
         {
           "title": "Berserk and the Band of the Hawk",
           "category": "Xtra 2",
           "priority": "Low",
-          "characters": [
-            "Guts",
-            "Griffith",
-            "Casca",
-            "Judeau",
-            "Nosferatu Zodd",
-            "Wyald",
-            "Serpico",
-            "Schierke"
-          ]
+          "characters": ["Guts", "Griffith", "Casca", "Judeau", "Nosferatu Zodd", "Wyald", "Serpico", "Schierke"]
         },
         {
           "title": "Devil May Cry",
           "category": "Xtra 2",
           "priority": "Very low",
-          "characters": [
-            "Dante",
-            "Vergil",
-            "Nero",
-            "Trish",
-            "Lady"
-          ]
+          "characters": ["Dante", "Vergil", "Nero", "Trish", "Lady"]
         }
       ],
       "screenshots": [
@@ -298,8 +195,8 @@
               "state": "in-progress",
               "progress": 20,
               "summary": "17 Samurai Warriors 4 outfits, with cloth physics, work in testing.",
-              "activity": "Rebuilding several outfits to fix capes, hair and eyes.",
-              "description": "Samurai Warriors 4 outfits brought over to the same characters in this game, with cloth physics. All 17 are now in the same test build as the rest of the mod. Several are being rebuilt to fix see-through capes, hair and eyes.",
+              "activity": "Testing a fix that lets the larger outfits load.",
+              "description": "Samurai Warriors 4 outfits brought over to the same characters in this game, with cloth physics. All 17 are in the same test build as the rest of the mod. Several are being rebuilt to fix capes, hair and eyes, and a fix that lets the larger outfits load is being tested.",
               "screenshots": []
             },
             {
@@ -371,7 +268,7 @@
       "state": "in-progress",
       "progress": 35,
       "summary": "The Samurai 4 tab is in and the first extra character slot works. Extra outfit spaces come later.",
-      "activity": "Adding weapons for characters in the new slots.",
+      "activity": "Testing weapons for characters in the new slots.",
       "description": "Room in the game for more characters and outfits: extra character slots, new tabs on the character select screen and extra outfit spaces. Making the characters and outfits themselves is tracked separately.",
       "substreams": [
         {
@@ -381,8 +278,8 @@
           "state": "in-progress",
           "progress": 45,
           "summary": "New characters now get their own slots beyond the game's built-in limit.",
-          "activity": "Adding weapons for characters in the new slots.",
-          "description": "New characters now get their own slots beyond the game's built-in limit. A character in one of these slots can be picked, fight, level up and save, and works in Musou Battlefields and Triple Attacks. Weapons for these characters are next. For now they borrow Nobuyuki's look.",
+          "activity": "Testing weapons for characters in the new slots.",
+          "description": "New characters now get their own slots beyond the game's built-in limit. A character in one of these slots can be picked, fight, level up and save, and works in Musou Battlefields and Triple Attacks. They now have their own weapon list, which is being tested. For now they borrow Nobuyuki's look.",
           "screenshots": [
             {
               "src": "assets/screenshots/new-slot-team-info.jpg",
@@ -433,10 +330,10 @@
       "title": "Improved graphics",
       "area": "Visual quality",
       "state": "in-progress",
-      "progress": 50,
-      "summary": "Smoother edges, stronger light shafts and sharper shadows work in game.",
-      "activity": "Studying how newer Warriors games render, to guide the next improvements.",
-      "description": "The mod uses its own graphics add-on. Smoother edges, stronger light shafts, sharper shadows and shadows from stage scenery work in game. Next, the way Samurai Warriors 5, Dynasty Warriors: Origins and Dynasty Warriors 3 Complete Edition Remastered draw their scenes is being studied to guide further improvements.",
+      "progress": 70,
+      "summary": "Filmic colour, ambient occlusion, sharper textures, softer character shadows and skin, and no more screen flashing on camera pans.",
+      "activity": "Trying reflections on water, longer shadows and support for HD textures.",
+      "description": "The mod uses its own graphics add-on. Working in game: smoother edges, stronger light shafts, sharper and softer-edged shadows, shadows from stage scenery, filmic colour, ambient occlusion, a second layer of distant fog, sharper textures at an angle and on distant soldiers, softer character shadows and skin, and less colour banding. The brief screen flashes during camera pans are fixed. Performance, Balanced and Quality presets switch these on together. Reflections on water, longer shadow range and HD replacement textures are being tried next.",
       "substreams": [],
       "screenshots": []
     },
@@ -607,6 +504,21 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-10-17",
+      "title": "More graphics options",
+      "detail": "Sharper textures on distant soldiers, softer character shadows and skin, and Performance, Balanced and Quality presets."
+    },
+    {
+      "date": "2026-10-15",
+      "title": "New lighting and colour",
+      "detail": "Filmic colour, ambient occlusion and a second fog layer are now in the graphics add-on."
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Screen flashing fixed",
+      "detail": "The brief screen flashes during camera pans are gone."
+    },
     {
       "date": "2026-10-14",
       "title": "Battles of up to 1,000 characters",
