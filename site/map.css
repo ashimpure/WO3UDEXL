@@ -67,8 +67,13 @@ h1 { margin: 0; font-size: clamp(28px, 4.5vw, 40px); font-weight: 700; letter-sp
 .notes { margin-top: 48px; }
 .notes h2 { margin: 0 0 12px; font-size: 22px; font-weight: 700; }
 .notes ol { margin: 0; padding: 0; list-style: none; }
-.notes li { padding: 12px 0; border-top: 1px solid var(--rule); }
-.notes time { color: var(--muted); font-size: 13px; }
+.notes .day { border-top: 1px solid var(--rule); }
+.notes .day:last-child { border-bottom: 1px solid var(--rule); }
+.notes summary { padding: 12px 0; cursor: pointer; font-weight: 600; }
+.notes summary time { color: var(--text); font-size: 16px; }
+.notes .day-count { color: var(--muted); font-size: 14px; font-weight: 400; }
+.notes .day-items { margin: 0; padding: 0 0 8px; list-style: none; }
+.notes .day-items li { padding: 8px 0 8px 16px; border-left: 2px solid var(--rule); }
 .notes strong { display: block; font-weight: 600; }
 .notes p { margin: 2px 0 0; color: #c8d0dd; font-size: 15px; }
 .fine { margin-top: 36px; color: var(--muted); font-size: 13px; }
