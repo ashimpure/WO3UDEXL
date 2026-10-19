@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-17",
+  "asOf": "2026-10-19",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -266,9 +266,9 @@
       "title": "New character and costume slots",
       "area": "Character and costume selection",
       "state": "in-progress",
-      "progress": 35,
-      "summary": "The Samurai 4 tab is in and the first extra character slot works. Extra outfit spaces come later.",
-      "activity": "Testing weapons for characters in the new slots.",
+      "progress": 45,
+      "summary": "The Samurai 4 tab is in, and new characters get their own slots beyond the game's limit. Extra outfit spaces come later.",
+      "activity": "Adding new characters to the Gallery, Duel and Gauntlet.",
       "description": "Room in the game for more characters and outfits: extra character slots, new tabs on the character select screen and extra outfit spaces. Making the characters and outfits themselves is tracked separately.",
       "substreams": [
         {
@@ -276,10 +276,10 @@
           "title": "Character slots",
           "area": "Character selection",
           "state": "in-progress",
-          "progress": 45,
-          "summary": "New characters now get their own slots beyond the game's built-in limit.",
-          "activity": "Testing weapons for characters in the new slots.",
-          "description": "New characters now get their own slots beyond the game's built-in limit. A character in one of these slots can be picked, fight, level up and save, and works in Musou Battlefields and Triple Attacks. They now have their own weapon list, which is being tested. For now they borrow Nobuyuki's look.",
+          "progress": 60,
+          "summary": "New characters get their own slots beyond the game's limit, with their own weapons, and can fight, level up and save.",
+          "activity": "Adding new characters to the Gallery, Duel and Gauntlet.",
+          "description": "New characters now get their own slots beyond the game's built-in limit, with room for hundreds. A character in one of these slots can be picked, fight, level up and save, works in Musou Battlefields and Triple Attacks, and has their own weapons. Each new character is being set up with their own model and moveset rather than borrowing an existing character's. Next, they are being added to the Gallery, Duel and Gauntlet.",
           "screenshots": [
             {
               "src": "assets/screenshots/new-slot-team-info.jpg",
@@ -332,8 +332,8 @@
       "state": "in-progress",
       "progress": 70,
       "summary": "Filmic colour, ambient occlusion, sharper textures, softer character shadows and skin, and no more screen flashing on camera pans.",
-      "activity": "Trying reflections on water, longer shadows and support for HD textures.",
-      "description": "The mod uses its own graphics add-on. Working in game: smoother edges, stronger light shafts, sharper and softer-edged shadows, shadows from stage scenery, filmic colour, ambient occlusion, a second layer of distant fog, sharper textures at an angle and on distant soldiers, softer character shadows and skin, and less colour banding. The brief screen flashes during camera pans are fixed. Performance, Balanced and Quality presets switch these on together. Reflections on water, longer shadow range and HD replacement textures are being tried next.",
+      "activity": "Trying bounce lighting and better hair and eye shading.",
+      "description": "The mod uses its own graphics add-on. Working in game: smoother edges, stronger light shafts, sharper and softer-edged shadows, shadows from stage scenery, filmic colour, ambient occlusion, a second layer of distant fog, sharper textures at an angle and on distant soldiers, softer character shadows and skin, and less colour banding. The brief screen flashes during camera pans are fixed. Performance, Balanced and Quality presets switch these on together. Shadows no longer pop in on some stages, and hair has a new shine. Reflections on water, bounce lighting and HD replacement textures are being tried next.",
       "substreams": [],
       "screenshots": []
     },
@@ -438,7 +438,7 @@
       "progress": 90,
       "summary": "Battles can now hold up to 1,000 characters instead of 180. The busiest stage reached 999, all armed, with no slowdown.",
       "activity": "Larger battles are ready for gameplay testing.",
-      "description": "The game normally limits a battle to 180 characters, so soldiers disappear and reappear as others spawn. The limit is now 1,000, and the busiest stage reached 999 characters, all armed, with no slowdown. Characters are also drawn further away. Gameplay testing comes later.",
+      "description": "The game normally limits a battle to 180 characters, so soldiers disappear and reappear as others spawn. The limit is now 1,000, and the busiest stage reached 999 characters, all armed, with no slowdown. Characters are also drawn further away. Crashes found in the busiest battles have been fixed. Gameplay testing comes later.",
       "substreams": [],
       "screenshots": [
         {
@@ -504,6 +504,26 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-10-19",
+      "title": "New characters in more modes",
+      "detail": "Characters in the new slots are being added to the Gallery, Duel and Gauntlet."
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Weapons for new characters",
+      "detail": "Characters in the new slots now have their own weapons, which work in the equipment screens, battle and results."
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Shadow pop-in fixed",
+      "detail": "Shadows no longer pop in on some stages, and hair has a new shine."
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Larger battles more stable",
+      "detail": "Crashes found in the busiest battles have been fixed."
+    },
     {
       "date": "2026-10-17",
       "title": "More graphics options",

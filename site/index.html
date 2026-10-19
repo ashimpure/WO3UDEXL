@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#091427">
   <meta name="description" content="Follow progress on the Warriors Orochi 3 Ultimate Xtreme Legends mod.">
   <title>WO3U Xtreme Legends — Project progress</title>
-  <link rel="stylesheet" href="map.css?v=2">
+  <link rel="stylesheet" href="map.css?v=3">
 </head>
 <body>
   <header class="masthead">
@@ -69,15 +69,30 @@
     loadTracker()
       .then((data) => {
         data.streams.forEach((stream, i) => lines.append(renderLine(stream, i)));
+        // Updates grouped by day; each day is a collapsible section, newest open.
         const timeline = document.querySelector("#timeline");
+        const days = new Map();
         [...data.updates].sort((a, b) => b.date.localeCompare(a.date)).forEach((update) => {
-          const li = el("li");
-          const time = el("time", "", formatDate(update.date));
-          time.dateTime = update.date;
-          const detail = el("div");
-          detail.append(el("strong", "", update.title), el("p", "", update.detail));
-          li.append(time, detail);
-          timeline.append(li);
+          if (!days.has(update.date)) days.set(update.date, []);
+          days.get(update.date).push(update);
+        });
+        [...days.entries()].forEach(([date, items], i) => {
+          const day = el("li", "day");
+          const box = el("details");
+          box.open = i === 0;
+          const summary = el("summary");
+          const time = el("time", "", formatDate(date));
+          time.dateTime = date;
+          summary.append(time, el("span", "day-count", ` · ${items.length} ${items.length === 1 ? "update" : "updates"}`));
+          const list = el("ul", "day-items");
+          items.forEach((update) => {
+            const li = el("li");
+            li.append(el("strong", "", update.title), el("p", "", update.detail));
+            list.append(li);
+          });
+          box.append(summary, list);
+          day.append(box);
+          timeline.append(day);
         });
         document.querySelector("#as-of").textContent =
           `Last updated ${formatDate(data.asOf)}. Progress figures are rough estimates, not release dates.`;
