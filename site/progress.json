@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-21",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -7,19 +7,19 @@
       "area": "Character additions",
       "state": "in-progress",
       "progress": 1,
-      "summary": "Nobuyuki Sanada is the first new character and is playable in testing. More than 90 others are on the wishlist.",
-      "activity": "Reworking Nobuyuki's attack timing to match Samurai Warriors 4.",
-      "description": "Characters from other Warriors games, added as new playable characters. Nobuyuki Sanada is the first and is playable in testing. The rest of the list is a wishlist, so the overall figure stays low until more characters are started.",
+      "summary": "Nobuyuki Sanada is the first new character and is playable in his own slot. More than 90 others are on the wishlist.",
+      "activity": "Giving Nobuyuki his own data in every menu and mode.",
+      "description": "Characters from other Warriors games, added as new playable characters. Nobuyuki Sanada is the first and is playable in testing in his own character slot. The rest of the list is a wishlist, so the overall figure stays low until more characters are started.",
       "substreams": [
         {
           "id": "nobuyuki-sanada",
           "title": "Nobuyuki Sanada",
           "area": "Samurai Warriors 4",
           "state": "in-progress",
-          "progress": 25,
-          "summary": "Playable in testing with his Samurai Warriors 4 model, moves, cloth physics and all six weapons.",
-          "activity": "Reworking his attack timing to match Samurai Warriors 4.",
-          "description": "Nobuyuki is ported from Samurai Warriors 4. He has his own Samurai 4 tab on Character Select, cloth physics on his coat and ponytail, and all six weapons, including a sakura Mythic weapon and a black and crimson X weapon. His moveset is being rebuilt to match Samurai Warriors 4: the full normal string, charge attacks, Hyper attacks, jump attacks, Special Attack and the musou camera work in testing, and his attack timing is being reworked. His Special Attack will also push enemies back, as in Samurai Warriors 4. Still to come: his own character slot, his Gallery entry and a second outfit.",
+          "progress": 45,
+          "summary": "Playable in his own character slot, with his own art, voice, stats and weapons from Samurai Warriors 4.",
+          "activity": "Giving him his own data in every menu and mode.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4. He now has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons, with their own weapon cards. His moveset is being rebuilt to match Samurai Warriors 4, and he is getting his own entries across the menus and modes, such as Triple Attacks, bonds and battle results. Still to come: a second outfit.",
           "screenshots": [
             {
               "src": "assets/screenshots/samurai4-select.png",
@@ -266,9 +266,9 @@
       "title": "New character and costume slots",
       "area": "Character and costume selection",
       "state": "in-progress",
-      "progress": 45,
-      "summary": "The Samurai 4 tab is in, and new characters get their own slots beyond the game's limit. Extra outfit spaces come later.",
-      "activity": "Adding new characters to the Gallery, Duel and Gauntlet.",
+      "progress": 55,
+      "summary": "The Samurai 4 tab is in, and Nobuyuki has his own slot beyond the game's limit. Extra outfit spaces come later.",
+      "activity": "Checking every menu and mode with Nobuyuki in his new slot.",
       "description": "Room in the game for more characters and outfits: extra character slots, new tabs on the character select screen and extra outfit spaces. Making the characters and outfits themselves is tracked separately.",
       "substreams": [
         {
@@ -276,10 +276,10 @@
           "title": "Character slots",
           "area": "Character selection",
           "state": "in-progress",
-          "progress": 60,
-          "summary": "New characters get their own slots beyond the game's limit, with their own weapons, and can fight, level up and save.",
-          "activity": "Adding new characters to the Gallery, Duel and Gauntlet.",
-          "description": "New characters now get their own slots beyond the game's built-in limit, with room for hundreds. A character in one of these slots can be picked, fight, level up and save, works in Musou Battlefields and Triple Attacks, and has their own weapons. Each new character is being set up with their own model and moveset rather than borrowing an existing character's. Next, they are being added to the Gallery, Duel and Gauntlet.",
+          "progress": 75,
+          "summary": "Nobuyuki now has his own slot beyond the game's limit, and Kojirō is back in his usual place.",
+          "activity": "Checking every menu and mode with Nobuyuki in his new slot.",
+          "description": "New characters get their own slots beyond the game's built-in limit, with room for hundreds. Nobuyuki is the first to move into one, which puts Kojirō back in his usual place. Characters in these slots can be picked, fight, level up and save, have their own weapons, and work in Musou Battlefields, Triple Attacks, the Gallery, Duel and Gauntlet.",
           "screenshots": [
             {
               "src": "assets/screenshots/new-slot-team-info.jpg",
@@ -504,6 +504,21 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-10-21",
+      "title": "Nobuyuki across the menus",
+      "detail": "Nobuyuki now has his own entries for bonds, battle results and Triple Attacks."
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Nobuyuki in his own slot",
+      "detail": "Nobuyuki has moved to his own character slot, and Kojirō is back in his usual place."
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Nobuyuki's voice, art and stats",
+      "detail": "Nobuyuki now uses his Samurai Warriors 4 battle voice and stats, with his own art and weapon cards."
+    },
     {
       "date": "2026-10-19",
       "title": "New characters in more modes",
