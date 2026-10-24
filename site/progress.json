@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-24",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -8,7 +8,7 @@
       "state": "in-progress",
       "progress": 1,
       "summary": "Nobuyuki Sanada is the first new character and is playable in his own slot. More than 90 others are on the wishlist.",
-      "activity": "Giving Nobuyuki his own data in every menu and mode.",
+      "activity": "Fine-tuning Nobuyuki's attacks, effects and riding against Samurai Warriors 4.",
       "description": "Characters from other Warriors games, added as new playable characters. Nobuyuki Sanada is the first and is playable in testing in his own character slot. The rest of the list is a wishlist, so the overall figure stays low until more characters are started.",
       "substreams": [
         {
@@ -16,10 +16,10 @@
           "title": "Nobuyuki Sanada",
           "area": "Samurai Warriors 4",
           "state": "in-progress",
-          "progress": 45,
-          "summary": "Playable in his own character slot, with his own art, voice, stats and weapons from Samurai Warriors 4.",
-          "activity": "Giving him his own data in every menu and mode.",
-          "description": "Nobuyuki is ported from Samurai Warriors 4. He now has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons, with their own weapon cards. His moveset is being rebuilt to match Samurai Warriors 4, and he is getting his own entries across the menus and modes, such as Triple Attacks, bonds and battle results. Still to come: a second outfit.",
+          "progress": 60,
+          "summary": "Playable in his own slot with his own Samurai Warriors 4 moveset, musou camera, effects, voice, art and weapons.",
+          "activity": "Fine-tuning his attacks, effects and riding against Samurai Warriors 4.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou. Still to come: fine-tuning against Samurai Warriors 4 and a second outfit.",
           "screenshots": [
             {
               "src": "assets/screenshots/samurai4-select.png",
@@ -330,10 +330,10 @@
       "title": "Improved graphics",
       "area": "Visual quality",
       "state": "in-progress",
-      "progress": 70,
+      "progress": 75,
       "summary": "Filmic colour, ambient occlusion, sharper textures, softer character shadows and skin, and no more screen flashing on camera pans.",
-      "activity": "Trying bounce lighting and better hair and eye shading.",
-      "description": "The mod uses its own graphics add-on. Working in game: smoother edges, stronger light shafts, sharper and softer-edged shadows, shadows from stage scenery, filmic colour, ambient occlusion, a second layer of distant fog, sharper textures at an angle and on distant soldiers, softer character shadows and skin, and less colour banding. The brief screen flashes during camera pans are fixed. Performance, Balanced and Quality presets switch these on together. Shadows no longer pop in on some stages, and hair has a new shine. Reflections on water, bounce lighting and HD replacement textures are being tried next.",
+      "activity": "Trying the new HD stage textures, bounce lighting and better hair and eye shading.",
+      "description": "The mod uses its own graphics add-on. Working in game: smoother edges, stronger light shafts, sharper and softer-edged shadows, shadows from stage scenery, filmic colour, ambient occlusion, a second layer of distant fog, sharper textures at an angle and on distant soldiers, softer character shadows and skin, and less colour banding. The brief screen flashes during camera pans are fixed. Performance, Balanced and Quality presets switch these on together. Shadows no longer pop in on some stages, and hair has a new shine. HD textures for every stage have been built. Reflections on water and bounce lighting are being tried next.",
       "substreams": [],
       "screenshots": []
     },
@@ -438,7 +438,7 @@
       "progress": 90,
       "summary": "Battles can now hold up to 1,000 characters instead of 180. The busiest stage reached 999, all armed, with no slowdown.",
       "activity": "Larger battles are ready for gameplay testing.",
-      "description": "The game normally limits a battle to 180 characters, so soldiers disappear and reappear as others spawn. The limit is now 1,000, and the busiest stage reached 999 characters, all armed, with no slowdown. Characters are also drawn further away. Crashes found in the busiest battles have been fixed. Gameplay testing comes later.",
+      "description": "The game normally limits a battle to 180 characters, so soldiers disappear and reappear as others spawn. The limit is now 1,000, and the busiest stage reached 999 characters, all armed, with no slowdown. Characters are also drawn further away. Crashes found in the busiest battles have been fixed, and musou close-ups now show in big battles. Gameplay testing comes later.",
       "substreams": [],
       "screenshots": [
         {
@@ -504,6 +504,26 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-10-24",
+      "title": "Musou close-ups in big battles",
+      "detail": "The character close-up in musou cut-ins no longer goes missing when lots of characters are on screen."
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Nobuyuki's musou and effects",
+      "detail": "Nobuyuki now has his Samurai Warriors 4 musou camera, attack effects and musou kanji, and his three-tornado musou in Triple Attacks."
+    },
+    {
+      "date": "2026-10-23",
+      "title": "HD stage textures",
+      "detail": "HD textures for every stage have been built."
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Nobuyuki's own moveset",
+      "detail": "Nobuyuki's moves are now fully his own, built from Samurai Warriors 4."
+    },
     {
       "date": "2026-10-21",
       "title": "Nobuyuki across the menus",
