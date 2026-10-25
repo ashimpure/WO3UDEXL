@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-24",
+  "asOf": "2026-10-25",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -8,7 +8,7 @@
       "state": "in-progress",
       "progress": 1,
       "summary": "Nobuyuki Sanada is the first new character and is playable in his own slot. More than 90 others are on the wishlist.",
-      "activity": "Fine-tuning Nobuyuki's attacks, effects and riding against Samurai Warriors 4.",
+      "activity": "Matching Nobuyuki's effects, attack reach and mounted attacks to Samurai Warriors 4.",
       "description": "Characters from other Warriors games, added as new playable characters. Nobuyuki Sanada is the first and is playable in testing in his own character slot. The rest of the list is a wishlist, so the overall figure stays low until more characters are started.",
       "substreams": [
         {
@@ -16,10 +16,10 @@
           "title": "Nobuyuki Sanada",
           "area": "Samurai Warriors 4",
           "state": "in-progress",
-          "progress": 60,
+          "progress": 65,
           "summary": "Playable in his own slot with his own Samurai Warriors 4 moveset, musou camera, effects, voice, art and weapons.",
-          "activity": "Fine-tuning his attacks, effects and riding against Samurai Warriors 4.",
-          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou. Still to come: fine-tuning against Samurai Warriors 4 and a second outfit.",
+          "activity": "Matching his effects, attack reach and mounted attacks to Samurai Warriors 4.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. His effects, attack reach and mounted attacks are being matched to Samurai Warriors 4. Still to come: fine-tuning against Samurai Warriors 4 and a second outfit.",
           "screenshots": [
             {
               "src": "assets/screenshots/samurai4-select.png",
@@ -437,7 +437,7 @@
       "state": "ready-to-test",
       "progress": 90,
       "summary": "Battles can now hold up to 1,000 characters instead of 180. The busiest stage reached 999, all armed, with no slowdown.",
-      "activity": "Larger battles are ready for gameplay testing.",
+      "activity": "Raising the number of characters drawn at once in the biggest battles.",
       "description": "The game normally limits a battle to 180 characters, so soldiers disappear and reappear as others spawn. The limit is now 1,000, and the busiest stage reached 999 characters, all armed, with no slowdown. Characters are also drawn further away. Crashes found in the busiest battles have been fixed, and musou close-ups now show in big battles. Gameplay testing comes later.",
       "substreams": [],
       "screenshots": [
@@ -504,6 +504,16 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-10-25",
+      "title": "Nobuyuki closer to Samurai Warriors 4",
+      "detail": "His effects now follow his weapon, his charge attacks reach as far as in Samurai Warriors 4, and he holds his weapon properly on horseback. These are being tested."
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Nobuyuki's musou close-up",
+      "detail": "Nobuyuki's musou cut-in now shows his own close-up."
+    },
     {
       "date": "2026-10-24",
       "title": "Musou close-ups in big battles",
