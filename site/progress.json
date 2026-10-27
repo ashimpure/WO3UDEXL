@@ -117,8 +117,8 @@
       "state": "in-progress",
       "progress": 3,
       "summary": "17 Samurai Warriors 4 outfits work in testing, out of hundreds planned across the Warriors games.",
-      "activity": "Rebuilding several Samurai Warriors 4 outfits.",
-      "description": "Outfits from other games, grouped by series. Hundreds are planned, so the overall figure is low. For now each new outfit replaces an existing one; extra outfit spaces are part of the slots work.",
+      "activity": "Rebuilding the Samurai Warriors 4 outfits at full quality for their new slots.",
+      "description": "Outfits from other games, grouped by series. Hundreds are planned, so the overall figure is low. Ported outfits now sit in their own Xtreme Costume slots instead of replacing existing outfits.",
       "substreams": [
         {
           "id": "dynasty-warriors-costumes",
@@ -184,7 +184,7 @@
           "state": "in-progress",
           "progress": 5,
           "summary": "17 Samurai Warriors 4 outfits work in testing. Samurai Warriors 4-II and 5 are planned.",
-          "activity": "Rebuilding several Samurai Warriors 4 outfits.",
+          "activity": "Rebuilding the Samurai Warriors 4 outfits at full quality for their new slots.",
           "description": "Outfits from the Samurai Warriors games, brought over to the same characters in this game.",
           "screenshots": [],
           "substreams": [
@@ -195,8 +195,8 @@
               "state": "in-progress",
               "progress": 20,
               "summary": "17 Samurai Warriors 4 outfits, with cloth physics, work in testing.",
-              "activity": "Testing a fix that lets the larger outfits load.",
-              "description": "Samurai Warriors 4 outfits brought over to the same characters in this game, with cloth physics. All 17 are in the same test build as the rest of the mod. Several are being rebuilt to fix capes, hair and eyes, and a fix that lets the larger outfits load is being tested.",
+              "activity": "Rebuilding the outfits at full quality for their new slots.",
+              "description": "Samurai Warriors 4 outfits brought over to the same characters in this game, with cloth physics. All 17 now sit in their own Xtreme Costume slots instead of replacing existing outfits. They are being rebuilt at full quality, without cutting detail, and 11 have been rebuilt so far for testing.",
               "screenshots": []
             },
             {
@@ -266,9 +266,9 @@
       "title": "New character and costume slots",
       "area": "Character and costume selection",
       "state": "in-progress",
-      "progress": 55,
-      "summary": "The Samurai 4 tab is in, and Nobuyuki has his own slot beyond the game's limit. Extra outfit spaces come later.",
-      "activity": "Checking every menu and mode with Nobuyuki in his new slot.",
+      "progress": 60,
+      "summary": "The Samurai 4 tab is in, Nobuyuki has his own slot, and ported outfits now get their own Xtreme Costume slots.",
+      "activity": "Testing extra outfit spaces beyond the game's limit.",
       "description": "Room in the game for more characters and outfits: extra character slots, new tabs on the character select screen and extra outfit spaces. Making the characters and outfits themselves is tracked separately.",
       "substreams": [
         {
@@ -309,11 +309,11 @@
           "id": "extra-costume-slots",
           "title": "Costume slots",
           "area": "Costume selection",
-          "state": "planning",
-          "progress": 15,
-          "summary": "Extra outfit spaces, so new outfits don't replace existing ones.",
-          "activity": "Extra outfit spaces are planned.",
-          "description": "More outfit spaces per character, so new outfits can sit alongside the originals. The outfits themselves are tracked separately.",
+          "state": "in-progress",
+          "progress": 40,
+          "summary": "Ported outfits now get their own Xtreme Costume slots instead of replacing existing outfits.",
+          "activity": "Testing extra outfit spaces beyond the game's limit.",
+          "description": "Ported outfits now sit in their own Xtreme Costume slots in the costume list, alongside the originals. All the Samurai Warriors 4 outfits have been moved into these slots. Extra spaces beyond the game's limit of outfits per character are being tested.",
           "screenshots": []
         }
       ],
@@ -504,6 +504,16 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-10-27",
+      "title": "Xtreme Costume slots",
+      "detail": "Ported outfits now have their own slots in the costume list instead of replacing existing outfits."
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Full-quality outfit rebuilds",
+      "detail": "11 Samurai Warriors 4 outfits have been rebuilt without cutting detail. These are being tested."
+    },
     {
       "date": "2026-10-26",
       "title": "Nobuyuki's attacks follow Samurai Warriors 4",
