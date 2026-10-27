@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-25",
+  "asOf": "2026-10-27",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -8,7 +8,7 @@
       "state": "in-progress",
       "progress": 1,
       "summary": "Nobuyuki Sanada is the first new character and is playable in his own slot. More than 90 others are on the wishlist.",
-      "activity": "Matching Nobuyuki's effects, attack reach and mounted attacks to Samurai Warriors 4.",
+      "activity": "Testing Nobuyuki's attacks, projectiles and horseback moves against Samurai Warriors 4.",
       "description": "Characters from other Warriors games, added as new playable characters. Nobuyuki Sanada is the first and is playable in testing in his own character slot. The rest of the list is a wishlist, so the overall figure stays low until more characters are started.",
       "substreams": [
         {
@@ -16,10 +16,10 @@
           "title": "Nobuyuki Sanada",
           "area": "Samurai Warriors 4",
           "state": "in-progress",
-          "progress": 65,
+          "progress": 70,
           "summary": "Playable in his own slot with his own Samurai Warriors 4 moveset, musou camera, effects, voice, art and weapons.",
-          "activity": "Matching his effects, attack reach and mounted attacks to Samurai Warriors 4.",
-          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. His effects, attack reach and mounted attacks are being matched to Samurai Warriors 4. Still to come: fine-tuning against Samurai Warriors 4 and a second outfit.",
+          "activity": "Testing his attacks, projectiles and horseback moves against Samurai Warriors 4.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. His attack ranges, projectiles, effect colours, musou camera and horseback animations now follow Samurai Warriors 4 and are being tested. Still to come: fine-tuning against Samurai Warriors 4 and a second outfit.",
           "screenshots": [
             {
               "src": "assets/screenshots/samurai4-select.png",
@@ -504,6 +504,16 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-10-26",
+      "title": "Nobuyuki's attacks follow Samurai Warriors 4",
+      "detail": "His attack ranges, projectiles, effect colours and musou camera now follow Samurai Warriors 4. These are being tested."
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Nobuyuki on horseback",
+      "detail": "His riding and mounted attacks now use his Samurai Warriors 4 animations and effects. These are being tested."
+    },
     {
       "date": "2026-10-25",
       "title": "Nobuyuki closer to Samurai Warriors 4",
