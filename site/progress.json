@@ -6,10 +6,10 @@
       "title": "New characters",
       "area": "Character additions",
       "state": "in-progress",
-      "progress": 1,
-      "summary": "Nobuyuki Sanada is the first new character and is playable in his own slot. More than 90 others are on the wishlist.",
-      "activity": "Testing Nobuyuki's attacks, projectiles and horseback moves against Samurai Warriors 4.",
-      "description": "Characters from other Warriors games, added as new playable characters. Nobuyuki Sanada is the first and is playable in testing in his own character slot. The rest of the list is a wishlist, so the overall figure stays low until more characters are started.",
+      "progress": 2,
+      "summary": "Nobuyuki Sanada is playable in testing and Takamaru is being built. More than 90 others are on the wishlist.",
+      "activity": "Building Nobuyuki's own model and Takamaru from Samurai Warriors 3.",
+      "description": "Characters from other Warriors games, added as new playable characters. Nobuyuki Sanada is the first and is playable in testing in his own character slot. Takamaru from Samurai Warriors 3 is the second and is being built. The rest of the list is a wishlist, so the overall figure stays low until more characters are started.",
       "substreams": [
         {
           "id": "nobuyuki-sanada",
@@ -18,8 +18,8 @@
           "state": "in-progress",
           "progress": 70,
           "summary": "Playable in his own slot with his own Samurai Warriors 4 moveset, musou camera, effects, voice, art and weapons.",
-          "activity": "Testing his attacks, projectiles and horseback moves against Samurai Warriors 4.",
-          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. His attack ranges, projectiles, effect colours, musou camera and horseback animations now follow Samurai Warriors 4 and are being tested. Still to come: fine-tuning against Samurai Warriors 4 and a second outfit.",
+          "activity": "Building his own skeleton and model from Samurai Warriors 4, including his hair and cloth.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. His attack ranges, projectiles, effect colours, musou camera and horseback animations now follow Samurai Warriors 4 and are being tested. He is also getting his own skeleton and model built from Samurai Warriors 4. Still to come: fine-tuning against Samurai Warriors 4 and a second outfit.",
           "screenshots": [
             {
               "src": "assets/screenshots/samurai4-select.png",
@@ -32,6 +32,18 @@
               "caption": "Nobuyuki with his Day & Night Blades."
             }
           ]
+        },
+        {
+          "id": "takamaru",
+          "title": "Takamaru",
+          "area": "Samurai Warriors 3",
+          "state": "in-progress",
+          "progress": 10,
+          "summary": "Being built from Samurai Warriors 3, with his own model, weapons and motions. Not in game yet.",
+          "activity": "Matching his Samurai Warriors 3 moveset to the game's attack layout.",
+          "description": "Takamaru is ported from Samurai Warriors 3 into his own character slot. His model, skeleton, katanas and motions have been converted from Samurai Warriors 3, and his moveset is being mapped to the game's attack layout. He is not in game yet.",
+          "substreams": [],
+          "screenshots": []
         }
       ],
       "plannedGroups": [
@@ -116,8 +128,8 @@
       "area": "New outfits",
       "state": "in-progress",
       "progress": 8,
-      "summary": "More than 80 Samurai Warriors 4 outfits, including DLC outfits, are in testing, out of hundreds planned across the Warriors games.",
-      "activity": "Testing the Samurai Warriors 4 outfits with matched shine, and building Okuni's Nioh 2 outfit.",
+      "summary": "All 96 Samurai Warriors 4 outfits in testing have cloth physics, out of hundreds planned across the Warriors games.",
+      "activity": "Testing the Samurai Warriors 4 outfits and Okuni's Nioh 2 outfit.",
       "description": "Outfits from other games, grouped by series. Hundreds are planned, so the overall figure is low. Ported outfits now sit in their own Xtreme Costume slots instead of replacing existing outfits.",
       "substreams": [
         {
@@ -183,7 +195,7 @@
           "area": "Samurai Warriors series",
           "state": "in-progress",
           "progress": 15,
-          "summary": "More than 80 Samurai Warriors 4 outfits, including DLC outfits, are in testing. Samurai Warriors 4-II and 5 are planned.",
+          "summary": "96 Samurai Warriors 4 outfits, including DLC outfits, with cloth physics, are in testing. Samurai Warriors 4-II and 5 are planned.",
           "activity": "Testing the Samurai Warriors 4 outfits with matched shine.",
           "description": "Outfits from the Samurai Warriors games, brought over to the same characters in this game.",
           "screenshots": [],
@@ -193,10 +205,10 @@
               "title": "Samurai Warriors 4",
               "area": "Samurai Warriors 4",
               "state": "in-progress",
-              "progress": 60,
-              "summary": "More than 80 Samurai Warriors 4 outfits, including DLC outfits, with cloth physics, sit in their own Xtreme Costume slots.",
-              "activity": "Testing every outfit with shine matched to the game's lighting.",
-              "description": "Every Samurai Warriors 4 outfit for the Samurai Warriors characters in this game is being brought over, including DLC outfits, with cloth physics and several per character. More than 80 are built and sit in their own Xtreme Costume slots alongside the originals. They have been rebuilt at full quality, and their shine now matches the game's lighting. They are being tested.",
+              "progress": 70,
+              "summary": "96 Samurai Warriors 4 outfits, including DLC outfits, all with cloth physics, sit in their own Xtreme Costume slots.",
+              "activity": "Testing the outfits, with less clipping and see-through pieces like glasses now drawn properly.",
+              "description": "Every Samurai Warriors 4 outfit for the Samurai Warriors characters in this game is being brought over, including DLC outfits, with several per character. 96 are built, all with cloth physics, and sit in their own Xtreme Costume slots alongside the originals, marked with their own icon in the costume list. They are rebuilt at full quality with shine matched to the game's lighting, see-through pieces such as glasses are drawn properly, and cloth now clips less against the body. They are being tested.",
               "screenshots": []
             },
             {
@@ -241,7 +253,7 @@
           "state": "in-progress",
           "progress": 5,
           "summary": "Outfits from outside the Warriors series: Sophitia from Soulcalibur and Okuni from Nioh 2.",
-          "activity": "Building Okuni's Nioh 2 outfit with cloth physics.",
+          "activity": "Fine-tuning Okuni's Nioh 2 outfit in game.",
           "description": "Outfits from games outside the Warriors series. Characters will be added here as work on them starts.",
           "screenshots": [],
           "substreams": [
@@ -261,10 +273,10 @@
               "title": "Okuni",
               "area": "Nioh 2",
               "state": "in-progress",
-              "progress": 30,
-              "summary": "Okuni's Nioh 2 outfit is being built, with new cloth physics for her skirt and sleeves.",
-              "activity": "Building her outfit's cloth physics.",
-              "description": "Okuni's outfit from Nioh 2, brought over to Okuni in this game. Her skirt and sleeves are getting cloth physics of their own. It will sit in one of her Xtreme Costume slots.",
+              "progress": 50,
+              "summary": "Okuni's Nioh 2 outfit is in testing, with cloth physics on her skirt and sleeves.",
+              "activity": "Fine-tuning her skirt and sleeves in game.",
+              "description": "Okuni's outfit from Nioh 2, brought over to Okuni in this game, with cloth physics of its own on her skirt and sleeves. It is being tested in game and fine-tuned to stop the body showing through the skirt.",
               "substreams": [],
               "screenshots": []
             }
@@ -516,6 +528,26 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-11-01",
+      "title": "Cloth physics on every Samurai Warriors 4 outfit",
+      "detail": "All 96 Samurai Warriors 4 outfits now have cloth physics, clip less, and draw see-through pieces properly. They are marked with their own icon in the costume list."
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Okuni's outfit in game",
+      "detail": "Okuni's Nioh 2 outfit is now in testing, with cloth physics on her skirt and sleeves."
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Takamaru started",
+      "detail": "Takamaru from Samurai Warriors 3 is the second new character. His model, weapons and motions are converted."
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Nobuyuki's own model",
+      "detail": "Nobuyuki is getting his own skeleton and model built from Samurai Warriors 4."
+    },
     {
       "date": "2026-11-01",
       "title": "Okuni's Nioh 2 outfit",
