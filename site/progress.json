@@ -252,7 +252,7 @@
           "area": "Other games",
           "state": "in-progress",
           "progress": 5,
-          "summary": "Outfits from outside the Warriors series: Sophitia from Soulcalibur, Okuni from Nioh 2, and the guest character outfits from the PlayStation 3 release.",
+          "summary": "Outfits from outside the Warriors series: Sophitia from Soulcalibur, including her PlayStation 3 outfit, and Okuni from Nioh 2.",
           "activity": "Fine-tuning Okuni's Nioh 2 outfit in game.",
           "description": "Outfits from games outside the Warriors series. Characters will be added here as work on them starts.",
           "screenshots": [],
@@ -282,13 +282,13 @@
             },
             {
               "id": "ps3-guest-outfits",
-              "title": "PlayStation 3 guest outfits",
+              "title": "Sophitia's PlayStation 3 outfit",
               "area": "Warriors Orochi 3 (PlayStation 3)",
               "state": "in-progress",
-              "progress": 15,
-              "summary": "Guest outfits from the PlayStation 3 release for Sophitia, Kasumi, Momiji, Rachel, Sterk and Xu Shu are being ported.",
-              "activity": "Porting the PlayStation 3 guest outfits.",
-              "description": "Outfits from the PlayStation 3 release's guest pack, for Sophitia, Kasumi, Momiji, Rachel, Sterk and Xu Shu. They are being ported into Xtreme Costume slots.",
+              "progress": 40,
+              "summary": "Sophitia's outfit from the PlayStation 3 release is converted with physics and in testing.",
+              "activity": "Checking Sophitia's PlayStation 3 outfit in game.",
+              "description": "Sophitia's outfit from the PlayStation 3 release's guest pack, which the PC release does not include. It has been converted with physics into an Xtreme Costume slot and is being checked in game.",
               "substreams": [],
               "screenshots": []
             }
@@ -547,8 +547,8 @@
     },
     {
       "date": "2026-11-01",
-      "title": "PlayStation 3 guest outfits",
-      "detail": "Guest outfits from the PlayStation 3 release for Sophitia, Kasumi, Momiji, Rachel, Sterk and Xu Shu are being ported."
+      "title": "Sophitia's PlayStation 3 outfit",
+      "detail": "Sophitia's outfit from the PlayStation 3 release, which the PC release lacks, is converted with physics and in testing."
     },
     {
       "date": "2026-11-01",
