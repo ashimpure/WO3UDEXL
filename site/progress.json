@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-27",
+  "asOf": "2026-11-01",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -115,9 +115,9 @@
       "title": "Costume additions",
       "area": "New outfits",
       "state": "in-progress",
-      "progress": 3,
-      "summary": "17 Samurai Warriors 4 outfits work in testing, out of hundreds planned across the Warriors games.",
-      "activity": "Rebuilding the Samurai Warriors 4 outfits at full quality for their new slots.",
+      "progress": 8,
+      "summary": "More than 80 Samurai Warriors 4 outfits, including DLC outfits, are in testing, out of hundreds planned across the Warriors games.",
+      "activity": "Testing the Samurai Warriors 4 outfits with matched shine, and building Okuni's Nioh 2 outfit.",
       "description": "Outfits from other games, grouped by series. Hundreds are planned, so the overall figure is low. Ported outfits now sit in their own Xtreme Costume slots instead of replacing existing outfits.",
       "substreams": [
         {
@@ -182,9 +182,9 @@
           "title": "Samurai Warriors",
           "area": "Samurai Warriors series",
           "state": "in-progress",
-          "progress": 5,
-          "summary": "17 Samurai Warriors 4 outfits work in testing. Samurai Warriors 4-II and 5 are planned.",
-          "activity": "Rebuilding the Samurai Warriors 4 outfits at full quality for their new slots.",
+          "progress": 15,
+          "summary": "More than 80 Samurai Warriors 4 outfits, including DLC outfits, are in testing. Samurai Warriors 4-II and 5 are planned.",
+          "activity": "Testing the Samurai Warriors 4 outfits with matched shine.",
           "description": "Outfits from the Samurai Warriors games, brought over to the same characters in this game.",
           "screenshots": [],
           "substreams": [
@@ -193,10 +193,10 @@
               "title": "Samurai Warriors 4",
               "area": "Samurai Warriors 4",
               "state": "in-progress",
-              "progress": 20,
-              "summary": "17 Samurai Warriors 4 outfits, with cloth physics, work in testing.",
-              "activity": "Rebuilding the outfits at full quality for their new slots.",
-              "description": "Samurai Warriors 4 outfits brought over to the same characters in this game, with cloth physics. All 17 now sit in their own Xtreme Costume slots instead of replacing existing outfits. They are being rebuilt at full quality, without cutting detail, and 11 have been rebuilt so far for testing.",
+              "progress": 60,
+              "summary": "More than 80 Samurai Warriors 4 outfits, including DLC outfits, with cloth physics, sit in their own Xtreme Costume slots.",
+              "activity": "Testing every outfit with shine matched to the game's lighting.",
+              "description": "Every Samurai Warriors 4 outfit for the Samurai Warriors characters in this game is being brought over, including DLC outfits, with cloth physics and several per character. More than 80 are built and sit in their own Xtreme Costume slots alongside the originals. They have been rebuilt at full quality, and their shine now matches the game's lighting. They are being tested.",
               "screenshots": []
             },
             {
@@ -240,8 +240,8 @@
           "area": "Other games",
           "state": "in-progress",
           "progress": 5,
-          "summary": "Outfits from outside the Warriors series. Sophitia's Soulcalibur outfit is the first.",
-          "activity": "Fixing the physics on Sophitia's braid.",
+          "summary": "Outfits from outside the Warriors series: Sophitia from Soulcalibur and Okuni from Nioh 2.",
+          "activity": "Building Okuni's Nioh 2 outfit with cloth physics.",
           "description": "Outfits from games outside the Warriors series. Characters will be added here as work on them starts.",
           "screenshots": [],
           "substreams": [
@@ -255,6 +255,18 @@
               "activity": "Fixing the physics on her braid.",
               "description": "Sophitia's Broken Destiny outfit from Soulcalibur. The skirt moves properly in battle. The braid hangs correctly in the Gallery but drops to the ground in battle. A few Soulcalibur 2 outfits are planned for later.",
               "screenshots": []
+            },
+            {
+              "id": "okuni-nioh2",
+              "title": "Okuni",
+              "area": "Nioh 2",
+              "state": "in-progress",
+              "progress": 30,
+              "summary": "Okuni's Nioh 2 outfit is being built, with new cloth physics for her skirt and sleeves.",
+              "activity": "Building her outfit's cloth physics.",
+              "description": "Okuni's outfit from Nioh 2, brought over to Okuni in this game. Her skirt and sleeves are getting cloth physics of their own. It will sit in one of her Xtreme Costume slots.",
+              "substreams": [],
+              "screenshots": []
             }
           ]
         }
@@ -266,9 +278,9 @@
       "title": "New character and costume slots",
       "area": "Character and costume selection",
       "state": "in-progress",
-      "progress": 60,
+      "progress": 65,
       "summary": "The Samurai 4 tab is in, Nobuyuki has his own slot, and ported outfits now get their own Xtreme Costume slots.",
-      "activity": "Testing extra outfit spaces beyond the game's limit.",
+      "activity": "Testing several Xtreme Costume slots per character.",
       "description": "Room in the game for more characters and outfits: extra character slots, new tabs on the character select screen and extra outfit spaces. Making the characters and outfits themselves is tracked separately.",
       "substreams": [
         {
@@ -310,10 +322,10 @@
           "title": "Costume slots",
           "area": "Costume selection",
           "state": "in-progress",
-          "progress": 40,
-          "summary": "Ported outfits now get their own Xtreme Costume slots instead of replacing existing outfits.",
-          "activity": "Testing extra outfit spaces beyond the game's limit.",
-          "description": "Ported outfits now sit in their own Xtreme Costume slots in the costume list, alongside the originals. All the Samurai Warriors 4 outfits have been moved into these slots. Extra spaces beyond the game's limit of outfits per character are being tested.",
+          "progress": 60,
+          "summary": "Ported outfits get their own Xtreme Costume slots, and characters can now have more outfits than the game's limit.",
+          "activity": "Testing several Xtreme Costume slots per character.",
+          "description": "Ported outfits sit in their own Xtreme Costume slots in the costume list, alongside the originals, with several per character. Characters can now have more outfits than the game's built-in limit, and new characters like Nobuyuki get outfit slots too.",
           "screenshots": []
         }
       ],
@@ -504,6 +516,21 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-11-01",
+      "title": "Okuni's Nioh 2 outfit",
+      "detail": "Okuni's outfit from Nioh 2 is being built, with new cloth physics for her skirt and sleeves."
+    },
+    {
+      "date": "2026-10-31",
+      "title": "Samurai Warriors 4 outfits, including DLC",
+      "detail": "More than 80 Samurai Warriors 4 outfits, including DLC outfits, are built with cloth physics and shine matched to the game's lighting. These are being tested."
+    },
+    {
+      "date": "2026-10-31",
+      "title": "More outfit slots",
+      "detail": "Characters can now have more outfits than the game's limit, with several Xtreme Costume slots each."
+    },
     {
       "date": "2026-10-27",
       "title": "Xtreme Costume slots",
