@@ -195,7 +195,7 @@
           "area": "Samurai Warriors series",
           "state": "in-progress",
           "progress": 15,
-          "summary": "96 Samurai Warriors 4 outfits, including DLC outfits, with cloth physics, are in testing. Samurai Warriors 4-II and 5 are planned.",
+          "summary": "96 Samurai Warriors 4 outfits are in testing, and more than 120 from Samurai Warriors 3 Z Special are being ported.",
           "activity": "Testing the Samurai Warriors 4 outfits with matched shine.",
           "description": "Outfits from the Samurai Warriors games, brought over to the same characters in this game.",
           "screenshots": [],
@@ -237,11 +237,11 @@
               "id": "other-sw-outfits",
               "title": "Other Samurai Warriors",
               "area": "other Samurai Warriors games",
-              "state": "planning",
-              "progress": 0,
-              "summary": "Outfits from other Samurai Warriors games are planned.",
-              "activity": "other Samurai Warriors games outfits are planned.",
-              "description": "Outfits from other Samurai Warriors games. Characters will be added here as work on them starts.",
+              "state": "in-progress",
+              "progress": 20,
+              "summary": "More than 120 outfits from Samurai Warriors 3 Z Special are being ported.",
+              "activity": "Porting the Samurai Warriors 3 Z Special outfits.",
+              "description": "Outfits from other Samurai Warriors games. More than 120 outfits from Samurai Warriors 3 Z Special have been upscaled and are being ported into Xtreme Costume slots.",
               "screenshots": []
             }
           ]
@@ -252,7 +252,7 @@
           "area": "Other games",
           "state": "in-progress",
           "progress": 5,
-          "summary": "Outfits from outside the Warriors series: Sophitia from Soulcalibur and Okuni from Nioh 2.",
+          "summary": "Outfits from outside the Warriors series: Sophitia from Soulcalibur, Okuni from Nioh 2, and the guest character outfits from the PlayStation 3 release.",
           "activity": "Fine-tuning Okuni's Nioh 2 outfit in game.",
           "description": "Outfits from games outside the Warriors series. Characters will be added here as work on them starts.",
           "screenshots": [],
@@ -277,6 +277,18 @@
               "summary": "Okuni's Nioh 2 outfit is in testing, with cloth physics on her skirt and sleeves.",
               "activity": "Fine-tuning her skirt and sleeves in game.",
               "description": "Okuni's outfit from Nioh 2, brought over to Okuni in this game, with cloth physics of its own on her skirt and sleeves. It is being tested in game and fine-tuned to stop the body showing through the skirt.",
+              "substreams": [],
+              "screenshots": []
+            },
+            {
+              "id": "ps3-guest-outfits",
+              "title": "PlayStation 3 guest outfits",
+              "area": "Warriors Orochi 3 (PlayStation 3)",
+              "state": "in-progress",
+              "progress": 15,
+              "summary": "Guest outfits from the PlayStation 3 release for Sophitia, Kasumi, Momiji, Rachel, Sterk and Xu Shu are being ported.",
+              "activity": "Porting the PlayStation 3 guest outfits.",
+              "description": "Outfits from the PlayStation 3 release's guest pack, for Sophitia, Kasumi, Momiji, Rachel, Sterk and Xu Shu. They are being ported into Xtreme Costume slots.",
               "substreams": [],
               "screenshots": []
             }
@@ -528,6 +540,16 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-11-01",
+      "title": "Samurai Warriors 3 Z Special outfits",
+      "detail": "More than 120 outfits from Samurai Warriors 3 Z Special have been upscaled and are being ported."
+    },
+    {
+      "date": "2026-11-01",
+      "title": "PlayStation 3 guest outfits",
+      "detail": "Guest outfits from the PlayStation 3 release for Sophitia, Kasumi, Momiji, Rachel, Sterk and Xu Shu are being ported."
+    },
     {
       "date": "2026-11-01",
       "title": "Cloth physics on every Samurai Warriors 4 outfit",
