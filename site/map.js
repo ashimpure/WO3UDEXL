@@ -3,14 +3,16 @@ const STATE_LABELS = {
   "in-progress": "In progress",
   "ready-to-test": "Ready to test",
   "on-hold": "On hold",
-  paused: "On hold"
+  paused: "On hold",
+  complete: "Complete"
 };
 const NOW_LABELS = {
   planning: "Planned:",
   "in-progress": "Now:",
   "ready-to-test": "Ready to test:",
   "on-hold": "Latest:",
-  paused: "Latest:"
+  paused: "Latest:",
+  complete: "Done:"
 };
 
 function el(tag, className, text) {

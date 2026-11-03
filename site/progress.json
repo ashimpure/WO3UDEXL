@@ -8,7 +8,7 @@
       "state": "in-progress",
       "progress": 2,
       "summary": "Nobuyuki Sanada and Takamaru are playable in testing. More than 90 others are on the wishlist.",
-      "activity": "Testing Nobuyuki's own model and Takamaru in game.",
+      "activity": "Testing Nobuyuki on his own skeleton and Takamaru in game.",
       "description": "Characters from other Warriors games, added as new playable characters. Nobuyuki Sanada is the first and is playable in testing in his own character slot. Takamaru from Samurai Warriors 3 is the second and is now playable in testing too. The rest of the list is a wishlist, so the overall figure stays low until more characters are started.",
       "substreams": [
         {
@@ -18,8 +18,8 @@
           "state": "in-progress",
           "progress": 70,
           "summary": "Playable in his own slot with his own Samurai Warriors 4 moveset, musou camera, effects, voice, art and weapons.",
-          "activity": "Testing his own model in game.",
-          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. His attack ranges, projectiles, effect colours, musou camera and horseback animations now follow Samurai Warriors 4 and are being tested. His own skeleton and model, built from Samurai Warriors 4, are now in game in testing. Still to come: fine-tuning against Samurai Warriors 4 and a second outfit.",
+          "activity": "Testing his model on his own Samurai Warriors 4 skeleton.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. His attack ranges, projectiles, effect colours, musou camera and horseback animations now follow Samurai Warriors 4 and are being tested. His model now runs on his own Samurai Warriors 4 skeleton instead of one adapted from another character, keeping his original twist joints for the arms and sleeves, his own cloth physics and properly drawn hair strands. This is in testing. Still to come: fine-tuning against Samurai Warriors 4 and a second outfit.",
           "screenshots": [
             {
               "src": "assets/screenshots/samurai4-select.png",
@@ -195,7 +195,7 @@
           "area": "Samurai Warriors series",
           "state": "in-progress",
           "progress": 15,
-          "summary": "96 Samurai Warriors 4 outfits and about 30 Samurai Warriors 3 Z Special outfits are in testing. Samurai Warriors 4-II and 5 are planned.",
+          "summary": "96 Samurai Warriors 4 outfits are in testing, and all Samurai Warriors 3 Z Special outfits are ported. Samurai Warriors 4-II and 5 are planned.",
           "activity": "Fixing clipping and seams on the outfits in testing.",
           "description": "Outfits from the Samurai Warriors games, brought over to the same characters in this game.",
           "screenshots": [],
@@ -237,11 +237,11 @@
               "id": "other-sw-outfits",
               "title": "Other Samurai Warriors",
               "area": "other Samurai Warriors games",
-              "state": "in-progress",
-              "progress": 50,
-              "summary": "The Samurai Warriors 3 Z Special outfits not already in this game, about 30, are ported and in testing.",
-              "activity": "Testing the Samurai Warriors 3 Z Special outfits.",
-              "description": "Outfits from other Samurai Warriors games. Most of the Samurai Warriors 3 Z Special outfits already exist in this game. The rest, about 30, have been ported into Xtreme Costume slots, with their physics, and are in testing.",
+              "state": "complete",
+              "progress": 100,
+              "summary": "All the Samurai Warriors 3 Z Special outfits not already in this game, about 30, are ported.",
+              "activity": "All Samurai Warriors 3 Z Special outfits are ported. Remaining fixes are part of the general outfit fixes.",
+              "description": "Outfits from other Samurai Warriors games. Most of the Samurai Warriors 3 Z Special outfits already exist in this game. The rest, about 30, are ported into Xtreme Costume slots with their physics. Any remaining fixes are handled with the other outfit fixes.",
               "screenshots": []
             }
           ]
@@ -251,7 +251,7 @@
           "title": "Other costumes",
           "area": "Other games",
           "state": "in-progress",
-          "progress": 5,
+          "progress": 45,
           "summary": "Outfits from outside the Warriors series: Sophitia from Soulcalibur, including her PlayStation 3 outfit, and Okuni from Nioh 2.",
           "activity": "Fine-tuning Okuni's Nioh 2 outfit in game.",
           "description": "Outfits from games outside the Warriors series. Characters will be added here as work on them starts.",
@@ -284,11 +284,11 @@
               "id": "ps3-guest-outfits",
               "title": "Sophitia's PlayStation 3 outfit",
               "area": "Warriors Orochi 3 (PlayStation 3)",
-              "state": "in-progress",
-              "progress": 60,
-              "summary": "Sophitia's outfit from the PlayStation 3 release is converted with physics and in testing.",
-              "activity": "Fine-tuning her skirt, sleeves and shoulder plates.",
-              "description": "Sophitia's outfit from the PlayStation 3 release's guest pack, which the PC release does not include. It is converted with physics into an Xtreme Costume slot and in testing, with its lighting matched to her stock outfit.",
+              "state": "complete",
+              "progress": 100,
+              "summary": "Sophitia's outfit from the PlayStation 3 release is in, with physics.",
+              "activity": "Sophitia's PlayStation 3 outfit is in.",
+              "description": "Sophitia's outfit from the PlayStation 3 release's guest pack, which the PC release does not include. It is converted with physics into an Xtreme Costume slot, with its lighting matched to her stock outfit.",
               "substreams": [],
               "screenshots": []
             }
@@ -542,6 +542,11 @@
   "updates": [
     {
       "date": "2026-11-03",
+      "title": "Sophitia's PlayStation 3 outfit done",
+      "detail": "Sophitia's PlayStation 3 outfit is in, with physics and lighting matched to her stock outfit."
+    },
+    {
+      "date": "2026-11-03",
       "title": "Outfit fixes",
       "detail": "Seams where cloth meets the body, see-through capes and hair, and several clipping problems are fixed on the outfits in testing."
     },
@@ -552,13 +557,13 @@
     },
     {
       "date": "2026-11-02",
-      "title": "Nobuyuki's own model in game",
-      "detail": "Nobuyuki's own skeleton and model, built from Samurai Warriors 4, are now in game in testing."
+      "title": "Nobuyuki's own skeleton",
+      "detail": "Nobuyuki's model now runs on his own Samurai Warriors 4 skeleton instead of one adapted from another character, with his original arm and sleeve twist joints, his own cloth physics and properly drawn hair strands. In testing."
     },
     {
       "date": "2026-11-02",
       "title": "Samurai Warriors 3 Z Special outfits ported",
-      "detail": "The Samurai Warriors 3 Z Special outfits not already in this game, about 30, are ported and in testing."
+      "detail": "All the Samurai Warriors 3 Z Special outfits not already in this game, about 30, are ported."
     },
     {
       "date": "2026-11-01",
