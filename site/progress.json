@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-01",
+  "asOf": "2026-11-03",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -7,9 +7,9 @@
       "area": "Character additions",
       "state": "in-progress",
       "progress": 2,
-      "summary": "Nobuyuki Sanada is playable in testing and Takamaru is being built. More than 90 others are on the wishlist.",
-      "activity": "Building Nobuyuki's own model and Takamaru from Samurai Warriors 3.",
-      "description": "Characters from other Warriors games, added as new playable characters. Nobuyuki Sanada is the first and is playable in testing in his own character slot. Takamaru from Samurai Warriors 3 is the second and is being built. The rest of the list is a wishlist, so the overall figure stays low until more characters are started.",
+      "summary": "Nobuyuki Sanada and Takamaru are playable in testing. More than 90 others are on the wishlist.",
+      "activity": "Testing Nobuyuki's own model and Takamaru in game.",
+      "description": "Characters from other Warriors games, added as new playable characters. Nobuyuki Sanada is the first and is playable in testing in his own character slot. Takamaru from Samurai Warriors 3 is the second and is now playable in testing too. The rest of the list is a wishlist, so the overall figure stays low until more characters are started.",
       "substreams": [
         {
           "id": "nobuyuki-sanada",
@@ -18,8 +18,8 @@
           "state": "in-progress",
           "progress": 70,
           "summary": "Playable in his own slot with his own Samurai Warriors 4 moveset, musou camera, effects, voice, art and weapons.",
-          "activity": "Building his own skeleton and model from Samurai Warriors 4, including his hair and cloth.",
-          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. His attack ranges, projectiles, effect colours, musou camera and horseback animations now follow Samurai Warriors 4 and are being tested. He is also getting his own skeleton and model built from Samurai Warriors 4. Still to come: fine-tuning against Samurai Warriors 4 and a second outfit.",
+          "activity": "Testing his own model in game.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. His attack ranges, projectiles, effect colours, musou camera and horseback animations now follow Samurai Warriors 4 and are being tested. His own skeleton and model, built from Samurai Warriors 4, are now in game in testing. Still to come: fine-tuning against Samurai Warriors 4 and a second outfit.",
           "screenshots": [
             {
               "src": "assets/screenshots/samurai4-select.png",
@@ -38,10 +38,10 @@
           "title": "Takamaru",
           "area": "Samurai Warriors 3",
           "state": "in-progress",
-          "progress": 10,
-          "summary": "Being built from Samurai Warriors 3, with his own model, weapons and motions. Not in game yet.",
-          "activity": "Matching his Samurai Warriors 3 moveset to the game's attack layout.",
-          "description": "Takamaru is ported from Samurai Warriors 3 into his own character slot. His model, skeleton, katanas and motions have been converted from Samurai Warriors 3, and his moveset is being mapped to the game's attack layout. He is not in game yet.",
+          "progress": 35,
+          "summary": "Playable in testing in his own slot, with his Samurai Warriors 3 model, katanas, moves and Special Skill.",
+          "activity": "Testing him in game.",
+          "description": "Takamaru is ported from Samurai Warriors 3 into his own character slot. He is in game in testing with his own model, character select art, katanas named as in Samurai Warriors 3, his moveset and his invisibility Special Skill.",
           "substreams": [],
           "screenshots": []
         }
@@ -127,9 +127,9 @@
       "title": "Costume additions",
       "area": "New outfits",
       "state": "in-progress",
-      "progress": 8,
-      "summary": "All 96 Samurai Warriors 4 outfits in testing have cloth physics, out of hundreds planned across the Warriors games.",
-      "activity": "Testing the Samurai Warriors 4 outfits and Okuni's Nioh 2 outfit.",
+      "progress": 10,
+      "summary": "About 130 outfits from other games are in testing, out of hundreds planned across the Warriors games.",
+      "activity": "Fixing clipping and seams on the outfits in testing.",
       "description": "Outfits from other games, grouped by series. Hundreds are planned, so the overall figure is low. Ported outfits now sit in their own Xtreme Costume slots instead of replacing existing outfits.",
       "substreams": [
         {
@@ -195,8 +195,8 @@
           "area": "Samurai Warriors series",
           "state": "in-progress",
           "progress": 15,
-          "summary": "96 Samurai Warriors 4 outfits are in testing, and more than 120 from Samurai Warriors 3 Z Special are being ported.",
-          "activity": "Testing the Samurai Warriors 4 outfits with matched shine.",
+          "summary": "96 Samurai Warriors 4 outfits and about 30 Samurai Warriors 3 Z Special outfits are in testing. Samurai Warriors 4-II and 5 are planned.",
+          "activity": "Fixing clipping and seams on the outfits in testing.",
           "description": "Outfits from the Samurai Warriors games, brought over to the same characters in this game.",
           "screenshots": [],
           "substreams": [
@@ -207,7 +207,7 @@
               "state": "in-progress",
               "progress": 70,
               "summary": "96 Samurai Warriors 4 outfits, including DLC outfits, all with cloth physics, sit in their own Xtreme Costume slots.",
-              "activity": "Testing the outfits, with less clipping and see-through pieces like glasses now drawn properly.",
+              "activity": "Fixing clipping and seams, with hair and capes now drawn properly.",
               "description": "Every Samurai Warriors 4 outfit for the Samurai Warriors characters in this game is being brought over, including DLC outfits, with several per character. 96 are built, all with cloth physics, and sit in their own Xtreme Costume slots alongside the originals, marked with their own icon in the costume list. They are rebuilt at full quality with shine matched to the game's lighting, see-through pieces such as glasses are drawn properly, and cloth now clips less against the body. They are being tested.",
               "screenshots": []
             },
@@ -238,10 +238,10 @@
               "title": "Other Samurai Warriors",
               "area": "other Samurai Warriors games",
               "state": "in-progress",
-              "progress": 20,
-              "summary": "More than 120 outfits from Samurai Warriors 3 Z Special are being ported.",
-              "activity": "Porting the Samurai Warriors 3 Z Special outfits.",
-              "description": "Outfits from other Samurai Warriors games. More than 120 outfits from Samurai Warriors 3 Z Special have been upscaled and are being ported into Xtreme Costume slots.",
+              "progress": 50,
+              "summary": "The Samurai Warriors 3 Z Special outfits not already in this game, about 30, are ported and in testing.",
+              "activity": "Testing the Samurai Warriors 3 Z Special outfits.",
+              "description": "Outfits from other Samurai Warriors games. Most of the Samurai Warriors 3 Z Special outfits already exist in this game. The rest, about 30, have been ported into Xtreme Costume slots, with their physics, and are in testing.",
               "screenshots": []
             }
           ]
@@ -285,10 +285,10 @@
               "title": "Sophitia's PlayStation 3 outfit",
               "area": "Warriors Orochi 3 (PlayStation 3)",
               "state": "in-progress",
-              "progress": 40,
+              "progress": 60,
               "summary": "Sophitia's outfit from the PlayStation 3 release is converted with physics and in testing.",
-              "activity": "Checking Sophitia's PlayStation 3 outfit in game.",
-              "description": "Sophitia's outfit from the PlayStation 3 release's guest pack, which the PC release does not include. It has been converted with physics into an Xtreme Costume slot and is being checked in game.",
+              "activity": "Fine-tuning her skirt, sleeves and shoulder plates.",
+              "description": "Sophitia's outfit from the PlayStation 3 release's guest pack, which the PC release does not include. It is converted with physics into an Xtreme Costume slot and in testing, with its lighting matched to her stock outfit.",
               "substreams": [],
               "screenshots": []
             }
@@ -540,6 +540,26 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-11-03",
+      "title": "Outfit fixes",
+      "detail": "Seams where cloth meets the body, see-through capes and hair, and several clipping problems are fixed on the outfits in testing."
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Takamaru in game",
+      "detail": "Takamaru is playable in testing with his own model, katanas, moveset and invisibility Special Skill."
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Nobuyuki's own model in game",
+      "detail": "Nobuyuki's own skeleton and model, built from Samurai Warriors 4, are now in game in testing."
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Samurai Warriors 3 Z Special outfits ported",
+      "detail": "The Samurai Warriors 3 Z Special outfits not already in this game, about 30, are ported and in testing."
+    },
     {
       "date": "2026-11-01",
       "title": "Samurai Warriors 3 Z Special outfits",
