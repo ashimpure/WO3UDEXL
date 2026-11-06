@@ -204,28 +204,7 @@
           "summary": "96 Samurai Warriors 4 outfits are in testing, and all Samurai Warriors 3 Z Special outfits are ported. Samurai Warriors 4-II and 5 are planned.",
           "activity": "Fixing clipping and seams on the outfits in testing.",
           "description": "Outfits from the Samurai Warriors games, brought over to the same characters in this game.",
-          "screenshots": [
-            {
-              "src": "assets/screenshots/xc-kai-1.jpg",
-              "alt": "Kai wearing Xtreme Costume 1 in the Gallery",
-              "caption": "Kai, Xtreme Costume 1."
-            },
-            {
-              "src": "assets/screenshots/xc-kenshin-uesugi-1.jpg",
-              "alt": "Kenshin Uesugi wearing Xtreme Costume 1 in the Gallery",
-              "caption": "Kenshin Uesugi, Xtreme Costume 1."
-            },
-            {
-              "src": "assets/screenshots/xc-magoichi-saika-1.jpg",
-              "alt": "Magoichi Saika wearing Xtreme Costume 1 in the Gallery",
-              "caption": "Magoichi Saika, Xtreme Costume 1."
-            },
-            {
-              "src": "assets/screenshots/xc-ranmaru-mori-3.jpg",
-              "alt": "Ranmaru Mori wearing Xtreme Costume 3 in the Gallery",
-              "caption": "Ranmaru Mori, Xtreme Costume 3."
-            }
-          ],
+          "screenshots": [],
           "substreams": [
             {
               "id": "sw4-outfits",
@@ -854,28 +833,7 @@
           ]
         }
       ],
-      "screenshots": [
-        {
-          "src": "assets/screenshots/xc-kai-1.jpg",
-          "alt": "Kai wearing Xtreme Costume 1 in the Gallery",
-          "caption": "Kai, Xtreme Costume 1."
-        },
-        {
-          "src": "assets/screenshots/xc-kenshin-uesugi-1.jpg",
-          "alt": "Kenshin Uesugi wearing Xtreme Costume 1 in the Gallery",
-          "caption": "Kenshin Uesugi, Xtreme Costume 1."
-        },
-        {
-          "src": "assets/screenshots/xc-magoichi-saika-1.jpg",
-          "alt": "Magoichi Saika wearing Xtreme Costume 1 in the Gallery",
-          "caption": "Magoichi Saika, Xtreme Costume 1."
-        },
-        {
-          "src": "assets/screenshots/xc-ranmaru-mori-3.jpg",
-          "alt": "Ranmaru Mori wearing Xtreme Costume 3 in the Gallery",
-          "caption": "Ranmaru Mori, Xtreme Costume 3."
-        }
-      ]
+      "screenshots": []
     },
     {
       "id": "new-weapons",
