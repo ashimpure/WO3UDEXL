@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#091427">
   <meta name="description" content="Progress and screenshots for part of the Warriors Orochi 3 Ultimate Xtreme Legends mod.">
   <title>Project details — WO3U Xtreme Legends</title>
-  <link rel="stylesheet" href="map.css?v=4">
+  <link rel="stylesheet" href="map.css?v=5">
 </head>
 <body>
   <header class="masthead">
@@ -57,11 +57,21 @@
       shots.forEach((shot) => {
         if (!shot || typeof shot.src !== "string" || !shot.src.startsWith("assets/screenshots/") || shot.src.includes("..")) return;
         const figure = el("figure");
-        const img = el("img");
-        img.src = shot.src;
-        img.alt = shot.alt || "";
-        img.loading = "lazy";
-        figure.append(img, el("figcaption", "", shot.caption || ""));
+        let media;
+        if (shot.src.endsWith(".mp4")) {
+          media = el("video");
+          media.src = shot.src;
+          media.controls = true;
+          media.muted = true;
+          media.preload = "metadata";
+          media.setAttribute("aria-label", shot.alt || "");
+        } else {
+          media = el("img");
+          media.src = shot.src;
+          media.alt = shot.alt || "";
+          media.loading = "lazy";
+        }
+        figure.append(media, el("figcaption", "", shot.caption || ""));
         gallery.append(figure);
       });
       section.append(gallery);

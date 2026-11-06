@@ -15,6 +15,8 @@ Progress bars on the tracker are very very broad estimates. [Suggest an update](
 
 ## Screenshots
 
+[Watch a 1,000-character battle](https://ashimpure.github.io/WO3UDEXL/assets/screenshots/crowd-1000.mp4) (32 seconds, no sound).
+
 Menu and ultrawide screenshots are from an earlier build, before Nobuyuki's own art was added.
 
 <p align="center">

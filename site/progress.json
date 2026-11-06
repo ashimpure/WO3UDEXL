@@ -39,9 +39,9 @@
           "area": "Samurai Warriors 3",
           "state": "in-progress",
           "progress": 50,
-          "summary": "Playable in testing with his Samurai Warriors 3 model, katanas, moves, musou and effects.",
-          "activity": "Testing his Samurai Warriors 3 effects and musou in game.",
-          "description": "Takamaru is ported from Samurai Warriors 3 into his own character slot. He is in game in testing with his own model, character select art, katanas named as in Samurai Warriors 3, his moveset and musou, his invisibility Special Skill and his Samurai Warriors 3 effects, including his fireball. Computer-controlled Takamaru uses his moves too.",
+          "summary": "Playable in testing with his Samurai Warriors 3 model, katanas, moves and musou. His effects are being worked on.",
+          "activity": "Working on his Samurai Warriors 3 effects.",
+          "description": "Takamaru is ported from Samurai Warriors 3 into his own character slot. He is in game in testing with his own model, character select art, katanas named as in Samurai Warriors 3, his moveset and musou, his invisibility Special Skill and his Samurai Warriors 3 effects, which are being worked on. Computer-controlled Takamaru uses his moves too.",
           "substreams": [],
           "screenshots": [
             {
@@ -576,6 +576,11 @@
       "substreams": [],
       "screenshots": [
         {
+          "src": "assets/screenshots/crowd-1000.mp4",
+          "alt": "Nobuyuki Sanada surrounded by a large crowd of soldiers while the camera pans across the battle",
+          "caption": "A battle with the 1,000-character limit. 32 seconds, no sound."
+        },
+        {
           "src": "assets/screenshots/bigger-battles-mv8lmud2-0.jpg",
           "alt": "BIIIIG BATTLES",
           "caption": "BIIIIG BATTLES"
@@ -652,13 +657,18 @@
   "updates": [
     {
       "date": "2026-11-06",
+      "title": "1,000-character battle clip",
+      "detail": "Added a video of a battle with the 1,000-character limit to the Larger battles page."
+    },
+    {
+      "date": "2026-11-06",
       "title": "Asia DLC exclusives",
       "detail": "The Asia-exclusive outfits for Da Ji, Gracia and Lu Xun and the 12 exclusive DLC weapons are in the game."
     },
     {
       "date": "2026-11-06",
       "title": "Takamaru's effects",
-      "detail": "Takamaru's Samurai Warriors 3 effects are in testing, including his fireball."
+      "detail": "Takamaru's Samurai Warriors 3 effects are being brought over."
     },
     {
       "date": "2026-11-04",

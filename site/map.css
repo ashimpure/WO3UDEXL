@@ -96,7 +96,7 @@ h1 { margin: 0; font-size: clamp(28px, 4.5vw, 40px); font-weight: 700; letter-sp
 .stations p { margin: 2px 0 0; color: #c8d0dd; font-size: 15px; }
 .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 16px; }
 figure { margin: 0; }
-figure img { display: block; width: 100%; height: auto; border-radius: 6px; }
+figure img, figure video { display: block; width: 100%; height: auto; border-radius: 6px; }
 figcaption { margin-top: 6px; color: var(--muted); font-size: 14px; }
 details { border-top: 1px solid var(--rule); }
 summary { padding: 12px 0; cursor: pointer; font-weight: 600; }
