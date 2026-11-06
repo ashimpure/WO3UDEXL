@@ -66,6 +66,7 @@ function makeStrip(item, color, stops) {
   bar.setAttribute("aria-valuenow", String(item.progress));
   const fill = el("span");
   fill.style.width = `${item.progress}%`;
+  if (item.progress === 100) fill.className = "full";
   bar.append(fill);
   wrap.append(head, bar);
   if (stops.length) {

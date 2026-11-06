@@ -61,6 +61,7 @@ h1 { margin: 0; font-size: clamp(28px, 4.5vw, 40px); font-weight: 700; letter-sp
 .bar-head strong { color: var(--text); }
 .bar { height: 6px; margin-top: 4px; overflow: hidden; border-radius: 3px; background: var(--rule); }
 .bar span { display: block; height: 100%; border-radius: inherit; background: var(--accent); }
+.bar span.full { background: #4cc38a; }
 .steps { margin: 8px 0 0; color: var(--muted); font-size: 14px; }
 .steps a { color: var(--text); }
 

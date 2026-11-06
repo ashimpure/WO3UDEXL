@@ -369,20 +369,20 @@
       "title": "New weapons",
       "area": "Weapons for existing characters",
       "state": "in-progress",
-      "progress": 5,
-      "summary": "New weapons for existing characters, starting with the Asia-exclusive DLC weapons.",
-      "activity": "Adding the Asia-exclusive DLC weapons.",
-      "description": "New weapons for characters already in the game. The Asia-exclusive DLC weapons come first. Weapons from elsewhere in the series may follow; none have been chosen yet.",
+      "progress": 10,
+      "summary": "New weapons for existing characters. The Asia-exclusive DLC weapons are in.",
+      "activity": "The Asia-exclusive DLC weapons are in. Other weapons have not been chosen yet.",
+      "description": "New weapons for characters already in the game. The Asia-exclusive DLC weapons are in. Weapons from elsewhere in the series may follow; none have been chosen yet.",
       "substreams": [
         {
           "id": "asia-dlc-weapons",
           "title": "Asia DLC weapons",
           "area": "Warriors Orochi 3 Ultimate (Asia)",
-          "state": "in-progress",
-          "progress": 50,
-          "summary": "The 12 weapons exclusive to the Asia DLC are being added.",
-          "activity": "Adding the 12 Asia-exclusive DLC weapons.",
-          "description": "The 12 weapons exclusive to the Asia release's DLC, including Zhao Yun's Martial Dragon Spear and Ma Chao's Echo of Justice. They are being added to the characters' weapon lists.",
+          "state": "complete",
+          "progress": 100,
+          "summary": "The 12 weapons exclusive to the Asia DLC are in the game.",
+          "activity": "The 12 Asia-exclusive DLC weapons are in the game.",
+          "description": "The 12 weapons exclusive to the Asia release's DLC, including Zhao Yun's Martial Dragon Spear and Ma Chao's Echo of Justice, are in the characters' weapon lists.",
           "substreams": [],
           "screenshots": []
         }
@@ -653,7 +653,7 @@
     {
       "date": "2026-11-06",
       "title": "Asia DLC exclusives",
-      "detail": "The Asia-exclusive outfits for Da Ji, Gracia and Lu Xun are in the game. The exclusive DLC weapons are being added, as the start of a new weapons area."
+      "detail": "The Asia-exclusive outfits for Da Ji, Gracia and Lu Xun and the 12 exclusive DLC weapons are in the game."
     },
     {
       "date": "2026-11-06",
