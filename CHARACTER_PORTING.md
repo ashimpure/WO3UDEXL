@@ -152,4 +152,3 @@ Code locations are Ghidra addresses with image base `0x7ff768a10000`.
 | Audio | Combat shouts: KWB2 banks, archive 000 6075-6368. Lines: KOVS, archive 003 14718-14749, index tables 000 0-31. Music: `bgm\BGMLink.g1l` |
 | Select screen art | Atlas 6051 (figures 0-144, name plates 184-328, tabs 161 / 172), portraits 6052, Gauntlet 6053 |
 | Story event motions | Archive 0x1E1C + id, characters 0-86 only |
-| Resolution | `HKCU\Software\KoeiTecmo\WARRIORS OROCHI 3 Ultimate\Graphic Setting\Resolution` |
