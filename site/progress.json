@@ -327,6 +327,39 @@
               ]
             }
           ]
+        },
+        {
+          "id": "asia-dlc",
+          "title": "Asia DLC exclusives",
+          "area": "Warriors Orochi 3 Ultimate (Asia)",
+          "state": "in-progress",
+          "progress": 70,
+          "summary": "The outfits exclusive to the Asia DLC are in the game. The DLC weapons exclusive to it are being added.",
+          "activity": "Adding the Asia-exclusive DLC weapons.",
+          "description": "The DLC exclusive to the Asia release, brought over to this version. The new outfits are in the game: Da Ji, Gracia and two for Lu Xun. 12 Asia-exclusive DLC weapons are being added.",
+          "substreams": [],
+          "screenshots": [
+            {
+              "src": "assets/screenshots/asia-daji.jpg",
+              "alt": "Da Ji in her Asia-exclusive outfit in the Gallery",
+              "caption": "Da Ji, Downloaded costume 5."
+            },
+            {
+              "src": "assets/screenshots/asia-gracia.jpg",
+              "alt": "Gracia in her Asia-exclusive outfit in the Gallery",
+              "caption": "Gracia, Downloaded costume 5."
+            },
+            {
+              "src": "assets/screenshots/asia-luxun-4.jpg",
+              "alt": "Lu Xun in an Asia-exclusive outfit in the Gallery",
+              "caption": "Lu Xun, Downloaded costume 4."
+            },
+            {
+              "src": "assets/screenshots/asia-luxun-5.jpg",
+              "alt": "Lu Xun in an Asia-exclusive outfit in the Gallery",
+              "caption": "Lu Xun, Downloaded costume 5."
+            }
+          ]
         }
       ],
       "screenshots": []
@@ -592,6 +625,11 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-11-06",
+      "title": "Asia DLC exclusives",
+      "detail": "The Asia-exclusive outfits for Da Ji, Gracia and Lu Xun are in the game, and the exclusive DLC weapons are being added."
+    },
     {
       "date": "2026-11-06",
       "title": "Takamaru's effects",
