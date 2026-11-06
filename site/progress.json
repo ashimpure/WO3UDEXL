@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-06",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -8,7 +8,7 @@
       "state": "in-progress",
       "progress": 2,
       "summary": "Nobuyuki Sanada and Takamaru are playable in testing. More than 90 others are on the wishlist.",
-      "activity": "Testing Nobuyuki on his own skeleton and Takamaru in game.",
+      "activity": "Testing Takamaru's effects and musou, and Nobuyuki on his own skeleton.",
       "description": "Characters from other Warriors games, added as new playable characters. Nobuyuki Sanada is the first and is playable in testing in his own character slot. Takamaru from Samurai Warriors 3 is the second and is now playable in testing too. The rest of the list is a wishlist, so the overall figure stays low until more characters are started.",
       "substreams": [
         {
@@ -16,10 +16,10 @@
           "title": "Nobuyuki Sanada",
           "area": "Samurai Warriors 4",
           "state": "in-progress",
-          "progress": 70,
+          "progress": 75,
           "summary": "Playable in his own slot with his own Samurai Warriors 4 moveset, musou camera, effects, voice, art and weapons.",
           "activity": "Testing his model on his own Samurai Warriors 4 skeleton.",
-          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. His attack ranges, projectiles, effect colours, musou camera and horseback animations now follow Samurai Warriors 4 and are being tested. His model now runs on his own Samurai Warriors 4 skeleton instead of one adapted from another character, keeping his original twist joints for the arms and sleeves, his own cloth physics and properly drawn hair strands. This is in testing. Still to come: fine-tuning against Samurai Warriors 4 and a second outfit.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. His attack ranges, projectiles, effect colours, musou camera and horseback animations now follow Samurai Warriors 4 and are being tested. His model now runs on his own Samurai Warriors 4 skeleton instead of one adapted from another character, keeping his original twist joints for the arms and sleeves, his own cloth physics and properly drawn hair strands. This is in testing. He has one outfit, his Samurai Warriors 4 one. Still to come: fine-tuning against Samurai Warriors 4.",
           "screenshots": [
             {
               "src": "assets/screenshots/samurai4-select.png",
@@ -30,6 +30,11 @@
               "src": "assets/screenshots/nobuyuki-day-night.png",
               "alt": "Nobuyuki in battle holding his gold Day & Night Blades",
               "caption": "Nobuyuki with his Day & Night Blades."
+            },
+            {
+              "src": "assets/screenshots/nobuyuki-own-model.jpg",
+              "alt": "Nobuyuki Sanada in the Gallery, on his own skeleton",
+              "caption": "Nobuyuki in the Gallery, on his own skeleton."
             }
           ]
         },
@@ -38,12 +43,18 @@
           "title": "Takamaru",
           "area": "Samurai Warriors 3",
           "state": "in-progress",
-          "progress": 35,
-          "summary": "Playable in testing in his own slot, with his Samurai Warriors 3 model, katanas, moves and Special Skill.",
-          "activity": "Testing him in game.",
-          "description": "Takamaru is ported from Samurai Warriors 3 into his own character slot. He is in game in testing with his own model, character select art, katanas named as in Samurai Warriors 3, his moveset and his invisibility Special Skill.",
+          "progress": 50,
+          "summary": "Playable in testing with his Samurai Warriors 3 model, katanas, moves, musou and effects.",
+          "activity": "Testing his Samurai Warriors 3 effects and musou in game.",
+          "description": "Takamaru is ported from Samurai Warriors 3 into his own character slot. He is in game in testing with his own model, character select art, katanas named as in Samurai Warriors 3, his moveset and musou, his invisibility Special Skill and his Samurai Warriors 3 effects, including his fireball. Computer-controlled Takamaru uses his moves too.",
           "substreams": [],
-          "screenshots": []
+          "screenshots": [
+            {
+              "src": "assets/screenshots/crowd-takamaru.jpg",
+              "alt": "Takamaru on horseback surrounded by a large crowd of soldiers in battle",
+              "caption": "Takamaru in a crowded battle."
+            }
+          ]
         }
       ],
       "plannedGroups": [
@@ -51,170 +62,67 @@
           "title": "Samurai Warriors 4",
           "category": "Samurai 4 (new)",
           "priority": "High",
-          "characters": [
-            "Kojuro Katakura",
-            "Takatora Tōdō",
-            "Naotora Ii",
-            "Munenori Yagyū",
-            "Yoshitsugu Ōtani",
-            "Hisahide Matsunaga",
-            "Kagekatsu Uesugi",
-            "Takakage Kobayakawa",
-            "Koshōshō",
-            "Toyohisa Shimazu",
-            "Lady Hayakawa"
-          ]
+          "characters": ["Kojuro Katakura", "Takatora Tōdō", "Naotora Ii", "Munenori Yagyū", "Yoshitsugu Ōtani", "Hisahide Matsunaga", "Kagekatsu Uesugi", "Takakage Kobayakawa", "Koshōshō", "Toyohisa Shimazu", "Lady Hayakawa"]
         },
         {
           "title": "Samurai Warriors: Spirit of Sanada",
           "category": "Samurai 4 (new)",
           "priority": "High",
-          "characters": [
-            "Naomasa Ii",
-            "Masayuki Sanada",
-            "Chacha",
-            "Sasuke",
-            "Katsuyori Takeda",
-            "Hidetada Tokugawa"
-          ]
+          "characters": ["Naomasa Ii", "Masayuki Sanada", "Chacha", "Sasuke", "Katsuyori Takeda", "Hidetada Tokugawa"]
         },
         {
           "title": "Warriors Orochi 4",
           "category": "Other 3 (proposed)",
           "priority": "Medium",
-          "characters": [
-            "Zeus",
-            "Athena",
-            "Loki",
-            "Ares",
-            "Odin",
-            "Gaia",
-            "Hades",
-            "Yang Jian",
-            "Perseus"
-          ]
+          "characters": ["Zeus", "Athena", "Loki", "Ares", "Odin", "Gaia", "Hades", "Yang Jian", "Perseus"]
         },
         {
           "title": "Dynasty Warriors 8 XL",
           "category": "Existing factions",
           "priority": "Medium",
-          "characters": [
-            "Zhang Bao",
-            "Guan Xing",
-            "Guan Yinping",
-            "Fa Zheng",
-            "Yue Jin",
-            "Li Dian",
-            "Yu Jin",
-            "Lu Su",
-            "Han Dang",
-            "Zhu Ran",
-            "Jia Chong",
-            "Wan Yang",
-            "Zang Chunhua",
-            "Lu Lingqi",
-            "Cheng Gong"
-          ]
+          "characters": ["Zhang Bao", "Guan Xing", "Guan Yinping", "Fa Zheng", "Yue Jin", "Li Dian", "Yu Jin", "Lu Su", "Han Dang", "Zhu Ran", "Jia Chong", "Wan Yang", "Zang Chunhua", "Lu Lingqi", "Cheng Gong"]
         },
         {
           "title": "Dynasty Warriors 9",
           "category": "Existing factions",
           "priority": "Medium",
-          "characters": [
-            "Zhou Cang",
-            "Xiahouji",
-            "Xun Yu",
-            "Cao Xiu",
-            "Man Chong",
-            "Xun You",
-            "Cheng Pu",
-            "Xu Sheng",
-            "Xin Xianying",
-            "Dong Bai",
-            "Hua Xiong",
-            "Yuan Shu"
-          ]
+          "characters": ["Zhou Cang", "Xiahouji", "Xun Yu", "Cao Xiu", "Man Chong", "Xun You", "Cheng Pu", "Xu Sheng", "Xin Xianying", "Dong Bai", "Hua Xiong", "Yuan Shu"]
         },
         {
           "title": "Warriors Orochi 4",
           "category": "Other 1",
           "priority": "Medium",
-          "characters": [
-            "Diamondback"
-          ]
+          "characters": ["Diamondback"]
         },
         {
           "title": "Dynasty Warriors: Origins",
           "category": "Other 3 (proposed)",
           "priority": "Low",
-          "characters": [
-            "Ziluan"
-          ]
+          "characters": ["Ziluan"]
         },
         {
           "title": "Dynasty Warriors Strikeforce 2",
           "category": "Other 3 (proposed)",
           "priority": "Low",
-          "characters": [
-            "Xiang Yu",
-            "Beauty Yu",
-            "Xi Wangmu",
-            "King Mu"
-          ]
+          "characters": ["Xiang Yu", "Beauty Yu", "Xi Wangmu", "King Mu"]
         },
         {
           "title": "Warriors All-Stars",
           "category": "Xtra 1",
           "priority": "Medium",
-          "characters": [
-            "Ōka",
-            "Horō",
-            "Tokitsugu",
-            "Sophie Neuenmuller",
-            "Plachta",
-            "Opoona",
-            "Hajime Arima",
-            "Darius",
-            "William Adams",
-            "Nobunyaga Oda",
-            "Marie Rose",
-            "Honoka",
-            "Millenia",
-            "Laegrinna",
-            "Rio",
-            "Arnice",
-            "Christophorus",
-            "Tamaki",
-            "Shiki",
-            "Setsuna"
-          ]
+          "characters": ["Ōka", "Horō", "Tokitsugu", "Sophie Neuenmuller", "Plachta", "Opoona", "Hajime Arima", "Darius", "William Adams", "Nobunyaga Oda", "Marie Rose", "Honoka", "Millenia", "Laegrinna", "Rio", "Arnice", "Christophorus", "Tamaki", "Shiki", "Setsuna"]
         },
         {
           "title": "Berserk and the Band of the Hawk",
           "category": "Xtra 2",
           "priority": "Low",
-          "characters": [
-            "Guts",
-            "Griffith",
-            "Casca",
-            "Judeau",
-            "Nosferatu Zodd",
-            "Wyald",
-            "Serpico",
-            "Schierke"
-          ]
+          "characters": ["Guts", "Griffith", "Casca", "Judeau", "Nosferatu Zodd", "Wyald", "Serpico", "Schierke"]
         },
         {
           "title": "Devil May Cry",
           "category": "Xtra 2",
           "priority": "Very low",
-          "characters": [
-            "Dante",
-            "Vergil",
-            "Nero",
-            "Trish",
-            "Lady"
-          ]
+          "characters": ["Dante", "Vergil", "Nero", "Trish", "Lady"]
         }
       ],
       "screenshots": [
@@ -312,7 +220,23 @@
               "summary": "96 Samurai Warriors 4 outfits, including DLC outfits, all with cloth physics, sit in their own Xtreme Costume slots.",
               "activity": "Fixing clipping and seams, with hair and capes now drawn properly.",
               "description": "Every Samurai Warriors 4 outfit for the Samurai Warriors characters in this game is being brought over, including DLC outfits, with several per character. 96 are built, all with cloth physics, and sit in their own Xtreme Costume slots alongside the originals, marked with their own icon in the costume list. They are rebuilt at full quality with shine matched to the game's lighting, see-through pieces such as glasses are drawn properly, and cloth now clips less against the body. They are being tested.",
-              "screenshots": []
+              "screenshots": [
+                {
+                  "src": "assets/screenshots/costume-kenshin-x1.jpg",
+                  "alt": "Kenshin Uesugi wearing a Samurai Warriors 4 outfit in the Gallery, with the Xtreme Costume list",
+                  "caption": "Kenshin in Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/costume-magoichi-x1.jpg",
+                  "alt": "Magoichi Saika wearing a Samurai Warriors 4 outfit in the Gallery, with the Xtreme Costume list",
+                  "caption": "Magoichi in Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/costume-kai-x1.jpg",
+                  "alt": "Kai wearing a Samurai Warriors 4 outfit in the Gallery, with the Xtreme Costume list",
+                  "caption": "Kai in Xtreme Costume 1."
+                }
+              ]
             },
             {
               "id": "sw4-2-outfits",
@@ -345,7 +269,13 @@
               "summary": "All the Samurai Warriors 3 Z Special outfits not already in this game, about 30, are ported.",
               "activity": "All Samurai Warriors 3 Z Special outfits are ported. Remaining fixes are part of the general outfit fixes.",
               "description": "Outfits from other Samurai Warriors games. Most of the Samurai Warriors 3 Z Special outfits already exist in this game. The rest, about 30, are ported into Xtreme Costume slots with their physics. Any remaining fixes are handled with the other outfit fixes.",
-              "screenshots": []
+              "screenshots": [
+                {
+                  "src": "assets/screenshots/costume-ranmaru-x3.jpg",
+                  "alt": "Ranmaru Mori wearing a ported outfit in the Gallery, with the Xtreme Costume list",
+                  "caption": "Ranmaru in Xtreme Costume 3."
+                }
+              ]
             }
           ]
         },
@@ -356,7 +286,7 @@
           "state": "in-progress",
           "progress": 45,
           "summary": "Outfits from outside the Warriors series: Sophitia from Soulcalibur, including her PlayStation 3 outfit, and Okuni from Nioh 2.",
-          "activity": "Fine-tuning Okuni's Nioh 2 outfit in game.",
+          "activity": "Testing Okuni's Nioh 2 outfit in game.",
           "description": "Outfits from games outside the Warriors series. Characters will be added here as work on them starts.",
           "screenshots": [],
           "substreams": [
@@ -376,10 +306,10 @@
               "title": "Okuni",
               "area": "Nioh 2",
               "state": "in-progress",
-              "progress": 50,
-              "summary": "Okuni's Nioh 2 outfit is in testing, with cloth physics on her skirt and sleeves.",
-              "activity": "Fine-tuning her skirt and sleeves in game.",
-              "description": "Okuni's outfit from Nioh 2, brought over to Okuni in this game, with cloth physics of its own on her skirt and sleeves. It is being tested in game and fine-tuned to stop the body showing through the skirt.",
+              "progress": 70,
+              "summary": "Okuni's Nioh 2 outfit is in testing, with a cloth skirt and sleeves.",
+              "activity": "Testing her outfit, with seams and clipping fixed.",
+              "description": "Okuni's outfit from Nioh 2, brought over to Okuni in this game, with cloth physics of its own on her skirt and sleeves. The skirt seams, the body showing through and her feet through her shoes have been fixed. It is in testing.",
               "substreams": [],
               "screenshots": []
             },
@@ -459,7 +389,13 @@
           "summary": "Ported outfits get their own Xtreme Costume slots, and characters can now have more outfits than the game's limit.",
           "activity": "Testing several Xtreme Costume slots per character.",
           "description": "Ported outfits sit in their own Xtreme Costume slots in the costume list, alongside the originals, with several per character. Characters can now have more outfits than the game's built-in limit, and new characters like Nobuyuki get outfit slots too.",
-          "screenshots": []
+          "screenshots": [
+            {
+              "src": "assets/screenshots/costume-kenshin-x1.jpg",
+              "alt": "The Change Costume list showing Xtreme Costume slots below the standard outfits",
+              "caption": "Xtreme Costume slots in the costume list."
+            }
+          ]
         }
       ],
       "screenshots": [
@@ -612,6 +548,18 @@
       ]
     },
     {
+      "id": "installer",
+      "title": "Installer",
+      "area": "Getting the mod",
+      "state": "in-progress",
+      "progress": 40,
+      "summary": "A one-file installer with a launcher, downloading the mod data and an optional 4K texture pack.",
+      "activity": "Testing the installer and launcher.",
+      "description": "A one-file installer and launcher that patches a copy of the game, including the menu music, and can download an optional 4K texture pack. It is in testing and not released yet.",
+      "substreams": [],
+      "screenshots": []
+    },
+    {
       "id": "named-officers-to-uniques",
       "title": "Named officers become new characters",
       "area": "Battle content",
@@ -649,6 +597,31 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-11-06",
+      "title": "Takamaru's effects",
+      "detail": "Takamaru's Samurai Warriors 3 effects are in testing, including his fireball."
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Nobuyuki on one outfit",
+      "detail": "Nobuyuki now has the one outfit, his Samurai Warriors 4 one, on his own skeleton."
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Takamaru's musou",
+      "detail": "Takamaru's musou now plays as in Samurai Warriors 3, and computer-controlled Takamaru uses his moves."
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Okuni's outfit fixes",
+      "detail": "Okuni's Nioh 2 skirt seams, clipping and shoes are fixed."
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Installer",
+      "detail": "A one-file installer and launcher is in testing, with an optional 4K texture pack."
+    },
     {
       "date": "2026-11-03",
       "title": "Sophitia's PlayStation 3 outfit done",

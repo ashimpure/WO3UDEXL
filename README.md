@@ -16,10 +16,10 @@ Progress bars on the tracker are very very broad estimates. [Suggest an update](
 ## Screenshots
 
 <p align="center">
-  <img width="640" height="352" alt="Project screenshot" src="https://github.com/user-attachments/assets/c2ff4ee0-b71a-4079-9b76-273b938d40a5" />
-  <img width="640" height="352" alt="Project screenshot" src="https://github.com/user-attachments/assets/55978841-0d3a-45d2-9fef-b07aa868c0ca" />
-  <img width="640" height="352" alt="Project screenshot" src="https://github.com/user-attachments/assets/f8b4aeb3-aea0-48ee-91b3-f070bb751cd8" />
-  <img width="640" height="352" alt="Project screenshot" src="https://github.com/user-attachments/assets/86c53cdc-99b3-44ca-9a73-853726277723" />
-  <img width="640" height="352" alt="Project screenshot" src="https://github.com/user-attachments/assets/e61a8d13-d7d8-4dc7-9bf0-a3eed7e85c7e" />
-  <img width="640" height="352" alt="Project screenshot" src="https://github.com/user-attachments/assets/2c330c75-385c-4efb-9dd8-f4f2742ac70d" />
+  <img width="640" alt="Takamaru surrounded by a large crowd in battle" src="site/assets/screenshots/crowd-takamaru.jpg" />
+  <img width="640" alt="Nobuyuki Sanada in the Gallery" src="site/assets/screenshots/nobuyuki-own-model.jpg" />
+  <img width="640" alt="Kenshin Uesugi in an Xtreme Costume" src="site/assets/screenshots/costume-kenshin-x1.jpg" />
+  <img width="640" alt="Ranmaru Mori in an Xtreme Costume" src="site/assets/screenshots/costume-ranmaru-x3.jpg" />
+  <img width="640" alt="Officer Select with the reworked menus" src="site/assets/screenshots/menu-officer-select.jpg" />
+  <img width="640" alt="Officer Select at 32:9" src="site/assets/screenshots/ultrawide-officer-select.png" />
 </p>
