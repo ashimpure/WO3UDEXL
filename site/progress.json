@@ -469,7 +469,13 @@
       "activity": "Trying the new HD stage textures, bounce lighting and better hair and eye shading.",
       "description": "The mod uses its own graphics add-on. Working in game: smoother edges, stronger light shafts, sharper and softer-edged shadows, shadows from stage scenery, filmic colour, ambient occlusion, a second layer of distant fog, sharper textures at an angle and on distant soldiers, softer character shadows and skin, and less colour banding. The brief screen flashes during camera pans are fixed. Performance, Balanced and Quality presets switch these on together. Shadows no longer pop in on some stages, and hair has a new shine. HD textures for every stage have been built. Reflections on water and bounce lighting are being tried next.",
       "substreams": [],
-      "screenshots": []
+      "screenshots": [
+        {
+          "src": "assets/screenshots/graphics-split.jpg",
+          "alt": "Split screen of Nobuyuki Sanada on horseback, with the original graphics on the left and the Xtreme Legends graphics on the right",
+          "caption": "Original graphics on the left, Xtreme Legends on the right. The two halves were taken about a second apart."
+        }
+      ]
     },
     {
       "id": "clearer-screens",

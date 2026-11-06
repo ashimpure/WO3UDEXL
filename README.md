@@ -21,6 +21,7 @@ Menu and ultrawide screenshots are from an earlier build, before Nobuyuki's own 
 
 <p align="center">
   <img width="640" alt="Nobuyuki Sanada on character select, in his own slot with his own art" src="site/assets/screenshots/nobuyuki-charsel.jpg" />
+  <img width="640" alt="Split screen of the original graphics and the Xtreme Legends graphics" src="site/assets/screenshots/graphics-split.jpg" />
   <img width="640" alt="Takamaru surrounded by a large crowd in battle" src="site/assets/screenshots/crowd-takamaru.jpg" />
   <img width="640" alt="Kenshin Uesugi in an Xtreme Costume" src="site/assets/screenshots/costume-kenshin-x1.jpg" />
   <img width="640" alt="Ranmaru Mori in an Xtreme Costume" src="site/assets/screenshots/costume-ranmaru-x3.jpg" />
