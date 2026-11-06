@@ -6,7 +6,7 @@
 
 This project explores adding characters, costumes, improved graphics and menus, larger battles, new stages, and new enemy types to Warriors Orochi 3 Ultimate Definitive Edition.
 
-Progress bars on the tracker are approximate estimates. [Suggest an update](https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml).
+Progress bars on the tracker are very very broad estimates. [Suggest an update](https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml).
 
 ## Community
 
