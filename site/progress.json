@@ -204,7 +204,28 @@
           "summary": "96 Samurai Warriors 4 outfits are in testing, and all Samurai Warriors 3 Z Special outfits are ported. Samurai Warriors 4-II and 5 are planned.",
           "activity": "Fixing clipping and seams on the outfits in testing.",
           "description": "Outfits from the Samurai Warriors games, brought over to the same characters in this game.",
-          "screenshots": [],
+          "screenshots": [
+            {
+              "src": "assets/screenshots/xc-kai-1.jpg",
+              "alt": "Kai wearing Xtreme Costume 1 in the Gallery",
+              "caption": "Kai, Xtreme Costume 1."
+            },
+            {
+              "src": "assets/screenshots/xc-kenshin-uesugi-1.jpg",
+              "alt": "Kenshin Uesugi wearing Xtreme Costume 1 in the Gallery",
+              "caption": "Kenshin Uesugi, Xtreme Costume 1."
+            },
+            {
+              "src": "assets/screenshots/xc-magoichi-saika-1.jpg",
+              "alt": "Magoichi Saika wearing Xtreme Costume 1 in the Gallery",
+              "caption": "Magoichi Saika, Xtreme Costume 1."
+            },
+            {
+              "src": "assets/screenshots/xc-ranmaru-mori-3.jpg",
+              "alt": "Ranmaru Mori wearing Xtreme Costume 3 in the Gallery",
+              "caption": "Ranmaru Mori, Xtreme Costume 3."
+            }
+          ],
           "substreams": [
             {
               "id": "sw4-outfits",
@@ -217,19 +238,404 @@
               "description": "Every Samurai Warriors 4 outfit for the Samurai Warriors characters in this game is being brought over, including DLC outfits, with several per character. 96 are built, all with cloth physics, and sit in their own Xtreme Costume slots alongside the originals, marked with their own icon in the costume list. They are rebuilt at full quality with shine matched to the game's lighting, see-through pieces such as glasses are drawn properly, and cloth now clips less against the body. They are being tested.",
               "screenshots": [
                 {
-                  "src": "assets/screenshots/costume-kenshin-x1.jpg",
-                  "alt": "Kenshin Uesugi wearing a Samurai Warriors 4 outfit in the Gallery, with the Xtreme Costume list",
-                  "caption": "Kenshin in Xtreme Costume 1."
+                  "src": "assets/screenshots/xc-aya-1.jpg",
+                  "alt": "Aya wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Aya, Xtreme Costume 1."
                 },
                 {
-                  "src": "assets/screenshots/costume-magoichi-x1.jpg",
-                  "alt": "Magoichi Saika wearing a Samurai Warriors 4 outfit in the Gallery, with the Xtreme Costume list",
-                  "caption": "Magoichi in Xtreme Costume 1."
+                  "src": "assets/screenshots/xc-aya-2.jpg",
+                  "alt": "Aya wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Aya, Xtreme Costume 2."
                 },
                 {
-                  "src": "assets/screenshots/costume-kai-x1.jpg",
-                  "alt": "Kai wearing a Samurai Warriors 4 outfit in the Gallery, with the Xtreme Costume list",
-                  "caption": "Kai in Xtreme Costume 1."
+                  "src": "assets/screenshots/xc-aya-3.jpg",
+                  "alt": "Aya wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Aya, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-ginchiyo-tachibana-1.jpg",
+                  "alt": "Ginchiyo Tachibana wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Ginchiyo Tachibana, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-ginchiyo-tachibana-2.jpg",
+                  "alt": "Ginchiyo Tachibana wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Ginchiyo Tachibana, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-ginchiyo-tachibana-3.jpg",
+                  "alt": "Ginchiyo Tachibana wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Ginchiyo Tachibana, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-gracia-1.jpg",
+                  "alt": "Gracia wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Gracia, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-gracia-2.jpg",
+                  "alt": "Gracia wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Gracia, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-gracia-4.jpg",
+                  "alt": "Gracia wearing Xtreme Costume 4 in the Gallery",
+                  "caption": "Gracia, Xtreme Costume 4."
+                },
+                {
+                  "src": "assets/screenshots/xc-hanbei-takenaka-1.jpg",
+                  "alt": "Hanbei Takenaka wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Hanbei Takenaka, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-hanzo-hattori-1.jpg",
+                  "alt": "Hanzō Hattori wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Hanzō Hattori, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-hanzo-hattori-2.jpg",
+                  "alt": "Hanzō Hattori wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Hanzō Hattori, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-hideyoshi-toyotomi-1.jpg",
+                  "alt": "Hideyoshi Toyotomi wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Hideyoshi Toyotomi, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-hideyoshi-toyotomi-2.jpg",
+                  "alt": "Hideyoshi Toyotomi wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Hideyoshi Toyotomi, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-hideyoshi-toyotomi-3.jpg",
+                  "alt": "Hideyoshi Toyotomi wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Hideyoshi Toyotomi, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-ieyasu-tokugawa-1.jpg",
+                  "alt": "Ieyasu Tokugawa wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Ieyasu Tokugawa, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-ieyasu-tokugawa-2.jpg",
+                  "alt": "Ieyasu Tokugawa wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Ieyasu Tokugawa, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-ina-1.jpg",
+                  "alt": "Ina wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Ina, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-ina-2.jpg",
+                  "alt": "Ina wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Ina, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-ina-3.jpg",
+                  "alt": "Ina wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Ina, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-ina-5.jpg",
+                  "alt": "Ina wearing Xtreme Costume 5 in the Gallery",
+                  "caption": "Ina, Xtreme Costume 5."
+                },
+                {
+                  "src": "assets/screenshots/xc-kai-1.jpg",
+                  "alt": "Kai wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Kai, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-kai-2.jpg",
+                  "alt": "Kai wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Kai, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-kanbei-kuroda-1.jpg",
+                  "alt": "Kanbei Kuroda wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Kanbei Kuroda, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-kanbei-kuroda-2.jpg",
+                  "alt": "Kanbei Kuroda wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Kanbei Kuroda, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-kanetsugu-naoe-1.jpg",
+                  "alt": "Kanetsugu Naoe wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Kanetsugu Naoe, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-katsuie-shibata-1.jpg",
+                  "alt": "Katsuie Shibata wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Katsuie Shibata, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-keiji-maeda-1.jpg",
+                  "alt": "Keiji Maeda wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Keiji Maeda, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-keiji-maeda-2.jpg",
+                  "alt": "Keiji Maeda wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Keiji Maeda, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-kenshin-uesugi-1.jpg",
+                  "alt": "Kenshin Uesugi wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Kenshin Uesugi, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-kenshin-uesugi-2.jpg",
+                  "alt": "Kenshin Uesugi wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Kenshin Uesugi, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-kiyomasa-kato-1.jpg",
+                  "alt": "Kiyomasa Katō wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Kiyomasa Katō, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-kotaro-fuma-1.jpg",
+                  "alt": "Kotarō Fūma wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Kotarō Fūma, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-kunoichi-1.jpg",
+                  "alt": "Kunoichi wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Kunoichi, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-kunoichi-2.jpg",
+                  "alt": "Kunoichi wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Kunoichi, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-kunoichi-4.jpg",
+                  "alt": "Kunoichi wearing Xtreme Costume 4 in the Gallery",
+                  "caption": "Kunoichi, Xtreme Costume 4."
+                },
+                {
+                  "src": "assets/screenshots/xc-magoichi-saika-1.jpg",
+                  "alt": "Magoichi Saika wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Magoichi Saika, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-magoichi-saika-2.jpg",
+                  "alt": "Magoichi Saika wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Magoichi Saika, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-masamune-date-1.jpg",
+                  "alt": "Masamune Date wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Masamune Date, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-masamune-date-2.jpg",
+                  "alt": "Masamune Date wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Masamune Date, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-masanori-fukushima-1.jpg",
+                  "alt": "Masanori Fukushima wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Masanori Fukushima, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-mitsuhide-akechi-2.jpg",
+                  "alt": "Mitsuhide Akechi wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Mitsuhide Akechi, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-mitsunari-ishida-1.jpg",
+                  "alt": "Mitsunari Ishida wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Mitsunari Ishida, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-mitsunari-ishida-2.jpg",
+                  "alt": "Mitsunari Ishida wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Mitsunari Ishida, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-mitsunari-ishida-3.jpg",
+                  "alt": "Mitsunari Ishida wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Mitsunari Ishida, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-mitsunari-ishida-4.jpg",
+                  "alt": "Mitsunari Ishida wearing Xtreme Costume 4 in the Gallery",
+                  "caption": "Mitsunari Ishida, Xtreme Costume 4."
+                },
+                {
+                  "src": "assets/screenshots/xc-motochika-chosokabe-1.jpg",
+                  "alt": "Motochika Chōsokabe wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Motochika Chōsokabe, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-motonari-mori-1.jpg",
+                  "alt": "Motonari Mōri wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Motonari Mōri, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-muneshige-tachibana-1.jpg",
+                  "alt": "Muneshige Tachibana wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Muneshige Tachibana, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-nagamasa-azai-1.jpg",
+                  "alt": "Nagamasa Azai wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Nagamasa Azai, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-nagamasa-azai-2.jpg",
+                  "alt": "Nagamasa Azai wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Nagamasa Azai, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-nene-1.jpg",
+                  "alt": "Nene wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Nene, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-nene-2.jpg",
+                  "alt": "Nene wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Nene, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-nene-3.jpg",
+                  "alt": "Nene wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Nene, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-nobunaga-oda-1.jpg",
+                  "alt": "Nobunaga Oda wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Nobunaga Oda, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-nobunaga-oda-2.jpg",
+                  "alt": "Nobunaga Oda wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Nobunaga Oda, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-no-1.jpg",
+                  "alt": "Nō wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Nō, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-no-2.jpg",
+                  "alt": "Nō wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Nō, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-no-3.jpg",
+                  "alt": "Nō wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Nō, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-no-4.jpg",
+                  "alt": "Nō wearing Xtreme Costume 4 in the Gallery",
+                  "caption": "Nō, Xtreme Costume 4."
+                },
+                {
+                  "src": "assets/screenshots/xc-oichi-1.jpg",
+                  "alt": "Oichi wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Oichi, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-oichi-2.jpg",
+                  "alt": "Oichi wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Oichi, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-oichi-3.jpg",
+                  "alt": "Oichi wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Oichi, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-oichi-4.jpg",
+                  "alt": "Oichi wearing Xtreme Costume 4 in the Gallery",
+                  "caption": "Oichi, Xtreme Costume 4."
+                },
+                {
+                  "src": "assets/screenshots/xc-oichi-5.jpg",
+                  "alt": "Oichi wearing Xtreme Costume 5 in the Gallery",
+                  "caption": "Oichi, Xtreme Costume 5."
+                },
+                {
+                  "src": "assets/screenshots/xc-okuni-1.jpg",
+                  "alt": "Okuni wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Okuni, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-okuni-3.jpg",
+                  "alt": "Okuni wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Okuni, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-ranmaru-mori-1.jpg",
+                  "alt": "Ranmaru Mori wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Ranmaru Mori, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-ranmaru-mori-2.jpg",
+                  "alt": "Ranmaru Mori wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Ranmaru Mori, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-sakon-shima-1.jpg",
+                  "alt": "Sakon Shima wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Sakon Shima, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-shingen-takeda-1.jpg",
+                  "alt": "Shingen Takeda wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Shingen Takeda, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-shingen-takeda-2.jpg",
+                  "alt": "Shingen Takeda wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Shingen Takeda, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-tadakatsu-honda-1.jpg",
+                  "alt": "Tadakatsu Honda wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Tadakatsu Honda, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-tadakatsu-honda-2.jpg",
+                  "alt": "Tadakatsu Honda wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Tadakatsu Honda, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-toshiie-maeda-1.jpg",
+                  "alt": "Toshiie Maeda wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Toshiie Maeda, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-ujiyasu-hojo-1.jpg",
+                  "alt": "Ujiyasu Hōjō wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Ujiyasu Hōjō, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-yoshimoto-imagawa-1.jpg",
+                  "alt": "Yoshimoto Imagawa wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Yoshimoto Imagawa, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-yukimura-sanada-1.jpg",
+                  "alt": "Yukimura Sanada wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Yukimura Sanada, Xtreme Costume 1."
+                },
+                {
+                  "src": "assets/screenshots/xc-yukimura-sanada-2.jpg",
+                  "alt": "Yukimura Sanada wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Yukimura Sanada, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-yukimura-sanada-3.jpg",
+                  "alt": "Yukimura Sanada wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Yukimura Sanada, Xtreme Costume 3."
                 }
               ]
             },
@@ -266,9 +672,89 @@
               "description": "Outfits from other Samurai Warriors games. Most of the Samurai Warriors 3 Z Special outfits already exist in this game. The rest, about 30, are ported into Xtreme Costume slots with their physics. Any remaining fixes are handled with the other outfit fixes.",
               "screenshots": [
                 {
-                  "src": "assets/screenshots/costume-ranmaru-x3.jpg",
-                  "alt": "Ranmaru Mori wearing a ported outfit in the Gallery, with the Xtreme Costume list",
-                  "caption": "Ranmaru in Xtreme Costume 3."
+                  "src": "assets/screenshots/xc-ginchiyo-tachibana-4.jpg",
+                  "alt": "Ginchiyo Tachibana wearing Xtreme Costume 4 in the Gallery",
+                  "caption": "Ginchiyo Tachibana, Xtreme Costume 4."
+                },
+                {
+                  "src": "assets/screenshots/xc-hanzo-hattori-3.jpg",
+                  "alt": "Hanzō Hattori wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Hanzō Hattori, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-ieyasu-tokugawa-3.jpg",
+                  "alt": "Ieyasu Tokugawa wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Ieyasu Tokugawa, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-ina-6.jpg",
+                  "alt": "Ina wearing Xtreme Costume 6 in the Gallery",
+                  "caption": "Ina, Xtreme Costume 6."
+                },
+                {
+                  "src": "assets/screenshots/xc-kanbei-kuroda-3.jpg",
+                  "alt": "Kanbei Kuroda wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Kanbei Kuroda, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-kanetsugu-naoe-2.jpg",
+                  "alt": "Kanetsugu Naoe wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Kanetsugu Naoe, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-katsuie-shibata-2.jpg",
+                  "alt": "Katsuie Shibata wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Katsuie Shibata, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-keiji-maeda-3.jpg",
+                  "alt": "Keiji Maeda wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Keiji Maeda, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-kenshin-uesugi-3.jpg",
+                  "alt": "Kenshin Uesugi wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Kenshin Uesugi, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-kotaro-fuma-2.jpg",
+                  "alt": "Kotarō Fūma wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Kotarō Fūma, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-masamune-date-3.jpg",
+                  "alt": "Masamune Date wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Masamune Date, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-mitsuhide-akechi-3.jpg",
+                  "alt": "Mitsuhide Akechi wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Mitsuhide Akechi, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-nagamasa-azai-3.jpg",
+                  "alt": "Nagamasa Azai wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Nagamasa Azai, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-nene-5.jpg",
+                  "alt": "Nene wearing Xtreme Costume 5 in the Gallery",
+                  "caption": "Nene, Xtreme Costume 5."
+                },
+                {
+                  "src": "assets/screenshots/xc-oichi-6.jpg",
+                  "alt": "Oichi wearing Xtreme Costume 6 in the Gallery",
+                  "caption": "Oichi, Xtreme Costume 6."
+                },
+                {
+                  "src": "assets/screenshots/xc-ranmaru-mori-3.jpg",
+                  "alt": "Ranmaru Mori wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Ranmaru Mori, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-yukimura-sanada-4.jpg",
+                  "alt": "Yukimura Sanada wearing Xtreme Costume 4 in the Gallery",
+                  "caption": "Yukimura Sanada, Xtreme Costume 4."
                 }
               ]
             }
@@ -306,7 +792,13 @@
               "activity": "Testing her outfit, with seams and clipping fixed.",
               "description": "Okuni's outfit from Nioh 2, brought over to Okuni in this game, with cloth physics of its own on her skirt and sleeves. The skirt seams, the body showing through and her feet through her shoes have been fixed. It is in testing.",
               "substreams": [],
-              "screenshots": []
+              "screenshots": [
+                {
+                  "src": "assets/screenshots/xc-okuni-4.jpg",
+                  "alt": "Okuni wearing Xtreme Costume 4 in the Gallery",
+                  "caption": "Okuni, Xtreme Costume 4."
+                }
+              ]
             },
             {
               "id": "ps3-guest-outfits",
@@ -362,7 +854,28 @@
           ]
         }
       ],
-      "screenshots": []
+      "screenshots": [
+        {
+          "src": "assets/screenshots/xc-kai-1.jpg",
+          "alt": "Kai wearing Xtreme Costume 1 in the Gallery",
+          "caption": "Kai, Xtreme Costume 1."
+        },
+        {
+          "src": "assets/screenshots/xc-kenshin-uesugi-1.jpg",
+          "alt": "Kenshin Uesugi wearing Xtreme Costume 1 in the Gallery",
+          "caption": "Kenshin Uesugi, Xtreme Costume 1."
+        },
+        {
+          "src": "assets/screenshots/xc-magoichi-saika-1.jpg",
+          "alt": "Magoichi Saika wearing Xtreme Costume 1 in the Gallery",
+          "caption": "Magoichi Saika, Xtreme Costume 1."
+        },
+        {
+          "src": "assets/screenshots/xc-ranmaru-mori-3.jpg",
+          "alt": "Ranmaru Mori wearing Xtreme Costume 3 in the Gallery",
+          "caption": "Ranmaru Mori, Xtreme Costume 3."
+        }
+      ]
     },
     {
       "id": "new-weapons",
@@ -471,9 +984,22 @@
       "substreams": [],
       "screenshots": [
         {
-          "src": "assets/screenshots/graphics-split.jpg",
-          "alt": "Split screen of Nobuyuki Sanada on horseback, with the original graphics on the left and the Xtreme Legends graphics on the right",
-          "caption": "Original graphics on the left, Xtreme Legends on the right. The two halves were taken about a second apart."
+          "src": "assets/screenshots/compare-chibi-xl.jpg",
+          "before": "assets/screenshots/compare-chibi-stock.jpg",
+          "alt": "The river and ships at Chibi at sunset, comparing the original graphics with Xtreme Legends",
+          "caption": "Chibi at sunset: sun shafts and reflections on the water."
+        },
+        {
+          "src": "assets/screenshots/compare-ueda-shadows-xl.jpg",
+          "before": "assets/screenshots/compare-ueda-shadows-stock.jpg",
+          "alt": "Nobuyuki on horseback at Ueda with long shadows on the ground, comparing the original graphics with Xtreme Legends",
+          "caption": "Ueda: shadows and lighting across the ground. Taken about a second apart, so people have moved."
+        },
+        {
+          "src": "assets/screenshots/compare-ueda-character-xl.jpg",
+          "before": "assets/screenshots/compare-ueda-character-stock.jpg",
+          "alt": "Nobuyuki on horseback at Ueda from the side, comparing the original graphics with Xtreme Legends",
+          "caption": "Ueda: character and horse detail. Taken about a second apart."
         }
       ]
     },

@@ -98,6 +98,19 @@ h1 { margin: 0; font-size: clamp(28px, 4.5vw, 40px); font-weight: 700; letter-sp
 figure { margin: 0; }
 figure img, figure video { display: block; width: 100%; height: auto; border-radius: 6px; }
 figcaption { margin-top: 6px; color: var(--muted); font-size: 14px; }
+.figure-wide { grid-column: 1 / -1; }
+.compare { position: relative; overflow: hidden; border-radius: 6px; line-height: 0; }
+.compare img { border-radius: 0; }
+.compare-before { position: absolute; inset: 0; height: 100%; clip-path: inset(0 calc(100% - var(--pos)) 0 0); }
+.compare-label { position: absolute; top: 10px; padding: 4px 10px; border-radius: 4px; background: rgba(9, 20, 39, 0.85); color: #fff; font-size: 14px; line-height: 20px; pointer-events: none; }
+.compare-label-left { left: 10px; }
+.compare-label-right { right: 10px; }
+.compare-line { position: absolute; top: 0; bottom: 0; left: var(--pos); width: 3px; margin-left: -1.5px; background: #fff; pointer-events: none; }
+.compare-line::after { content: "\2194"; position: absolute; top: 50%; left: 50%; width: 40px; height: 40px; margin: -20px 0 0 -20px; border-radius: 50%; background: #fff; color: #091427; font-size: 22px; line-height: 38px; text-align: center; }
+.compare input { position: absolute; inset: 0; z-index: 1; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: ew-resize; touch-action: pan-y; -webkit-appearance: none; appearance: none; }
+.compare input::-webkit-slider-thumb { -webkit-appearance: none; width: 3px; height: 100vh; }
+.compare input::-moz-range-thumb { width: 3px; height: 100vh; border: 0; }
+.compare input:focus-visible ~ .compare-line { outline: 2px solid #ffd76a; }
 details { border-top: 1px solid var(--rule); }
 summary { padding: 12px 0; cursor: pointer; font-weight: 600; }
 summary span { color: var(--muted); font-weight: 400; font-size: 14px; }

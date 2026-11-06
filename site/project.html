@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#091427">
   <meta name="description" content="Progress and screenshots for part of the Warriors Orochi 3 Ultimate Xtreme Legends mod.">
   <title>Project details — WO3U Xtreme Legends</title>
-  <link rel="stylesheet" href="map.css?v=5">
+  <link rel="stylesheet" href="map.css?v=6">
 </head>
 <body>
   <header class="masthead">
@@ -48,6 +48,31 @@
       parent.append(section);
     }
 
+    function validShot(src) {
+      return typeof src === "string" && src.startsWith("assets/screenshots/") && !src.includes("..");
+    }
+
+    function makeCompare(shot) {
+      const box = el("div", "compare");
+      box.style.setProperty("--pos", "50%");
+      const after = el("img");
+      after.src = shot.src;
+      after.alt = shot.alt || "";
+      const before = el("img", "compare-before");
+      before.src = shot.before;
+      before.alt = "";
+      const slider = el("input");
+      slider.type = "range";
+      slider.min = "0";
+      slider.max = "100";
+      slider.value = "50";
+      slider.setAttribute("aria-label", "Slide to compare the original graphics with Xtreme Legends");
+      slider.addEventListener("input", () => box.style.setProperty("--pos", `${slider.value}%`));
+      box.append(after, before, el("span", "compare-label compare-label-left", "Original"),
+        el("span", "compare-label compare-label-right", "Xtreme Legends"), slider, el("span", "compare-line"));
+      return box;
+    }
+
     function renderGallery(parent, shots, color) {
       if (!Array.isArray(shots) || !shots.length) return;
       const section = el("section", "section");
@@ -55,10 +80,13 @@
       section.append(el("h2", "", "Screenshots"));
       const gallery = el("div", "gallery");
       shots.forEach((shot) => {
-        if (!shot || typeof shot.src !== "string" || !shot.src.startsWith("assets/screenshots/") || shot.src.includes("..")) return;
+        if (!shot || !validShot(shot.src)) return;
         const figure = el("figure");
         let media;
-        if (shot.src.endsWith(".mp4")) {
+        if (validShot(shot.before)) {
+          figure.className = "figure-wide";
+          media = makeCompare(shot);
+        } else if (shot.src.endsWith(".mp4")) {
           media = el("video");
           media.src = shot.src;
           media.controls = true;
