@@ -22,14 +22,14 @@
           "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. His attack ranges, projectiles, effect colours, musou camera and horseback animations now follow Samurai Warriors 4 and are being tested. His model now runs on his own Samurai Warriors 4 skeleton instead of one adapted from another character, keeping his original twist joints for the arms and sleeves, his own cloth physics and properly drawn hair strands. This is in testing. He has one outfit, his Samurai Warriors 4 one. Still to come: fine-tuning against Samurai Warriors 4.",
           "screenshots": [
             {
-              "src": "assets/screenshots/samurai4-select.png",
-              "alt": "Character select screen with the new Samurai 4 tab and Nobuyuki Sanada selected",
-              "caption": "Nobuyuki on the new Samurai 4 tab."
+              "src": "assets/screenshots/nobuyuki-charsel.jpg",
+              "alt": "Character select showing the Samurai 4 tab with Nobuyuki Sanada in his own slot, with his own art",
+              "caption": "Nobuyuki on the Samurai 4 tab, in his own slot with his own art."
             },
             {
-              "src": "assets/screenshots/nobuyuki-day-night.png",
-              "alt": "Nobuyuki in battle holding his gold Day & Night Blades",
-              "caption": "Nobuyuki with his Day & Night Blades."
+              "src": "assets/screenshots/nobuyuki-gallery.jpg",
+              "alt": "Nobuyuki Sanada in the Gallery with his Day & Night Blades",
+              "caption": "Nobuyuki in the Gallery."
             }
           ]
         },
@@ -122,9 +122,9 @@
       ],
       "screenshots": [
         {
-          "src": "assets/screenshots/samurai4-select.png",
-          "alt": "Character select screen with the new Samurai 4 tab and Nobuyuki Sanada selected",
-          "caption": "Nobuyuki on the new Samurai 4 tab."
+          "src": "assets/screenshots/nobuyuki-charsel.jpg",
+          "alt": "Character select showing the Samurai 4 tab with Nobuyuki Sanada in his own slot, with his own art",
+          "caption": "Nobuyuki on the Samurai 4 tab, in his own slot with his own art."
         }
       ]
     },
@@ -427,9 +427,9 @@
           "description": "New tabs on the character select screen, starting with Samurai 4 for Nobuyuki and later Samurai Warriors 4 characters. It works on Character Select and Duel; the Gallery is next. Other tabs haven't been decided yet.",
           "screenshots": [
             {
-              "src": "assets/screenshots/samurai4-select.png",
-              "alt": "Character select screen with the new Samurai 4 tab and Nobuyuki Sanada selected",
-              "caption": "Nobuyuki on the new Samurai 4 tab."
+              "src": "assets/screenshots/nobuyuki-charsel.jpg",
+              "alt": "Character select showing the Samurai 4 tab with Nobuyuki Sanada in his own slot, with his own art",
+              "caption": "Nobuyuki on the Samurai 4 tab, in his own slot with his own art."
             }
           ]
         },
@@ -453,9 +453,9 @@
       ],
       "screenshots": [
         {
-          "src": "assets/screenshots/samurai4-select.png",
-          "alt": "Character select screen with the new Samurai 4 tab and Nobuyuki Sanada selected",
-          "caption": "Nobuyuki on the new Samurai 4 tab."
+          "src": "assets/screenshots/nobuyuki-charsel.jpg",
+          "alt": "Character select showing the Samurai 4 tab with Nobuyuki Sanada in his own slot, with his own art",
+          "caption": "Nobuyuki on the Samurai 4 tab, in his own slot with his own art."
         }
       ]
     },
