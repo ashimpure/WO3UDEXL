@@ -57,67 +57,170 @@
           "title": "Samurai Warriors 4",
           "category": "Samurai 4 (new)",
           "priority": "High",
-          "characters": ["Kojuro Katakura", "Takatora Tōdō", "Naotora Ii", "Munenori Yagyū", "Yoshitsugu Ōtani", "Hisahide Matsunaga", "Kagekatsu Uesugi", "Takakage Kobayakawa", "Koshōshō", "Toyohisa Shimazu", "Lady Hayakawa"]
+          "characters": [
+            "Kojuro Katakura",
+            "Takatora Tōdō",
+            "Naotora Ii",
+            "Munenori Yagyū",
+            "Yoshitsugu Ōtani",
+            "Hisahide Matsunaga",
+            "Kagekatsu Uesugi",
+            "Takakage Kobayakawa",
+            "Koshōshō",
+            "Toyohisa Shimazu",
+            "Lady Hayakawa"
+          ]
         },
         {
           "title": "Samurai Warriors: Spirit of Sanada",
           "category": "Samurai 4 (new)",
           "priority": "High",
-          "characters": ["Naomasa Ii", "Masayuki Sanada", "Chacha", "Sasuke", "Katsuyori Takeda", "Hidetada Tokugawa"]
+          "characters": [
+            "Naomasa Ii",
+            "Masayuki Sanada",
+            "Chacha",
+            "Sasuke",
+            "Katsuyori Takeda",
+            "Hidetada Tokugawa"
+          ]
         },
         {
           "title": "Warriors Orochi 4",
           "category": "Other 3 (proposed)",
           "priority": "Medium",
-          "characters": ["Zeus", "Athena", "Loki", "Ares", "Odin", "Gaia", "Hades", "Yang Jian", "Perseus"]
+          "characters": [
+            "Zeus",
+            "Athena",
+            "Loki",
+            "Ares",
+            "Odin",
+            "Gaia",
+            "Hades",
+            "Yang Jian",
+            "Perseus"
+          ]
         },
         {
           "title": "Dynasty Warriors 8 XL",
           "category": "Existing factions",
           "priority": "Medium",
-          "characters": ["Zhang Bao", "Guan Xing", "Guan Yinping", "Fa Zheng", "Yue Jin", "Li Dian", "Yu Jin", "Lu Su", "Han Dang", "Zhu Ran", "Jia Chong", "Wan Yang", "Zang Chunhua", "Lu Lingqi", "Cheng Gong"]
+          "characters": [
+            "Zhang Bao",
+            "Guan Xing",
+            "Guan Yinping",
+            "Fa Zheng",
+            "Yue Jin",
+            "Li Dian",
+            "Yu Jin",
+            "Lu Su",
+            "Han Dang",
+            "Zhu Ran",
+            "Jia Chong",
+            "Wan Yang",
+            "Zang Chunhua",
+            "Lu Lingqi",
+            "Cheng Gong"
+          ]
         },
         {
           "title": "Dynasty Warriors 9",
           "category": "Existing factions",
           "priority": "Medium",
-          "characters": ["Zhou Cang", "Xiahouji", "Xun Yu", "Cao Xiu", "Man Chong", "Xun You", "Cheng Pu", "Xu Sheng", "Xin Xianying", "Dong Bai", "Hua Xiong", "Yuan Shu"]
+          "characters": [
+            "Zhou Cang",
+            "Xiahouji",
+            "Xun Yu",
+            "Cao Xiu",
+            "Man Chong",
+            "Xun You",
+            "Cheng Pu",
+            "Xu Sheng",
+            "Xin Xianying",
+            "Dong Bai",
+            "Hua Xiong",
+            "Yuan Shu"
+          ]
         },
         {
           "title": "Warriors Orochi 4",
           "category": "Other 1",
           "priority": "Medium",
-          "characters": ["Diamondback"]
+          "characters": [
+            "Diamondback"
+          ]
         },
         {
           "title": "Dynasty Warriors: Origins",
           "category": "Other 3 (proposed)",
           "priority": "Low",
-          "characters": ["Ziluan"]
+          "characters": [
+            "Ziluan"
+          ]
         },
         {
           "title": "Dynasty Warriors Strikeforce 2",
           "category": "Other 3 (proposed)",
           "priority": "Low",
-          "characters": ["Xiang Yu", "Beauty Yu", "Xi Wangmu", "King Mu"]
+          "characters": [
+            "Xiang Yu",
+            "Beauty Yu",
+            "Xi Wangmu",
+            "King Mu"
+          ]
         },
         {
           "title": "Warriors All-Stars",
           "category": "Xtra 1",
           "priority": "Medium",
-          "characters": ["Ōka", "Horō", "Tokitsugu", "Sophie Neuenmuller", "Plachta", "Opoona", "Hajime Arima", "Darius", "William Adams", "Nobunyaga Oda", "Marie Rose", "Honoka", "Millenia", "Laegrinna", "Rio", "Arnice", "Christophorus", "Tamaki", "Shiki", "Setsuna"]
+          "characters": [
+            "Ōka",
+            "Horō",
+            "Tokitsugu",
+            "Sophie Neuenmuller",
+            "Plachta",
+            "Opoona",
+            "Hajime Arima",
+            "Darius",
+            "William Adams",
+            "Nobunyaga Oda",
+            "Marie Rose",
+            "Honoka",
+            "Millenia",
+            "Laegrinna",
+            "Rio",
+            "Arnice",
+            "Christophorus",
+            "Tamaki",
+            "Shiki",
+            "Setsuna"
+          ]
         },
         {
           "title": "Berserk and the Band of the Hawk",
           "category": "Xtra 2",
           "priority": "Low",
-          "characters": ["Guts", "Griffith", "Casca", "Judeau", "Nosferatu Zodd", "Wyald", "Serpico", "Schierke"]
+          "characters": [
+            "Guts",
+            "Griffith",
+            "Casca",
+            "Judeau",
+            "Nosferatu Zodd",
+            "Wyald",
+            "Serpico",
+            "Schierke"
+          ]
         },
         {
           "title": "Devil May Cry",
           "category": "Xtra 2",
           "priority": "Very low",
-          "characters": ["Dante", "Vergil", "Nero", "Trish", "Lady"]
+          "characters": [
+            "Dante",
+            "Vergil",
+            "Nero",
+            "Trish",
+            "Lady"
+          ]
         }
       ],
       "screenshots": [
@@ -879,13 +982,7 @@
           "summary": "Nobuyuki now has his own slot beyond the game's limit, and Kojirō is back in his usual place.",
           "activity": "Checking every menu and mode with Nobuyuki in his new slot.",
           "description": "New characters get their own slots beyond the game's built-in limit, with room for hundreds. Nobuyuki is the first to move into one, which puts Kojirō back in his usual place. Characters in these slots can be picked, fight, level up and save, have their own weapons, and work in Musou Battlefields, Triple Attacks, the Gallery, Duel and Gauntlet.",
-          "screenshots": [
-            {
-              "src": "assets/screenshots/new-slot-team-info.jpg",
-              "alt": "Team Info screen showing a character in one of the new slots, using Nobuyuki's look",
-              "caption": "Team Info for a character in one of the new slots."
-            }
-          ]
+          "screenshots": []
         },
         {
           "id": "character-categories",
