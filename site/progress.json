@@ -30,11 +30,6 @@
               "src": "assets/screenshots/nobuyuki-day-night.png",
               "alt": "Nobuyuki in battle holding his gold Day & Night Blades",
               "caption": "Nobuyuki with his Day & Night Blades."
-            },
-            {
-              "src": "assets/screenshots/nobuyuki-own-model.jpg",
-              "alt": "Nobuyuki Sanada in the Gallery, on his own skeleton",
-              "caption": "Nobuyuki in the Gallery, on his own skeleton."
             }
           ]
         },
@@ -432,7 +427,7 @@
         {
           "src": "assets/screenshots/menu-officer-select.jpg",
           "alt": "The Officer Select screen with the reworked layout at 16:9",
-          "caption": "Officer Select."
+          "caption": "Officer Select, on an earlier build before Nobuyuki's own art was added."
         },
         {
           "src": "assets/screenshots/menu-battle-preparations.jpg",
@@ -543,7 +538,7 @@
         {
           "src": "assets/screenshots/ultrawide-officer-select.png",
           "alt": "Officer Select at 32:9 with Nobuyuki Sanada, Kai and Ina centred on the screen",
-          "caption": "Officer Select at 32:9."
+          "caption": "Officer Select at 32:9, on an earlier build before Nobuyuki's own art was added."
         }
       ]
     },
