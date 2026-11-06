@@ -1019,13 +1019,7 @@
           ]
         }
       ],
-      "screenshots": [
-        {
-          "src": "assets/screenshots/nobuyuki-charsel.jpg",
-          "alt": "Character select showing the Samurai 4 tab with Nobuyuki Sanada in his own slot, with his own art",
-          "caption": "Nobuyuki on the Samurai 4 tab, in his own slot with his own art."
-        }
-      ]
+      "screenshots": []
     },
     {
       "id": "sharper-picture",
