@@ -95,8 +95,6 @@ Voices come in two systems: short combat shouts in sound banks, and spoken lines
 
 A character appears in far more places than battle: character select, the camp, Check Model, the Gallery, Duel, Gauntlet, Musou Battlefields, the shop, growth, bonds and battle results. In battle, musou attacks, Triple Attacks, mounted attacks, switch-ins and hit reactions from the front and back each use different data.
 
-The game stores its resolution in a registry key shared by every install, so changing it in one copy changes it for all of them.
-
 ## What I have yet to figure out
 
 - Only 19 free text ids exist under the game's limit. Going past that means patching every place the limit is checked.
