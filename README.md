@@ -6,7 +6,9 @@
 
 This project explores re-adding missing content from the original Definitive Edition release. Adding entirely new characters, costumes, larger visible peon/officer counts, improved graphics and menus, and eventually new stages and new enemy types to Warriors Orochi 3 Ultimate Definitive Edition.
 
-Progress bars on the tracker are very very broad estimates. [Suggest an update](https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml).
+Progress bars on the tracker are very very broad estimates. 
+
+[Suggest an update](https://github.com/ashimpure/WO3UDEXL/issues/new?template=tracker-update.yml).
 
 ## Community
 
