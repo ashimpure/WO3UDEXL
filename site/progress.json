@@ -1156,6 +1156,24 @@
       ]
     },
     {
+      "id": "ultrawide-screens",
+      "title": "Ultrawide screens",
+      "area": "Display",
+      "state": "ready-to-test",
+      "progress": 80,
+      "summary": "Menus, movies and loading screens now fit 21:9 and 32:9 screens, and the game starts at the chosen ultrawide resolution.",
+      "activity": "Ultrawide support is ready for a full play-through.",
+      "description": "Support for 21:9 and 32:9 displays. Menus and Officer Select sit in the centre of the screen, movies and loading screens keep their shape with borders at the sides, and the game starts at the ultrawide resolution you last chose. A full play-through is next.",
+      "substreams": [],
+      "screenshots": [
+        {
+          "src": "assets/screenshots/ultrawide-officer-select.png",
+          "alt": "Officer Select at 32:9 with Nobuyuki Sanada, Kai and Ina centred on the screen",
+          "caption": "Officer Select at 32:9, on an earlier build before Nobuyuki's own art was added."
+        }
+      ]
+    },
+    {
       "id": "bigger-battles",
       "title": "Larger battles",
       "area": "Battle size and performance",
@@ -1175,24 +1193,6 @@
           "src": "assets/screenshots/bigger-battles-mv8lmud2-0.jpg",
           "alt": "BIIIIG BATTLES",
           "caption": "BIIIIG BATTLES"
-        }
-      ]
-    },
-    {
-      "id": "ultrawide-screens",
-      "title": "Ultrawide screens",
-      "area": "Display",
-      "state": "ready-to-test",
-      "progress": 80,
-      "summary": "Menus, movies and loading screens now fit 21:9 and 32:9 screens, and the game starts at the chosen ultrawide resolution.",
-      "activity": "Ultrawide support is ready for a full play-through.",
-      "description": "Support for 21:9 and 32:9 displays. Menus and Officer Select sit in the centre of the screen, movies and loading screens keep their shape with borders at the sides, and the game starts at the ultrawide resolution you last chose. A full play-through is next.",
-      "substreams": [],
-      "screenshots": [
-        {
-          "src": "assets/screenshots/ultrawide-officer-select.png",
-          "alt": "Officer Select at 32:9 with Nobuyuki Sanada, Kai and Ina centred on the screen",
-          "caption": "Officer Select at 32:9, on an earlier build before Nobuyuki's own art was added."
         }
       ]
     },
