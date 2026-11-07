@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#091427">
   <meta name="description" content="Progress and screenshots for part of the Warriors Orochi 3 Ultimate Xtreme Legends mod.">
   <title>Project details — WO3U Xtreme Legends</title>
-  <link rel="stylesheet" href="map.css?v=6">
+  <link rel="stylesheet" href="map.css?v=7">
 </head>
 <body>
   <header class="masthead">
@@ -25,8 +25,8 @@
     <p class="empty">Loading…</p>
   </main>
 
-  <script src="map.js?v=4"></script>
-  <script src="edit.js?v=1"></script>
+  <script src="map.js?v=5"></script>
+  <script src="edit.js?v=2"></script>
   <script>
     const content = document.querySelector("#content");
 
@@ -144,7 +144,7 @@
       const strip = el("div", "detail-strip");
       strip.append(makeStrip(item, color, item.substreams || []));
       content.append(strip);
-      content.append(el("p", "detail-text", item.description || item.summary), makeNow(item, "detail-now"));
+      content.append(makeRichText("detail-text", item.description || item.summary), makeNow(item, "detail-now"));
 
       renderStations(content, item.substreams, color);
       renderGallery(content, item.screenshots, color);
@@ -154,25 +154,26 @@
     }
 
     const id = new URLSearchParams(location.search).get("id");
+    window.trackerRender = (data) => {
+      let found = null;
+      data.streams.forEach((stream, i) => {
+        const walk = (item, parent) => {
+          if (item.id === id) found = { item, parent, color: lineColor(i) };
+          (item.substreams || []).forEach((child) => walk(child, item));
+        };
+        walk(stream, null);
+      });
+      if (!found) {
+        content.replaceChildren(el("p", "empty", "This part of the project couldn't be found. It may have been renamed."));
+        return;
+      }
+      render(found.item, found.parent, found.color);
+    };
     if (!id) {
       content.replaceChildren(el("p", "empty", "This page needs a link from the progress map."));
     } else {
       loadTracker()
-        .then((data) => {
-          let found = null;
-          data.streams.forEach((stream, i) => {
-            const walk = (item, parent) => {
-              if (item.id === id) found = { item, parent, color: lineColor(i) };
-              (item.substreams || []).forEach((child) => walk(child, item));
-            };
-            walk(stream, null);
-          });
-          if (!found) {
-            content.replaceChildren(el("p", "empty", "This part of the project couldn't be found. It may have been renamed."));
-            return;
-          }
-          render(found.item, found.parent, found.color);
-        })
+        .then(window.trackerRender)
         .catch((error) => content.replaceChildren(el("p", "load-error", `This page could not be loaded. ${error.message}`)));
     }
   </script>

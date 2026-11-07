@@ -83,6 +83,42 @@ function makeStrip(item, color, stops) {
   return wrap;
 }
 
+// **bold**, *italic*, [text](https://...), "- " lists and blank-line paragraphs. Built as DOM nodes, never as HTML.
+function appendInline(parent, text) {
+  const pattern = /\*\*(.+?)\*\*|\*(.+?)\*|\[([^\]]+)\]\((https:\/\/[^\s)]+)\)/g;
+  let last = 0;
+  for (const match of text.matchAll(pattern)) {
+    parent.append(document.createTextNode(text.slice(last, match.index)));
+    if (match[1]) parent.append(el("strong", "", match[1]));
+    else if (match[2]) parent.append(el("em", "", match[2]));
+    else {
+      const a = el("a", "", match[3]);
+      a.href = match[4];
+      a.rel = "noopener";
+      parent.append(a);
+    }
+    last = match.index + match[0].length;
+  }
+  parent.append(document.createTextNode(text.slice(last)));
+}
+
+function makeRichText(className, text) {
+  const box = el("div", className);
+  text.split(/\n\s*\n/).forEach((block) => {
+    const lines = block.split("\n");
+    if (lines.every((line) => line.startsWith("- "))) {
+      const list = el("ul");
+      lines.forEach((line) => { const li = el("li"); appendInline(li, line.slice(2)); list.append(li); });
+      box.append(list);
+    } else {
+      const para = el("p");
+      lines.forEach((line, i) => { if (i) para.append(el("br")); appendInline(para, line); });
+      box.append(para);
+    }
+  });
+  return box;
+}
+
 function makeNow(item, className) {
   const now = el("p", className);
   now.append(el("b", "", NOW_LABELS[item.state]), document.createTextNode(` ${item.activity}`));

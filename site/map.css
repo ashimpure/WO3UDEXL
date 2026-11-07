@@ -85,6 +85,8 @@ h1 { margin: 0; font-size: clamp(28px, 4.5vw, 40px); font-weight: 700; letter-sp
 .detail-head .line-meta { font-size: 15px; }
 .detail-strip { margin-top: 18px; }
 .detail-text { max-width: 68ch; margin: 24px 0 0; font-size: 17px; }
+.detail-text p, .detail-text ul { margin: 0 0 12px; }
+.detail-text p:last-child, .detail-text ul:last-child { margin-bottom: 0; }
 .detail-now { margin: 10px 0 0; }
 .section { margin-top: 44px; }
 .section h2 { margin: 0 0 12px; font-size: 22px; font-weight: 700; }
@@ -131,3 +133,22 @@ summary span { color: var(--muted); font-weight: 400; font-size: 14px; }
 .edit-remove, .edit-link { margin-top: 6px; padding: 0; border: 0; background: none; color: var(--muted); font: inherit; font-size: 14px; text-decoration: underline; cursor: pointer; }
 .edit-remove:hover, .edit-link:hover { color: var(--text); }
 .edit-link { display: block; margin-top: 18px; }
+.edit-open { margin: 16px 0 0; }
+.edit-form { display: grid; gap: 14px; margin-top: 16px; }
+.edit-field { display: grid; gap: 4px; color: var(--muted); font-size: 14px; }
+.edit-field small { font-size: 13px; }
+.edit-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; }
+.edit-area { width: 100%; min-height: 72px; padding: 9px 12px; border: 1px solid var(--rule); border-radius: 6px; background: var(--ground-deep); color: var(--text); font: inherit; resize: vertical; }
+.edit-area.tall { min-height: 200px; }
+.edit-tools { display: flex; flex-wrap: wrap; gap: 6px; }
+.edit-tool { min-width: 36px; padding: 4px 10px; border: 1px solid var(--rule); border-radius: 6px; background: none; color: var(--text); font: inherit; font-size: 14px; cursor: pointer; }
+.edit-tool:hover:not(:disabled) { border-color: var(--accent); }
+.edit-tool:disabled { opacity: .35; cursor: default; }
+.edit-preview { padding: 10px 12px; border: 1px dashed var(--rule); border-radius: 6px; color: var(--text); font-size: 15px; }
+.edit-preview .detail-text { margin: 0; font-size: 15px; }
+.edit-list { margin: 0 0 10px; padding: 0; list-style: none; }
+.edit-list li { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 6px 0; border-top: 1px solid var(--rule); }
+.edit-list li > span { flex: 1 1 180px; min-width: 0; }
+.edit-group { display: grid; gap: 6px; padding: 12px 0; border-top: 1px solid var(--rule); }
+.edit-panel h2 { margin-top: 24px; }
+.edit-panel h2:first-child { margin-top: 0; }
