@@ -1301,18 +1301,6 @@
       "screenshots": []
     },
     {
-      "id": "named-officers-to-uniques",
-      "title": "Named officers become new characters",
-      "area": "Battle content",
-      "state": "planning",
-      "progress": 5,
-      "summary": "Named officers in battle, such as Nobuyuki Sanada, will appear as the new characters with their own model and moves.",
-      "activity": "Looking at how named officers are set up in the game data.",
-      "description": "Many stages have named officers who aren't playable, such as Nobuyuki Sanada. The plan is for them to appear as the new playable characters instead, with their own model and moveset. The game already does this for a few characters. This comes after the new character slots, since each new character needs a slot of their own first.",
-      "substreams": [],
-      "screenshots": []
-    },
-    {
       "id": "newer-movesets-on-old-characters",
       "title": "Newer Movesets (On old characters)",
       "area": "Newer Movesets (On old characters)",
@@ -1321,6 +1309,18 @@
       "summary": "Newer Movesets (On old characters) is planned.",
       "activity": "Newer Movesets (On old characters) is planned.",
       "description": "",
+      "substreams": [],
+      "screenshots": []
+    },
+    {
+      "id": "named-officers-to-uniques",
+      "title": "Named officers become new characters",
+      "area": "Battle content",
+      "state": "planning",
+      "progress": 5,
+      "summary": "Named officers in battle, such as Nobuyuki Sanada, will appear as the new characters with their own model and moves.",
+      "activity": "Looking at how named officers are set up in the game data.",
+      "description": "Many stages have named officers who aren't playable, such as Nobuyuki Sanada. The plan is for them to appear as the new playable characters instead, with their own model and moveset. The game already does this for a few characters. This comes after the new character slots, since each new character needs a slot of their own first.",
       "substreams": [],
       "screenshots": []
     },
