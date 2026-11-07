@@ -55,157 +55,51 @@
       "plannedGroups": [
         {
           "title": "Samurai Warriors 4",
-          "characters": [
-            "Kojuro Katakura",
-            "Takatora Tōdō",
-            "Naotora Ii",
-            "Munenori Yagyū",
-            "Yoshitsugu Ōtani",
-            "Hisahide Matsunaga",
-            "Kagekatsu Uesugi",
-            "Takakage Kobayakawa",
-            "Koshōshō",
-            "Toyohisa Shimazu",
-            "Lady Hayakawa"
-          ]
+          "characters": ["Kojuro Katakura", "Takatora Tōdō", "Naotora Ii", "Munenori Yagyū", "Yoshitsugu Ōtani", "Hisahide Matsunaga", "Kagekatsu Uesugi", "Takakage Kobayakawa", "Koshōshō", "Toyohisa Shimazu", "Lady Hayakawa"]
         },
         {
           "title": "Samurai Warriors: Spirit of Sanada",
-          "characters": [
-            "Naomasa Ii",
-            "Masayuki Sanada",
-            "Chacha",
-            "Sasuke",
-            "Katsuyori Takeda",
-            "Hidetada Tokugawa"
-          ]
+          "characters": ["Naomasa Ii", "Masayuki Sanada", "Chacha", "Sasuke", "Katsuyori Takeda", "Hidetada Tokugawa"]
         },
         {
           "title": "Warriors Orochi 4",
-          "characters": [
-            "Zeus",
-            "Athena",
-            "Loki",
-            "Ares",
-            "Odin",
-            "Gaia",
-            "Hades",
-            "Yang Jian",
-            "Perseus",
-            "Diamondback"
-          ]
+          "characters": ["Zeus", "Athena", "Loki", "Ares", "Odin", "Gaia", "Hades", "Yang Jian", "Perseus", "Diamondback"]
         },
         {
           "title": "Dynasty Warriors 8 XL",
-          "characters": [
-            "Zhang Bao",
-            "Guan Xing",
-            "Guan Yinping",
-            "Fa Zheng",
-            "Yue Jin",
-            "Li Dian",
-            "Yu Jin",
-            "Lu Su",
-            "Han Dang",
-            "Zhu Ran",
-            "Jia Chong",
-            "Wan Yang",
-            "Zang Chunhua",
-            "Lu Lingqi",
-            "Cheng Gong"
-          ]
+          "characters": ["Zhang Bao", "Guan Xing", "Guan Yinping", "Fa Zheng", "Yue Jin", "Li Dian", "Yu Jin", "Lu Su", "Han Dang", "Zhu Ran", "Jia Chong", "Wan Yang", "Zang Chunhua", "Lu Lingqi", "Cheng Gong"]
         },
         {
           "title": "Dynasty Warriors 9",
-          "characters": [
-            "Zhou Cang",
-            "Xiahouji",
-            "Xun Yu",
-            "Cao Xiu",
-            "Man Chong",
-            "Xun You",
-            "Cheng Pu",
-            "Xu Sheng",
-            "Xin Xianying",
-            "Dong Bai",
-            "Hua Xiong",
-            "Yuan Shu"
-          ]
+          "characters": ["Zhou Cang", "Xiahouji", "Xun Yu", "Cao Xiu", "Man Chong", "Xun You", "Cheng Pu", "Xu Sheng", "Xin Xianying", "Dong Bai", "Hua Xiong", "Yuan Shu"]
         },
         {
           "title": "Dynasty Warriors: Origins",
-          "characters": [
-            "Ziluan"
-          ]
+          "characters": ["Ziluan"]
         },
         {
           "title": "Dynasty Warriors Strikeforce 2",
-          "characters": [
-            "Xiang Yu",
-            "Beauty Yu",
-            "Xi Wangmu",
-            "King Mu"
-          ]
+          "characters": ["Xiang Yu", "Beauty Yu", "Xi Wangmu", "King Mu"]
         },
         {
           "title": "Warriors All-Stars",
-          "characters": [
-            "Ōka",
-            "Horō",
-            "Tokitsugu",
-            "Sophie Neuenmuller",
-            "Plachta",
-            "Opoona",
-            "Hajime Arima",
-            "Darius",
-            "William Adams",
-            "Nobunyaga Oda",
-            "Marie Rose",
-            "Honoka",
-            "Millenia",
-            "Laegrinna",
-            "Rio",
-            "Arnice",
-            "Christophorus",
-            "Tamaki",
-            "Shiki",
-            "Setsuna"
-          ]
+          "characters": ["Ōka", "Horō", "Tokitsugu", "Sophie Neuenmuller", "Plachta", "Opoona", "Hajime Arima", "Darius", "William Adams", "Nobunyaga Oda", "Marie Rose", "Honoka", "Millenia", "Laegrinna", "Rio", "Arnice", "Christophorus", "Tamaki", "Shiki", "Setsuna"]
         },
         {
           "title": "Berserk and the Band of the Hawk",
-          "characters": [
-            "Guts",
-            "Griffith",
-            "Casca",
-            "Judeau",
-            "Nosferatu Zodd",
-            "Wyald",
-            "Serpico",
-            "Schierke"
-          ]
+          "characters": ["Guts", "Griffith", "Casca", "Judeau", "Nosferatu Zodd", "Wyald", "Serpico", "Schierke"]
         },
         {
           "title": "Devil May Cry - SUPER DUPER PIPE DREAM NO IDEA WHERE TO EVEN START WITH THIS",
-          "characters": [
-            "Dante",
-            "Vergil",
-            "Nero",
-            "Trish",
-            "Lady"
-          ]
+          "characters": ["Dante", "Vergil", "Nero", "Trish", "Lady"]
         },
         {
           "title": "Sengoku Basara",
-          "characters": [
-            "ALL OF THEM!!!"
-          ]
+          "characters": ["ALL OF THEM!!!"]
         },
         {
           "title": "Hyrule / Fire Emblem Warriors?",
-          "characters": [
-            "Some of them? All of them? None of them? WHO KNOWS"
-          ]
+          "characters": ["Some of them? All of them? None of them? WHO KNOWS"]
         }
       ],
       "screenshots": [
@@ -343,6 +237,11 @@
                   "src": "assets/screenshots/xc-gracia-2.jpg",
                   "alt": "Gracia wearing Xtreme Costume 2 in the Gallery",
                   "caption": "Gracia, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-gracia-3.jpg",
+                  "alt": "Gracia wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Gracia, Xtreme Costume 3."
                 },
                 {
                   "src": "assets/screenshots/xc-gracia-4.jpg",
@@ -483,6 +382,11 @@
                   "src": "assets/screenshots/xc-kunoichi-2.jpg",
                   "alt": "Kunoichi wearing Xtreme Costume 2 in the Gallery",
                   "caption": "Kunoichi, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-kunoichi-3.jpg",
+                  "alt": "Kunoichi wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Kunoichi, Xtreme Costume 3."
                 },
                 {
                   "src": "assets/screenshots/xc-kunoichi-4.jpg",
@@ -769,9 +673,19 @@
                   "caption": "Ginchiyo Tachibana, Xtreme Costume 4."
                 },
                 {
+                  "src": "assets/screenshots/xc-gracia-5.jpg",
+                  "alt": "Gracia wearing Xtreme Costume 5 in the Gallery",
+                  "caption": "Gracia, Xtreme Costume 5."
+                },
+                {
                   "src": "assets/screenshots/xc-hanzo-hattori-3.jpg",
                   "alt": "Hanzō Hattori wearing Xtreme Costume 3 in the Gallery",
                   "caption": "Hanzō Hattori, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-hideyoshi-toyotomi-4.jpg",
+                  "alt": "Hideyoshi Toyotomi wearing Xtreme Costume 4 in the Gallery",
+                  "caption": "Hideyoshi Toyotomi, Xtreme Costume 4."
                 },
                 {
                   "src": "assets/screenshots/xc-ieyasu-tokugawa-3.jpg",
@@ -814,6 +728,16 @@
                   "caption": "Kotarō Fūma, Xtreme Costume 2."
                 },
                 {
+                  "src": "assets/screenshots/xc-kunoichi-5.jpg",
+                  "alt": "Kunoichi wearing Xtreme Costume 5 in the Gallery",
+                  "caption": "Kunoichi, Xtreme Costume 5."
+                },
+                {
+                  "src": "assets/screenshots/xc-magoichi-saika-3.jpg",
+                  "alt": "Magoichi Saika wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Magoichi Saika, Xtreme Costume 3."
+                },
+                {
                   "src": "assets/screenshots/xc-masamune-date-3.jpg",
                   "alt": "Masamune Date wearing Xtreme Costume 3 in the Gallery",
                   "caption": "Masamune Date, Xtreme Costume 3."
@@ -822,6 +746,16 @@
                   "src": "assets/screenshots/xc-mitsuhide-akechi-3.jpg",
                   "alt": "Mitsuhide Akechi wearing Xtreme Costume 3 in the Gallery",
                   "caption": "Mitsuhide Akechi, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-mitsunari-ishida-5.jpg",
+                  "alt": "Mitsunari Ishida wearing Xtreme Costume 5 in the Gallery",
+                  "caption": "Mitsunari Ishida, Xtreme Costume 5."
+                },
+                {
+                  "src": "assets/screenshots/xc-motochika-chosokabe-2.jpg",
+                  "alt": "Motochika Chōsokabe wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Motochika Chōsokabe, Xtreme Costume 2."
                 },
                 {
                   "src": "assets/screenshots/xc-nagamasa-azai-3.jpg",
@@ -834,14 +768,54 @@
                   "caption": "Nene, Xtreme Costume 5."
                 },
                 {
+                  "src": "assets/screenshots/xc-nobunaga-oda-3.jpg",
+                  "alt": "Nobunaga Oda wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Nobunaga Oda, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-no-5.jpg",
+                  "alt": "Nō wearing Xtreme Costume 5 in the Gallery",
+                  "caption": "Nō, Xtreme Costume 5."
+                },
+                {
                   "src": "assets/screenshots/xc-oichi-6.jpg",
                   "alt": "Oichi wearing Xtreme Costume 6 in the Gallery",
                   "caption": "Oichi, Xtreme Costume 6."
                 },
                 {
+                  "src": "assets/screenshots/xc-okuni-5.jpg",
+                  "alt": "Okuni wearing Xtreme Costume 5 in the Gallery",
+                  "caption": "Okuni, Xtreme Costume 5."
+                },
+                {
                   "src": "assets/screenshots/xc-ranmaru-mori-3.jpg",
                   "alt": "Ranmaru Mori wearing Xtreme Costume 3 in the Gallery",
                   "caption": "Ranmaru Mori, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-sakon-shima-2.jpg",
+                  "alt": "Sakon Shima wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Sakon Shima, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-shingen-takeda-3.jpg",
+                  "alt": "Shingen Takeda wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Shingen Takeda, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-tadakatsu-honda-3.jpg",
+                  "alt": "Tadakatsu Honda wearing Xtreme Costume 3 in the Gallery",
+                  "caption": "Tadakatsu Honda, Xtreme Costume 3."
+                },
+                {
+                  "src": "assets/screenshots/xc-toshiie-maeda-2.jpg",
+                  "alt": "Toshiie Maeda wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Toshiie Maeda, Xtreme Costume 2."
+                },
+                {
+                  "src": "assets/screenshots/xc-yoshihiro-shimazu-2.jpg",
+                  "alt": "Yoshihiro Shimazu wearing Xtreme Costume 2 in the Gallery",
+                  "caption": "Yoshihiro Shimazu, Xtreme Costume 2."
                 },
                 {
                   "src": "assets/screenshots/xc-yukimura-sanada-4.jpg",
@@ -872,7 +846,13 @@
               "summary": "Her Broken Destiny outfit is built and the skirt physics work. The braid physics still need fixing.",
               "activity": "Fixing the physics on her braid.",
               "description": "Sophitia's Broken Destiny outfit from Soulcalibur. The skirt moves properly in battle. The braid hangs correctly in the Gallery but drops to the ground in battle. A few Soulcalibur 2 outfits are planned for later.",
-              "screenshots": []
+              "screenshots": [
+                {
+                  "src": "assets/screenshots/xc-sophitia-1.jpg",
+                  "alt": "Sophitia wearing Xtreme Costume 1 in the Gallery",
+                  "caption": "Sophitia, Xtreme Costume 1."
+                }
+              ]
             },
             {
               "id": "okuni-nioh2",
