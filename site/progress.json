@@ -1289,18 +1289,6 @@
       ]
     },
     {
-      "id": "newer-movesets-on-old-characters",
-      "title": "Newer Movesets (On old characters)",
-      "area": "Newer Movesets (On old characters)",
-      "state": "planning",
-      "progress": 0,
-      "summary": "Newer Movesets (On old characters) is planned.",
-      "activity": "Newer Movesets (On old characters) is planned.",
-      "description": "",
-      "substreams": [],
-      "screenshots": []
-    },
-    {
       "id": "installer",
       "title": "Installer",
       "area": "Getting the mod",
@@ -1309,6 +1297,18 @@
       "summary": "A one-file installer with a launcher, downloading the mod data and an optional 4K texture pack.",
       "activity": "Testing the installer and launcher.",
       "description": "A one-file installer and launcher that patches a copy of the game, including the menu music, and can download an optional 4K texture pack. It is in testing and not released yet.",
+      "substreams": [],
+      "screenshots": []
+    },
+    {
+      "id": "newer-movesets-on-old-characters",
+      "title": "Newer Movesets (On old characters)",
+      "area": "Newer Movesets (On old characters)",
+      "state": "planning",
+      "progress": 0,
+      "summary": "Newer Movesets (On old characters) is planned.",
+      "activity": "Newer Movesets (On old characters) is planned.",
+      "description": "",
       "substreams": [],
       "screenshots": []
     },
