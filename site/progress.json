@@ -38,10 +38,10 @@
           "title": "Takamaru",
           "area": "Samurai Warriors 3",
           "state": "in-progress",
-          "progress": 50,
-          "summary": "Playable in testing with his Samurai Warriors 3 model, katanas, moves and musou. His effects are being worked on.",
+          "progress": 55,
+          "summary": "Playable in testing with his Samurai Warriors 3 model, katanas, moves and musou. His button inputs follow Samurai Warriors 3, and his effects are being worked on.",
           "activity": "Working on his Samurai Warriors 3 effects.",
-          "description": "Takamaru is ported from Samurai Warriors 3 into his own character slot. He is in game in testing with his own model, character select art, katanas named as in Samurai Warriors 3, his moveset and musou, his invisibility Special Skill and his Samurai Warriors 3 effects, which are being worked on. Computer-controlled Takamaru uses his moves too.",
+          "description": "Takamaru is ported from Samurai Warriors 3 into his own character slot. He is in game in testing with his own model, character select art, katanas named as in Samurai Warriors 3, his moveset and musou with the same button inputs as in Samurai Warriors 3, his invisibility Special Skill and his Samurai Warriors 3 effects, which are being worked on. Computer-controlled Takamaru uses his moves too.",
           "substreams": [],
           "screenshots": [
             {
@@ -55,163 +55,55 @@
       "plannedGroups": [
         {
           "title": "Samurai Warriors 4",
-          "characters": [
-            "Kojuro Katakura",
-            "Takatora Tōdō",
-            "Naotora Ii",
-            "Munenori Yagyū",
-            "Yoshitsugu Ōtani",
-            "Hisahide Matsunaga",
-            "Kagekatsu Uesugi",
-            "Takakage Kobayakawa",
-            "Koshōshō",
-            "Toyohisa Shimazu",
-            "Lady Hayakawa"
-          ]
+          "characters": ["Kojuro Katakura", "Takatora Tōdō", "Naotora Ii", "Munenori Yagyū", "Yoshitsugu Ōtani", "Hisahide Matsunaga", "Kagekatsu Uesugi", "Takakage Kobayakawa", "Koshōshō", "Toyohisa Shimazu", "Lady Hayakawa"]
         },
         {
           "title": "Samurai Warriors: Spirit of Sanada",
-          "characters": [
-            "Naomasa Ii",
-            "Masayuki Sanada",
-            "Chacha",
-            "Sasuke",
-            "Katsuyori Takeda",
-            "Hidetada Tokugawa"
-          ]
+          "characters": ["Naomasa Ii", "Masayuki Sanada", "Chacha", "Sasuke", "Katsuyori Takeda", "Hidetada Tokugawa"]
         },
         {
           "title": "Warriors Orochi 4",
-          "characters": [
-            "Zeus",
-            "Athena",
-            "Loki",
-            "Ares",
-            "Odin",
-            "Gaia",
-            "Hades",
-            "Yang Jian",
-            "Perseus",
-            "Diamondback"
-          ]
+          "characters": ["Zeus", "Athena", "Loki", "Ares", "Odin", "Gaia", "Hades", "Yang Jian", "Perseus", "Diamondback"]
         },
         {
           "title": "Dynasty Warriors 8 XL",
-          "characters": [
-            "Zhang Bao",
-            "Guan Xing",
-            "Guan Yinping",
-            "Fa Zheng",
-            "Yue Jin",
-            "Li Dian",
-            "Yu Jin",
-            "Lu Su",
-            "Han Dang",
-            "Zhu Ran",
-            "Jia Chong",
-            "Wan Yang",
-            "Zang Chunhua",
-            "Lu Lingqi",
-            "Cheng Gong"
-          ]
+          "characters": ["Zhang Bao", "Guan Xing", "Guan Yinping", "Fa Zheng", "Yue Jin", "Li Dian", "Yu Jin", "Lu Su", "Han Dang", "Zhu Ran", "Jia Chong", "Wan Yang", "Zang Chunhua", "Lu Lingqi", "Cheng Gong"]
         },
         {
           "title": "Dynasty Warriors 9",
-          "characters": [
-            "Zhou Cang",
-            "Xiahouji",
-            "Xun Yu",
-            "Cao Xiu",
-            "Man Chong",
-            "Xun You",
-            "Cheng Pu",
-            "Xu Sheng",
-            "Xin Xianying",
-            "Dong Bai",
-            "Hua Xiong",
-            "Yuan Shu"
-          ]
+          "characters": ["Zhou Cang", "Xiahouji", "Xun Yu", "Cao Xiu", "Man Chong", "Xun You", "Cheng Pu", "Xu Sheng", "Xin Xianying", "Dong Bai", "Hua Xiong", "Yuan Shu"]
         },
         {
           "title": "Dynasty Warriors: Origins",
-          "characters": [
-            "Ziluan"
-          ]
+          "characters": ["Ziluan"]
         },
         {
           "title": "Dynasty Warriors Strikeforce 2",
-          "characters": [
-            "Xiang Yu",
-            "Beauty Yu",
-            "Xi Wangmu",
-            "King Mu"
-          ]
+          "characters": ["Xiang Yu", "Beauty Yu", "Xi Wangmu", "King Mu"]
         },
         {
           "title": "Warriors All-Stars",
-          "characters": [
-            "Ōka",
-            "Horō",
-            "Tokitsugu",
-            "Sophie Neuenmuller",
-            "Plachta",
-            "Opoona",
-            "Hajime Arima",
-            "Darius",
-            "William Adams",
-            "Nobunyaga Oda",
-            "Marie Rose",
-            "Honoka",
-            "Millenia",
-            "Laegrinna",
-            "Rio",
-            "Arnice",
-            "Christophorus",
-            "Tamaki",
-            "Shiki",
-            "Setsuna"
-          ]
+          "characters": ["Ōka", "Horō", "Tokitsugu", "Sophie Neuenmuller", "Plachta", "Opoona", "Hajime Arima", "Darius", "William Adams", "Nobunyaga Oda", "Marie Rose", "Honoka", "Millenia", "Laegrinna", "Rio", "Arnice", "Christophorus", "Tamaki", "Shiki", "Setsuna"]
         },
         {
           "title": "Berserk and the Band of the Hawk",
-          "characters": [
-            "Guts",
-            "Griffith",
-            "Casca",
-            "Judeau",
-            "Nosferatu Zodd",
-            "Wyald",
-            "Serpico",
-            "Schierke"
-          ]
+          "characters": ["Guts", "Griffith", "Casca", "Judeau", "Nosferatu Zodd", "Wyald", "Serpico", "Schierke"]
         },
         {
           "title": "Devil May Cry - SUPER DUPER PIPE DREAM NO IDEA WHERE TO EVEN START WITH THIS",
-          "characters": [
-            "Dante",
-            "Vergil",
-            "Nero",
-            "Trish",
-            "Lady"
-          ]
+          "characters": ["Dante", "Vergil", "Nero", "Trish", "Lady"]
         },
         {
           "title": "Sengoku Basara",
-          "characters": [
-            "ALL OF THEM!!!"
-          ]
+          "characters": ["ALL OF THEM!!!"]
         },
         {
           "title": "Hyrule / Fire Emblem Warriors?",
-          "characters": [
-            "Some of them? All of them? None of them? WHO KNOWS"
-          ]
+          "characters": ["Some of them? All of them? None of them? WHO KNOWS"]
         },
         {
           "title": "Fist of the North Star: Ken's Rage",
-          "characters": [
-            "ATATATATATATATATA"
-          ]
+          "characters": ["ATATATATATATATATA"]
         }
       ],
       "screenshots": [
@@ -236,10 +128,10 @@
           "id": "dynasty-warriors-costumes",
           "title": "Dynasty Warriors",
           "area": "Dynasty Warriors series",
-          "state": "planning",
-          "progress": 0,
-          "summary": "Outfits from Dynasty Warriors 8, 9 and Origins are planned.",
-          "activity": "Dynasty Warriors outfits are planned.",
+          "state": "in-progress",
+          "progress": 3,
+          "summary": "Outfits from Dynasty Warriors: Overlords are being brought over. Dynasty Warriors 8, 9 and Origins outfits are planned.",
+          "activity": "Testing the first Dynasty Warriors: Overlords outfits.",
           "description": "Outfits from the Dynasty Warriors games, for the Wei, Wu, Shu, Jin and Other characters.",
           "screenshots": [],
           "substreams": [
@@ -280,11 +172,11 @@
               "id": "other-dw-outfits",
               "title": "Other Dynasty Warriors",
               "area": "other Dynasty Warriors games",
-              "state": "planning",
-              "progress": 0,
-              "summary": "Outfits from other Dynasty Warriors games are planned.",
-              "activity": "other Dynasty Warriors games outfits are planned.",
-              "description": "Outfits from other Dynasty Warriors games. Characters will be added here as work on them starts.",
+              "state": "in-progress",
+              "progress": 10,
+              "summary": "Outfits from Dynasty Warriors: Overlords are being brought over. Cao Cao's is in testing and 20 more are built.",
+              "activity": "Testing Cao Cao's Dynasty Warriors: Overlords outfit and fixing its cape and waist ribbons.",
+              "description": "Outfits from other Dynasty Warriors games. The first are from Dynasty Warriors: Overlords: Cao Cao's outfit is in testing in an Xtreme Costume slot, and 20 more, including Zhao Yun's and Zhuge Liang's, are built and waiting to be tested.",
               "screenshots": []
             }
           ]
@@ -1111,7 +1003,7 @@
           "progress": 60,
           "summary": "Ported outfits get their own Xtreme Costume slots, and characters can now have more outfits than the game's limit.",
           "activity": "Testing several Xtreme Costume slots per character.",
-          "description": "Ported outfits sit in their own Xtreme Costume slots in the costume list, alongside the originals, with several per character. Characters can now have more outfits than the game's built-in limit, and new characters like Nobuyuki get outfit slots too.",
+          "description": "Ported outfits sit in their own Xtreme Costume slots in the costume list, alongside the originals, with several per character. Characters can now have more outfits than the game's built-in limit, and new characters like Nobuyuki get outfit slots too. Picking some Xtreme Costumes could reset a save's progress; this is fixed.",
           "screenshots": [
             {
               "src": "assets/screenshots/costume-kenshin-x1.jpg",
@@ -1143,7 +1035,7 @@
       "progress": 75,
       "summary": "Filmic colour, ambient occlusion, sharper textures, softer character shadows and skin, and no more screen flashing on camera pans.",
       "activity": "Trying the new HD stage textures, bounce lighting and better hair and eye shading.",
-      "description": "The mod uses its own graphics add-on. Working in game: smoother edges, stronger light shafts, sharper and softer-edged shadows, shadows from stage scenery, filmic colour, ambient occlusion, a second layer of distant fog, sharper textures at an angle and on distant soldiers, softer character shadows and skin, and less colour banding. The brief screen flashes during camera pans are fixed. Performance, Balanced and Quality presets switch these on together. Shadows no longer pop in on some stages, and hair has a new shine. HD textures for every stage have been built. Reflections on water and bounce lighting are being tried next.",
+      "description": "The mod uses its own graphics add-on. Working in game: smoother edges, stronger light shafts, sharper and softer-edged shadows, shadows from stage scenery, filmic colour, ambient occlusion, a second layer of distant fog, sharper textures at an angle and on distant soldiers, softer character shadows and skin, and less colour banding. The brief screen flashes during camera pans are fixed. Performance, Balanced and Quality presets switch these on together. Shadows no longer pop in on some stages, and hair has a new shine. HD textures for every stage have been built. Reflections on water and bounce lighting are being tried next. Two crashes when a battle loads with the graphics add-on are fixed.",
       "substreams": [],
       "screenshots": [
         {
@@ -1362,6 +1254,26 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-11-07",
+      "title": "Takamaru's inputs and effects",
+      "detail": "Takamaru's button inputs now follow Samurai Warriors 3, and more of his effects, including his invisibility, are in testing."
+    },
+    {
+      "date": "2026-11-07",
+      "title": "Dynasty Warriors: Overlords outfits",
+      "detail": "Outfits from Dynasty Warriors: Overlords are being brought over. Cao Cao's is in testing and 20 more are built."
+    },
+    {
+      "date": "2026-11-07",
+      "title": "Costume save fix",
+      "detail": "Picking some Xtreme Costumes could reset a save's progress. This is fixed."
+    },
+    {
+      "date": "2026-11-07",
+      "title": "Graphics crash fixes",
+      "detail": "Two crashes when a battle loads with the graphics add-on are fixed."
+    },
     {
       "date": "2026-11-06",
       "title": "1,000-character battle clip",
