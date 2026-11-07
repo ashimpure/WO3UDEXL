@@ -1248,6 +1248,18 @@
       ]
     },
     {
+      "id": "newer-movesets-on-old-characters",
+      "title": "Newer Movesets (On old characters)",
+      "area": "Newer Movesets (On old characters)",
+      "state": "planning",
+      "progress": 0,
+      "summary": "Newer Movesets (On old characters) is planned.",
+      "activity": "Newer Movesets (On old characters) is planned.",
+      "description": "",
+      "substreams": [],
+      "screenshots": []
+    },
+    {
       "id": "ultrawide-screens",
       "title": "Ultrawide screens",
       "area": "Display",
@@ -1264,18 +1276,6 @@
           "caption": "Officer Select at 32:9, on an earlier build before Nobuyuki's own art was added."
         }
       ]
-    },
-    {
-      "id": "newer-movesets-on-old-characters",
-      "title": "Newer Movesets (On old characters)",
-      "area": "Newer Movesets (On old characters)",
-      "state": "planning",
-      "progress": 0,
-      "summary": "Newer Movesets (On old characters) is planned.",
-      "activity": "Newer Movesets (On old characters) is planned.",
-      "description": "",
-      "substreams": [],
-      "screenshots": []
     },
     {
       "id": "bigger-battles",
