@@ -1337,18 +1337,6 @@
       "screenshots": []
     },
     {
-      "id": "new-option-to-keep-selected-costume-as-t",
-      "title": "New option to keep selected costume as the default model for characters",
-      "area": "New option to keep selected costume as the default model for characters",
-      "state": "planning",
-      "progress": 0,
-      "summary": "New option to keep selected costume as the default model for characters is planned.",
-      "activity": "New option to keep selected costume as the default model for characters is planned.",
-      "description": "",
-      "substreams": [],
-      "screenshots": []
-    },
-    {
       "id": "newer-movesets-on-old-characters",
       "title": "Newer Movesets (On old characters)",
       "area": "Newer Movesets (On old characters)",
@@ -1356,6 +1344,18 @@
       "progress": 0,
       "summary": "Newer Movesets (On old characters) is planned.",
       "activity": "Newer Movesets (On old characters) is planned.",
+      "description": "",
+      "substreams": [],
+      "screenshots": []
+    },
+    {
+      "id": "new-option-to-keep-selected-costume-as-t",
+      "title": "New option to keep selected costume as the default model for characters",
+      "area": "New option to keep selected costume as the default model for characters",
+      "state": "planning",
+      "progress": 0,
+      "summary": "New option to keep selected costume as the default model for characters is planned.",
+      "activity": "New option to keep selected costume as the default model for characters is planned.",
       "description": "",
       "substreams": [],
       "screenshots": []
