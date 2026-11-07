@@ -1313,18 +1313,6 @@
       "screenshots": []
     },
     {
-      "id": "more-battles",
-      "title": "New stages",
-      "area": "Battle content",
-      "state": "planning",
-      "progress": 5,
-      "summary": "New stages and stages from other games are planned. None chosen yet.",
-      "activity": "New stages are planned.",
-      "description": "New stages and stages brought over from other games. None have been chosen yet.",
-      "substreams": [],
-      "screenshots": []
-    },
-    {
       "id": "newer-movesets-on-old-characters",
       "title": "Newer Movesets (On old characters)",
       "area": "Newer Movesets (On old characters)",
@@ -1333,6 +1321,18 @@
       "summary": "Newer Movesets (On old characters) is planned.",
       "activity": "Newer Movesets (On old characters) is planned.",
       "description": "",
+      "substreams": [],
+      "screenshots": []
+    },
+    {
+      "id": "more-battles",
+      "title": "New stages",
+      "area": "Battle content",
+      "state": "planning",
+      "progress": 5,
+      "summary": "New stages and stages from other games are planned. None chosen yet.",
+      "activity": "New stages are planned.",
+      "description": "New stages and stages brought over from other games. None have been chosen yet.",
       "substreams": [],
       "screenshots": []
     },
