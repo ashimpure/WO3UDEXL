@@ -1243,6 +1243,18 @@
       "description": "New enemy types. None have been chosen yet.",
       "substreams": [],
       "screenshots": []
+    },
+    {
+      "id": "new-option-to-keep-selected-costume-as-t",
+      "title": "New option to keep selected costume as the default model for characters",
+      "area": "New option to keep selected costume as the default model for characters",
+      "state": "planning",
+      "progress": 0,
+      "summary": "New option to keep selected costume as the default model for characters is planned.",
+      "activity": "New option to keep selected costume as the default model for characters is planned.",
+      "description": "",
+      "substreams": [],
+      "screenshots": []
     }
   ],
   "updates": [
