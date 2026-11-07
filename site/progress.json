@@ -1325,18 +1325,6 @@
       "screenshots": []
     },
     {
-      "id": "new-enemies",
-      "title": "New enemies",
-      "area": "Battle content",
-      "state": "planning",
-      "progress": 5,
-      "summary": "New enemy types are planned. None chosen yet.",
-      "activity": "New enemy types are planned.",
-      "description": "New enemy types. None have been chosen yet.",
-      "substreams": [],
-      "screenshots": []
-    },
-    {
       "id": "newer-movesets-on-old-characters",
       "title": "Newer Movesets (On old characters)",
       "area": "Newer Movesets (On old characters)",
@@ -1345,6 +1333,18 @@
       "summary": "Newer Movesets (On old characters) is planned.",
       "activity": "Newer Movesets (On old characters) is planned.",
       "description": "",
+      "substreams": [],
+      "screenshots": []
+    },
+    {
+      "id": "new-enemies",
+      "title": "New enemies",
+      "area": "Battle content",
+      "state": "planning",
+      "progress": 5,
+      "summary": "New enemy types are planned. None chosen yet.",
+      "activity": "New enemy types are planned.",
+      "description": "New enemy types. None have been chosen yet.",
       "substreams": [],
       "screenshots": []
     },
