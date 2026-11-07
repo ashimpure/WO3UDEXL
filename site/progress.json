@@ -1266,6 +1266,18 @@
       ]
     },
     {
+      "id": "newer-movesets-on-old-characters",
+      "title": "Newer Movesets (On old characters)",
+      "area": "Newer Movesets (On old characters)",
+      "state": "planning",
+      "progress": 0,
+      "summary": "Newer Movesets (On old characters) is planned.",
+      "activity": "Newer Movesets (On old characters) is planned.",
+      "description": "",
+      "substreams": [],
+      "screenshots": []
+    },
+    {
       "id": "bigger-battles",
       "title": "Larger battles",
       "area": "Battle size and performance",
@@ -1287,18 +1299,6 @@
           "caption": "BIIIIG BATTLES"
         }
       ]
-    },
-    {
-      "id": "newer-movesets-on-old-characters",
-      "title": "Newer Movesets (On old characters)",
-      "area": "Newer Movesets (On old characters)",
-      "state": "planning",
-      "progress": 0,
-      "summary": "Newer Movesets (On old characters) is planned.",
-      "activity": "Newer Movesets (On old characters) is planned.",
-      "description": "",
-      "substreams": [],
-      "screenshots": []
     },
     {
       "id": "installer",
