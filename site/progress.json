@@ -19,7 +19,7 @@
           "progress": 75,
           "summary": "Playable in his own slot with his own Samurai Warriors 4 moveset, musou camera, effects, voice, art and weapons.",
           "activity": "Testing his model on his own Samurai Warriors 4 skeleton.",
-          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice lines and all six weapons with their own weapon cards. His moveset is now fully his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. His attack ranges, projectiles, effect colours, musou camera and horseback animations now follow Samurai Warriors 4 and are being tested. His model now runs on his own Samurai Warriors 4 skeleton instead of one adapted from another character, keeping his original twist joints for the arms and sleeves, his own cloth physics and properly drawn hair strands. This is in testing. He has one outfit, his Samurai Warriors 4 one. Still to come: fine-tuning against Samurai Warriors 4.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice and all six weapons, each with its own weapon card.\n\nHis moveset is his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. Attack ranges, projectiles, effect colours and horseback animations follow Samurai Warriors 4 and are being tested.\n\nHis model runs on his own Samurai Warriors 4 skeleton, with his original arm and sleeve twist joints, his own cloth physics and properly drawn hair. This is in testing. He has one outfit, his Samurai Warriors 4 one. Still to come: fine-tuning against Samurai Warriors 4.",
           "screenshots": [
             {
               "src": "assets/screenshots/nobuyuki-charsel.jpg",
@@ -41,7 +41,7 @@
           "progress": 55,
           "summary": "Playable in testing with his Samurai Warriors 3 model, katanas, moves and musou. His button inputs follow Samurai Warriors 3, and his effects are being worked on.",
           "activity": "Working on his Samurai Warriors 3 effects.",
-          "description": "Takamaru is ported from Samurai Warriors 3 into his own character slot. He is in game in testing with his own model, character select art, katanas named as in Samurai Warriors 3, his moveset and musou with the same button inputs as in Samurai Warriors 3, his invisibility Special Skill and his Samurai Warriors 3 effects, which are being worked on. Computer-controlled Takamaru uses his moves too.",
+          "description": "Takamaru is ported from Samurai Warriors 3 into his own character slot and is in game in testing. He has his own model, character select art and katanas, named as in Samurai Warriors 3. His moveset and musou use the same button inputs as in Samurai Warriors 3, along with his invisibility Special Skill. His Samurai Warriors 3 effects are being worked on. Computer-controlled Takamaru uses his moves too.",
           "substreams": [],
           "screenshots": [
             {
@@ -176,7 +176,7 @@
               "progress": 35,
               "summary": "All 21 Dynasty Warriors: Overlords outfits are in game in testing, with their capes, hair and ribbons moving as they do in Overlords.",
               "activity": "Fixing the remaining clipping and shine on the Dynasty Warriors: Overlords outfits.",
-              "description": "Outfits from other Dynasty Warriors games. All 21 outfits from Dynasty Warriors: Overlords are in game in testing, each in its character's Xtreme Costume slot. Their capes, hair, sashes and ribbons use Overlords' own physics, so they move as they do in Overlords, and their colours and shading come from each outfit's own materials.",
+              "description": "Outfits from other Dynasty Warriors games. All 21 Dynasty Warriors: Overlords outfits are in game in testing, each in its character's Xtreme Costume slot. Their capes, hair, sashes and ribbons use Overlords' own physics, so they move as they do in Overlords. Their colours and shading come from each outfit's own materials.",
               "screenshots": [
                 {
                   "src": "assets/screenshots/ov-cwj-05.jpg",
@@ -306,7 +306,7 @@
               "progress": 70,
               "summary": "96 Samurai Warriors 4 outfits, including DLC outfits, all with cloth physics, sit in their own Xtreme Costume slots.",
               "activity": "Fixing clipping and seams, with hair and capes now drawn properly.",
-              "description": "Every Samurai Warriors 4 outfit for the Samurai Warriors characters in this game is being brought over, including DLC outfits, with several per character. 96 are built, all with cloth physics, and sit in their own Xtreme Costume slots alongside the originals, marked with their own icon in the costume list. They are rebuilt at full quality with shine matched to the game's lighting, see-through pieces such as glasses are drawn properly, and cloth now clips less against the body. They are being tested.",
+              "description": "Every Samurai Warriors 4 outfit for the Samurai Warriors characters in this game is being brought over, DLC outfits included, with several per character. 96 are built, all with cloth physics. They sit in their own Xtreme Costume slots next to the originals, marked with their own icon in the costume list.\n\nThey are rebuilt at full quality, with shine matched to the game's lighting. See-through pieces such as glasses draw properly, and cloth clips less against the body. They are being tested.",
               "screenshots": [
                 {
                   "src": "assets/screenshots/xc-aya-1.jpg",
@@ -774,8 +774,8 @@
               "state": "complete",
               "progress": 100,
               "summary": "All the Samurai Warriors 3 Z Special outfits not already in this game, about 30, are ported.",
-              "activity": "All Samurai Warriors 3 Z Special outfits are ported. Remaining fixes are part of the general outfit fixes.",
-              "description": "Outfits from other Samurai Warriors games. Most of the Samurai Warriors 3 Z Special outfits already exist in this game. The rest, about 30, are ported into Xtreme Costume slots with their physics. Any remaining fixes are handled with the other outfit fixes.",
+              "activity": "All Samurai Warriors 3 Z Special outfits are ported. Any fixes left are handled with the other outfits.",
+              "description": "Outfits from other Samurai Warriors games. Most Samurai Warriors 3 Z Special outfits are already in this game. The other 30 or so are ported into Xtreme Costume slots, with their physics. Any fixes left are handled with the other outfits.",
               "screenshots": [
                 {
                   "src": "assets/screenshots/xc-ginchiyo-tachibana-4.jpg",
@@ -1109,7 +1109,7 @@
           "progress": 60,
           "summary": "Ported outfits get their own Xtreme Costume slots, and characters can now have more outfits than the game's limit.",
           "activity": "Testing several Xtreme Costume slots per character.",
-          "description": "Ported outfits sit in their own Xtreme Costume slots in the costume list, alongside the originals, with several per character. Characters can now have more outfits than the game's built-in limit, and new characters like Nobuyuki get outfit slots too. Picking some Xtreme Costumes could reset a save's progress; this is fixed.",
+          "description": "Ported outfits sit in their own Xtreme Costume slots in the costume list, alongside the originals, with several per character. Characters can now have more outfits than the game's built-in limit, and new characters like Nobuyuki get outfit slots too. A bug where picking some Xtreme Costumes could reset a save's progress is fixed.",
           "screenshots": [
             {
               "src": "assets/screenshots/costume-kenshin-x1.jpg",
@@ -1124,11 +1124,11 @@
     {
       "id": "newer-movesets-on-old-characters",
       "title": "Newer Movesets (On old characters)",
-      "area": "Newer Movesets (On old characters)",
+      "area": "Movesets",
       "state": "planning",
       "progress": 0,
-      "summary": "Newer Movesets (On old characters) is planned.",
-      "activity": "Newer Movesets (On old characters) is planned.",
+      "summary": "Newer movesets for characters already in the game are planned.",
+      "activity": "Newer movesets for existing characters are planned.",
       "description": "",
       "substreams": [],
       "screenshots": []
@@ -1139,9 +1139,9 @@
       "area": "Visual quality",
       "state": "in-progress",
       "progress": 75,
-      "summary": "Filmic colour, ambient occlusion, sharper textures, softer character shadows and skin, and no more screen flashing on camera pans, plus metal armour that reflects its surroundings.",
+      "summary": "Filmic colour, ambient occlusion, sharper textures, softer character shadows and skin, water reflections, and metal armour that reflects its surroundings.",
       "activity": "Trying the new HD stage textures, bounce lighting and better hair and eye shading.",
-      "description": "The mod uses its own graphics add-on. Working in game: smoother edges, stronger light shafts, sharper and softer-edged shadows, shadows from stage scenery, filmic colour, ambient occlusion, a second layer of distant fog, sharper textures at an angle and on distant soldiers, softer character shadows and skin, and less colour banding. The brief screen flashes during camera pans are fixed. Performance, Balanced and Quality presets switch these on together. Shadows no longer pop in on some stages, and hair has a new shine. HD textures for every stage have been built. Reflections on water and bounce lighting are being tried next. Two crashes when a battle loads with the graphics add-on are fixed. Metal armour now reflects its surroundings, in testing.",
+      "description": "The mod uses its own graphics add-on, with Performance, Balanced and Quality presets.\n\nWorking in game: smoother edges, stronger light shafts, sharper and softer-edged shadows, shadows from stage scenery, filmic colour, ambient occlusion, a second layer of distant fog, sharper textures at an angle and on distant soldiers, softer character shadows and skin, reflections on water, and less colour banding. Hair has a new shine.\n\nFixed: brief screen flashes during camera pans, shadows popping in on some stages, and two crashes when a battle loads.\n\nIn testing: metal armour that reflects its surroundings. HD textures for every stage are built, and bounce lighting is being tried next.",
       "substreams": [],
       "screenshots": [
         {
@@ -1304,7 +1304,7 @@
       "area": "Getting the mod",
       "state": "in-progress",
       "progress": 40,
-      "summary": "A one-file installer with a launcher, downloading the mod data and an optional 4K texture pack.",
+      "summary": "A one-file installer and launcher that downloads the mod data, with an optional 4K texture pack.",
       "activity": "Testing the installer and launcher.",
       "description": "A one-file installer and launcher that patches a copy of the game, including the menu music, and can download an optional 4K texture pack. It is in testing and not released yet.",
       "substreams": [],
@@ -1349,11 +1349,11 @@
     {
       "id": "new-option-to-keep-selected-costume-as-t",
       "title": "New option to keep selected costume as the default model for characters",
-      "area": "New option to keep selected costume as the default model for characters",
+      "area": "Costume options",
       "state": "planning",
       "progress": 0,
-      "summary": "New option to keep selected costume as the default model for characters is planned.",
-      "activity": "New option to keep selected costume as the default model for characters is planned.",
+      "summary": "An option to keep a chosen costume as a character's default model is planned.",
+      "activity": "This option is planned.",
       "description": "",
       "substreams": [],
       "screenshots": []
@@ -1368,7 +1368,7 @@
     {
       "date": "2026-11-09",
       "title": "Metal reflections",
-      "detail": "Metal armour now reflects its surroundings. This is in testing."
+      "detail": "Metal armour now reflects its surroundings, in testing."
     },
     {
       "date": "2026-11-07",
@@ -1408,7 +1408,7 @@
     {
       "date": "2026-11-04",
       "title": "Nobuyuki on one outfit",
-      "detail": "Nobuyuki now has the one outfit, his Samurai Warriors 4 one, on his own skeleton."
+      "detail": "Nobuyuki now has a single outfit, the one from Samurai Warriors 4, on his own skeleton."
     },
     {
       "date": "2026-11-03",
@@ -1627,8 +1627,8 @@
     },
     {
       "date": "2026-10-11",
-      "title": "Understanding the game's logic",
-      "detail": "Further work on understanding how the game works, so content from other games can be brought over properly and existing behaviour changed safely."
+      "title": "Groundwork for new content",
+      "detail": "Work on how the game is put together, so content from other games can be brought over and existing behaviour changed safely."
     },
     {
       "date": "2026-10-11",
