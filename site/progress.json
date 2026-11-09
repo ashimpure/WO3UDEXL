@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-09",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -120,7 +120,7 @@
       "area": "New outfits",
       "state": "in-progress",
       "progress": 10,
-      "summary": "About 130 outfits from other games are in testing, out of hundreds planned across the Warriors games.",
+      "summary": "About 150 outfits from other games are in testing, out of hundreds planned across the Warriors games.",
       "activity": "Fixing clipping and seams on the outfits in testing.",
       "description": "Outfits from other games, grouped by series. Hundreds are planned, so the overall figure is low. Ported outfits now sit in their own Xtreme Costume slots instead of replacing existing outfits.",
       "substreams": [
@@ -129,9 +129,9 @@
           "title": "Dynasty Warriors",
           "area": "Dynasty Warriors series",
           "state": "in-progress",
-          "progress": 3,
-          "summary": "Outfits from Dynasty Warriors: Overlords are being brought over. Dynasty Warriors 8, 9 and Origins outfits are planned.",
-          "activity": "Testing the first Dynasty Warriors: Overlords outfits.",
+          "progress": 5,
+          "summary": "All 21 Dynasty Warriors: Overlords outfits are in testing. Dynasty Warriors 8, 9 and Origins outfits are planned.",
+          "activity": "Testing the Dynasty Warriors: Overlords outfits.",
           "description": "Outfits from the Dynasty Warriors games, for the Wei, Wu, Shu, Jin and Other characters.",
           "screenshots": [],
           "substreams": [
@@ -173,11 +173,117 @@
               "title": "Other Dynasty Warriors",
               "area": "other Dynasty Warriors games",
               "state": "in-progress",
-              "progress": 10,
-              "summary": "Outfits from Dynasty Warriors: Overlords are being brought over. Cao Cao's is in testing and 20 more are built.",
-              "activity": "Testing Cao Cao's Dynasty Warriors: Overlords outfit and fixing its cape and waist ribbons.",
-              "description": "Outfits from other Dynasty Warriors games. The first are from Dynasty Warriors: Overlords: Cao Cao's outfit is in testing in an Xtreme Costume slot, and 20 more, including Zhao Yun's and Zhuge Liang's, are built and waiting to be tested.",
-              "screenshots": []
+              "progress": 35,
+              "summary": "All 21 Dynasty Warriors: Overlords outfits are in game in testing, with their capes, hair and ribbons moving as they do in Overlords.",
+              "activity": "Fixing the remaining clipping and shine on the Dynasty Warriors: Overlords outfits.",
+              "description": "Outfits from other Dynasty Warriors games. All 21 outfits from Dynasty Warriors: Overlords are in game in testing, each in its character's Xtreme Costume slot. Their capes, hair, sashes and ribbons use Overlords' own physics, so they move as they do in Overlords, and their colours and shading come from each outfit's own materials.",
+              "screenshots": [
+                {
+                  "src": "assets/screenshots/ov-cwj-05.jpg",
+                  "alt": "Cai Wenji wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Cai Wenji, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-caopi-02.jpg",
+                  "alt": "Cao Pi wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Cao Pi, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-daqiao-02.jpg",
+                  "alt": "Da Qiao wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Da Qiao, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-diaochan-03.jpg",
+                  "alt": "Diaochan wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Diaochan, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-guanping-02.jpg",
+                  "alt": "Guan Ping wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Guan Ping, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-guanyu-02.jpg",
+                  "alt": "Guan Yu wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Guan Yu, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-guojia-02.jpg",
+                  "alt": "Guo Jia wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Guo Jia, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-guojia-04.jpg",
+                  "alt": "Guo Jia wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Guo Jia, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-hyy-04.jpg",
+                  "alt": "Huang Yueying wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Huang Yueying, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-liubei-05.jpg",
+                  "alt": "Liu Bei wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Liu Bei, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-luxun-05.jpg",
+                  "alt": "Lu Xun wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Lu Xun, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-lvbu-03.jpg",
+                  "alt": "Lü Bu wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Lü Bu, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-machao-02.jpg",
+                  "alt": "Ma Chao wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Ma Chao, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-pangde-02.jpg",
+                  "alt": "Pang De wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Pang De, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-simashi-02.jpg",
+                  "alt": "Sima Shi wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Sima Shi, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-sunquan-03.jpg",
+                  "alt": "Sun Quan wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Sun Quan, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-ssx-04.jpg",
+                  "alt": "Sun Shangxiang wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Sun Shangxiang, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-zhangfei-05.jpg",
+                  "alt": "Zhang Fei wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Zhang Fei, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-zhaoyun-04.jpg",
+                  "alt": "Zhao Yun wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Zhao Yun, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-zhouyu-03.jpg",
+                  "alt": "Zhou Yu wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Zhou Yu, Dynasty Warriors: Overlords outfit."
+                },
+                {
+                  "src": "assets/screenshots/ov-zhuge-04.jpg",
+                  "alt": "Zhuge Liang wearing a Dynasty Warriors: Overlords outfit in the Gallery",
+                  "caption": "Zhuge Liang, Dynasty Warriors: Overlords outfit."
+                }
+              ]
             }
           ]
         },
@@ -1033,9 +1139,9 @@
       "area": "Visual quality",
       "state": "in-progress",
       "progress": 75,
-      "summary": "Filmic colour, ambient occlusion, sharper textures, softer character shadows and skin, and no more screen flashing on camera pans.",
+      "summary": "Filmic colour, ambient occlusion, sharper textures, softer character shadows and skin, and no more screen flashing on camera pans, plus metal armour that reflects its surroundings.",
       "activity": "Trying the new HD stage textures, bounce lighting and better hair and eye shading.",
-      "description": "The mod uses its own graphics add-on. Working in game: smoother edges, stronger light shafts, sharper and softer-edged shadows, shadows from stage scenery, filmic colour, ambient occlusion, a second layer of distant fog, sharper textures at an angle and on distant soldiers, softer character shadows and skin, and less colour banding. The brief screen flashes during camera pans are fixed. Performance, Balanced and Quality presets switch these on together. Shadows no longer pop in on some stages, and hair has a new shine. HD textures for every stage have been built. Reflections on water and bounce lighting are being tried next. Two crashes when a battle loads with the graphics add-on are fixed.",
+      "description": "The mod uses its own graphics add-on. Working in game: smoother edges, stronger light shafts, sharper and softer-edged shadows, shadows from stage scenery, filmic colour, ambient occlusion, a second layer of distant fog, sharper textures at an angle and on distant soldiers, softer character shadows and skin, and less colour banding. The brief screen flashes during camera pans are fixed. Performance, Balanced and Quality presets switch these on together. Shadows no longer pop in on some stages, and hair has a new shine. HD textures for every stage have been built. Reflections on water and bounce lighting are being tried next. Two crashes when a battle loads with the graphics add-on are fixed. Metal armour now reflects its surroundings, in testing.",
       "substreams": [],
       "screenshots": [
         {
@@ -1254,6 +1360,16 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-11-09",
+      "title": "Dynasty Warriors: Overlords outfits in game",
+      "detail": "All 21 Dynasty Warriors: Overlords outfits are in game in testing. Their capes, hair and ribbons use Overlords' own physics."
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Metal reflections",
+      "detail": "Metal armour now reflects its surroundings. This is in testing."
+    },
     {
       "date": "2026-11-07",
       "title": "Takamaru's inputs and effects",
