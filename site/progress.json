@@ -19,7 +19,7 @@
           "progress": 75,
           "summary": "Playable in his own slot with his own Samurai Warriors 4 moveset, musou camera, effects, voice, art and weapons.",
           "activity": "Testing his model on his own Samurai Warriors 4 skeleton.",
-          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice and all six weapons, each with its own weapon card.\n\nHis moveset is his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. Attack ranges, projectiles, effect colours and horseback animations follow Samurai Warriors 4 and are being tested.\n\nHis model runs on his own Samurai Warriors 4 skeleton, with his original arm and sleeve twist joints, his own cloth physics and properly drawn hair. This is in testing. He has one outfit, his Samurai Warriors 4 one. Still to come: fine-tuning against Samurai Warriors 4.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice and all six weapons, each with its own weapon card.\n\nHis moveset is his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. Attack ranges, projectiles, effect colours and horseback animations follow Samurai Warriors 4 and are being tested.\n\nHis model runs on his own Samurai Warriors 4 skeleton, with his original arm and sleeve twist joints, his own cloth physics and properly drawn hair. This is in testing. He has one outfit, his Samurai Warriors 4 one. Fine-tuning against Samurai Warriors 4 is still to come.",
           "screenshots": [
             {
               "src": "assets/screenshots/nobuyuki-charsel.jpg",
@@ -1623,7 +1623,7 @@
     {
       "date": "2026-10-12",
       "title": "Ultrawide screens",
-      "detail": "New item on the board: support for 21:9 and 32:9 displays."
+      "detail": "Support for 21:9 and 32:9 displays is now on the board."
     },
     {
       "date": "2026-10-11",
@@ -1653,7 +1653,7 @@
     {
       "date": "2026-10-10",
       "title": "Named officers become new characters",
-      "detail": "New item on the board: named officers in battle will appear as the new characters."
+      "detail": "Named officers in battle appearing as the new characters is now on the board."
     },
     {
       "date": "2026-10-09",
