@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-16",
   "streams": [
     {
       "id": "new-playable-characters",
@@ -18,8 +18,8 @@
           "state": "in-progress",
           "progress": 75,
           "summary": "Playable in his own slot with his own Samurai Warriors 4 moveset, musou camera, effects, voice, art and weapons.",
-          "activity": "Testing his model on his own Samurai Warriors 4 skeleton.",
-          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice and all six weapons, each with its own weapon card.\n\nHis moveset is his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. Attack ranges, projectiles, effect colours and horseback animations follow Samurai Warriors 4 and are being tested.\n\nHis model runs on his own Samurai Warriors 4 skeleton, with his original arm and sleeve twist joints, his own cloth physics and properly drawn hair. This is in testing. He has one outfit, his Samurai Warriors 4 one. Fine-tuning against Samurai Warriors 4 is still to come.",
+          "activity": "Fine-tuning his musou camera, shadow and switch-in moves against Samurai Warriors 4.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice and all six weapons, each with its own weapon card.\n\nHis moveset is his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. Attack ranges, projectiles, effect colours and horseback animations follow Samurai Warriors 4 and are being tested.\n\nHis model runs on his own Samurai Warriors 4 skeleton, with his original arm and sleeve twist joints, his own cloth physics and properly drawn hair. This is in testing. He has one outfit, his Samurai Warriors 4 one. The tornadoes in his musou now follow him and face the way they do in Samurai Warriors 4. His musou camera, shadow and switch-in moves are being fine-tuned against Samurai Warriors 4.",
           "screenshots": [
             {
               "src": "assets/screenshots/nobuyuki-charsel.jpg",
@@ -173,10 +173,10 @@
               "title": "Other Dynasty Warriors",
               "area": "other Dynasty Warriors games",
               "state": "in-progress",
-              "progress": 35,
+              "progress": 40,
               "summary": "All 21 Dynasty Warriors: Overlords outfits are in game in testing, with their capes, hair and ribbons moving as they do in Overlords.",
-              "activity": "Fixing the remaining clipping and shine on the Dynasty Warriors: Overlords outfits.",
-              "description": "Outfits from other Dynasty Warriors games. All 21 Dynasty Warriors: Overlords outfits are in game in testing, each in its character's Xtreme Costume slot. Their capes, hair, sashes and ribbons use Overlords' own physics, so they move as they do in Overlords. Their colours and shading come from each outfit's own materials.",
+              "activity": "Fixing the remaining clipping on the Dynasty Warriors: Overlords outfits.",
+              "description": "Outfits from other Dynasty Warriors games. All 21 Dynasty Warriors: Overlords outfits are in game in testing, each in its character's Xtreme Costume slot. Their capes, hair, sashes and ribbons use Overlords' own physics, so they move as they do in Overlords. Their colours and shading come from each outfit's own materials. Metal and cloth now shine differently, using each outfit's own roughness.",
               "screenshots": [
                 {
                   "src": "assets/screenshots/ov-cwj-05.jpg",
@@ -1141,7 +1141,7 @@
       "progress": 75,
       "summary": "Filmic colour, ambient occlusion, sharper textures, softer character shadows and skin, water reflections, and metal armour that reflects its surroundings.",
       "activity": "Trying the new HD stage textures, bounce lighting and better hair and eye shading.",
-      "description": "The mod uses its own graphics add-on, with Performance, Balanced and Quality presets.\n\nWorking in game: smoother edges, stronger light shafts, sharper and softer-edged shadows, shadows from stage scenery, filmic colour, ambient occlusion, a second layer of distant fog, sharper textures at an angle and on distant soldiers, softer character shadows and skin, reflections on water, and less colour banding. Hair has a new shine.\n\nFixed: brief screen flashes during camera pans, shadows popping in on some stages, and two crashes when a battle loads.\n\nIn testing: metal armour that reflects its surroundings. HD textures for every stage are built, and bounce lighting is being tried next.",
+      "description": "The mod uses its own graphics add-on, with Performance, Balanced and Quality presets.\n\nWorking in game: smoother edges, stronger light shafts, sharper and softer-edged shadows, shadows from stage scenery, filmic colour, ambient occlusion, a second layer of distant fog, sharper textures at an angle and on distant soldiers, softer character shadows and skin, reflections on water, and less colour banding. Hair has a new shine.\n\nFixed: brief screen flashes during camera pans, shadows popping in on some stages, and two crashes when a battle loads.\n\nIn testing: metal armour that reflects its surroundings, sharper on polished metal and softer on rough surfaces. HD textures for every stage are built, and bounce lighting is being tried next.",
       "substreams": [],
       "screenshots": [
         {
@@ -1360,6 +1360,16 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-11-15",
+      "title": "Nobuyuki's musou tornadoes",
+      "detail": "The tornadoes in Nobuyuki's musou now follow him and face the way they do in Samurai Warriors 4. His musou camera, shadow and switch-in moves are being fine-tuned."
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Shine on the Overlords outfits",
+      "detail": "Metal and cloth on the Dynasty Warriors: Overlords outfits now shine differently, using each outfit's own roughness. This is in testing."
+    },
     {
       "date": "2026-11-09",
       "title": "Dynasty Warriors: Overlords outfits in game",
