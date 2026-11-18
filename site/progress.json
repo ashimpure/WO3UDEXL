@@ -18,8 +18,8 @@
           "state": "in-progress",
           "progress": 75,
           "summary": "Playable in his own slot with his own Samurai Warriors 4 moveset, musou camera, effects, voice, art and weapons.",
-          "activity": "Fine-tuning his musou camera, shadow and switch-in moves against Samurai Warriors 4.",
-          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice and all six weapons, each with its own weapon card.\n\nHis moveset is his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. Attack ranges, projectiles, effect colours and horseback animations follow Samurai Warriors 4 and are being tested.\n\nHis model runs on his own Samurai Warriors 4 skeleton, with his original arm and sleeve twist joints, his own cloth physics and properly drawn hair. This is in testing. He has one outfit, his Samurai Warriors 4 one. The tornadoes in his musou now follow him and face the way they do in Samurai Warriors 4. His musou camera, shadow and switch-in moves are being fine-tuned against Samurai Warriors 4.",
+          "activity": "Testing his musou, cameras, shadow and switch-in moves against Samurai Warriors 4.",
+          "description": "Nobuyuki is ported from Samurai Warriors 4 and has his own character slot on the Samurai 4 tab, so Kojirō is back in his usual place. He has his Samurai Warriors 4 model, cloth physics, stats, battle voice and all six weapons, each with its own weapon card.\n\nHis moveset is his own, built from Samurai Warriors 4, with its musou camera, attack effects and musou kanji. His Triple Attack uses his three-tornado musou, and his musou cut-in has its own close-up. Attack ranges, projectiles, effect colours and horseback animations follow Samurai Warriors 4 and are being tested.\n\nHis model runs on his own Samurai Warriors 4 skeleton, with his original arm and sleeve twist joints, his own cloth physics and properly drawn hair. This is in testing. He has one outfit, his Samurai Warriors 4 one. The tornadoes in his musou now follow him and face the way they do in Samurai Warriors 4. A crash at the start of his musou is fixed, and his musou no longer restarts after a few frames. His musou and True Musou cameras play in Samurai Warriors 4's order and ease out at the end. His shadow now matches his model, and his switch-in moves use his own animations. These are in testing.",
           "screenshots": [
             {
               "src": "assets/screenshots/nobuyuki-charsel.jpg",
@@ -176,7 +176,7 @@
               "progress": 40,
               "summary": "All 21 Dynasty Warriors: Overlords outfits are in game in testing, with their capes, hair and ribbons moving as they do in Overlords.",
               "activity": "Matching the hands on the Dynasty Warriors: Overlords outfits to the game's own and fixing the remaining clipping.",
-              "description": "Outfits from other Dynasty Warriors games. All 21 Dynasty Warriors: Overlords outfits are in game in testing, each in its character's Xtreme Costume slot. Their capes, hair, sashes and ribbons use Overlords' own physics, so they move as they do in Overlords. Their colours and shading come from each outfit's own materials. Metal and cloth now shine differently, using each outfit's own roughness. Their hair now has cleaner edges, and Guan Ping's uses the hair from his main outfit.",
+              "description": "Outfits from other Dynasty Warriors games. All 21 Dynasty Warriors: Overlords outfits are in game in testing, each in its character's Xtreme Costume slot. Their capes, hair, sashes and ribbons use Overlords' own physics, so they move as they do in Overlords. Their colours and shading come from each outfit's own materials. Metal and cloth now shine differently, using each outfit's own roughness. Capes and panels on Guan Yu, Zhang Fei, Liu Bei, Lu Bu and Sima Shi now rest where they do in Overlords. Their hair now has cleaner edges, and Guan Ping's uses the hair from his main outfit.",
               "screenshots": [
                 {
                   "src": "assets/screenshots/ov-cwj-05.jpg",
@@ -1362,18 +1362,28 @@
   "updates": [
     {
       "date": "2026-11-16",
+      "title": "Nobuyuki fixes",
+      "detail": "A crash at the start of Nobuyuki's musou is fixed, and his musou no longer restarts after a few frames. His musou cameras play in Samurai Warriors 4's order, his shadow matches his model, and his switch-in moves use his own animations. In testing."
+    },
+    {
+      "date": "2026-11-16",
       "title": "Hair on the Overlords outfits",
       "detail": "Hair on 18 of the Dynasty Warriors: Overlords outfits now has cleaner edges, and Guan Ping's uses the hair from his main outfit. Their hands are being matched to the game's own."
     },
     {
       "date": "2026-11-15",
       "title": "Nobuyuki's musou tornadoes",
-      "detail": "The tornadoes in Nobuyuki's musou now follow him and face the way they do in Samurai Warriors 4. His musou camera, shadow and switch-in moves are being fine-tuned."
+      "detail": "The tornadoes in Nobuyuki's musou now follow him and face the way they do in Samurai Warriors 4."
     },
     {
       "date": "2026-11-10",
       "title": "Shine on the Overlords outfits",
       "detail": "Metal and cloth on the Dynasty Warriors: Overlords outfits now shine differently, using each outfit's own roughness. This is in testing."
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Overlords capes settle",
+      "detail": "Capes and panels on the Dynasty Warriors: Overlords outfits for Guan Yu, Zhang Fei, Liu Bei, Lu Bu and Sima Shi now rest where they do in Overlords."
     },
     {
       "date": "2026-11-09",
