@@ -173,10 +173,10 @@
               "title": "Other Dynasty Warriors",
               "area": "other Dynasty Warriors games",
               "state": "in-progress",
-              "progress": 40,
-              "summary": "All 21 Dynasty Warriors: Overlords outfits are in game in testing, with their capes, hair and ribbons moving as they do in Overlords.",
-              "activity": "Matching the hands on the Dynasty Warriors: Overlords outfits to the game's own and fixing the remaining clipping.",
-              "description": "Outfits from other Dynasty Warriors games. All 21 Dynasty Warriors: Overlords outfits are in game in testing, each in its character's Xtreme Costume slot. Their capes, hair, sashes and ribbons use Overlords' own physics, so they move as they do in Overlords. Their colours and shading come from each outfit's own materials. Metal and cloth now shine differently, using each outfit's own roughness. Capes and panels on Guan Yu, Zhang Fei, Liu Bei, Lu Bu and Sima Shi now rest where they do in Overlords. Their hair now has cleaner edges, and Guan Ping's uses the hair from his main outfit.",
+              "progress": 55,
+              "summary": "All 21 Dynasty Warriors: Overlords outfits are in game in testing, with Overlords' own physics. A new build fixes cracks, hands and proportions.",
+              "activity": "Testing the new build of the Dynasty Warriors: Overlords outfits.",
+              "description": "Outfits from other Dynasty Warriors games. All 21 Dynasty Warriors: Overlords outfits are in game in testing, each in its character's Xtreme Costume slot. Their capes, hair, sashes and ribbons use Overlords' own physics, so they move as they do in Overlords. Their colours and shading come from each outfit's own materials. Metal and cloth now shine differently, using each outfit's own roughness. Capes and panels on Guan Yu, Zhang Fei, Liu Bei, Lu Bu and Sima Shi now rest where they do in Overlords. Their hair now has cleaner edges, and Guan Ping's uses the hair from his main outfit.\n\nThe latest build, in testing, closes the cracks where cloth meets the body. Cao Pi, Sun Shangxiang, Diaochan and Da Qiao now have hands that match the game's own, and Lu Xun's and Cao Pi's body proportions match Overlords. Capes and ribbons are posed as they are in Overlords' own animations, and stray strips on Da Qiao, Ma Chao and Guan Yu are fixed. Cloth on these outfits now shows its fabric detail.",
               "screenshots": [
                 {
                   "src": "assets/screenshots/ov-cwj-05.jpg",
@@ -1361,6 +1361,11 @@
   ],
   "updates": [
     {
+      "date": "2026-11-18",
+      "title": "New build of the Overlords outfits",
+      "detail": "A new build of all 21 Dynasty Warriors: Overlords outfits is in testing. Cracks where cloth meets the body are closed, several characters' hands and proportions now match, capes and ribbons are posed as in Overlords, and cloth shows its fabric detail."
+    },
+    {
       "date": "2026-11-16",
       "title": "Nobuyuki fixes",
       "detail": "A crash at the start of Nobuyuki's musou is fixed, and his musou no longer restarts after a few frames. His musou cameras play in Samurai Warriors 4's order, his shadow matches his model, and his switch-in moves use his own animations. In testing."
@@ -1368,7 +1373,7 @@
     {
       "date": "2026-11-16",
       "title": "Hair on the Overlords outfits",
-      "detail": "Hair on 18 of the Dynasty Warriors: Overlords outfits now has cleaner edges, and Guan Ping's uses the hair from his main outfit. Their hands are being matched to the game's own."
+      "detail": "Hair on 18 of the Dynasty Warriors: Overlords outfits now has cleaner edges, and Guan Ping's uses the hair from his main outfit."
     },
     {
       "date": "2026-11-15",
